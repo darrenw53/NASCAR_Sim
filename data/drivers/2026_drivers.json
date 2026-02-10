@@ -1,0 +1,2417 @@
+{
+  "series": {
+    "id": "3e32047e-4ff3-4e35-a607-1546a2c32214",
+    "alias": "CUP",
+    "name": "NASCAR Cup Series"
+  },
+  "season": {
+    "id": "2e2bfe7c-f9c2-4009-b9b4-f4511bac7a77",
+    "year": 2026
+  },
+  "drivers": [
+    {
+      "id": "cb9d6f49-0044-4305-be9a-22d428e52c95",
+      "first_name": "Denny",
+      "last_name": "Hamlin",
+      "full_name": "Denny Hamlin",
+      "height": 72,
+      "birthday": "1980-11-18",
+      "rookie_year": 2006,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": "Charlotte, North Carolina, United States",
+      "birth_place": "Chesterfield, Virginia, United States",
+      "hobbies": "Basketball, boating, skiing, traveling, online racing, playing cards",
+      "twitter": "@DennyHamlin",
+      "points_eligible": true,
+      "team": {
+        "id": "b30dee06-c437-4e76-8b9c-8b850d52ce21",
+        "name": "Joe Gibbs Racing"
+      },
+      "cars": [
+        {
+          "id": "a4fca4d9-9ffa-4b72-8673-f851f6fd9677",
+          "number": "11",
+          "sponsors": "/National Debt ReliefProgressive/Sport Clips/King's Hawaiian/Yahoo!/Bob's Discount Furniture",
+          "status": "ACT",
+          "crew_chief": "Chris Gayle",
+          "manufacturer": {
+            "id": "73364deb-a012-4625-b759-db6a236797e3",
+            "name": "Toyota"
+          },
+          "engine": {
+            "id": "91db24df-134d-4c07-a13b-76266b3dd534",
+            "name": "Toyota"
+          },
+          "owner": {
+            "id": "e7846c1b-f64e-4312-8ee3-13c8a0001a8b",
+            "name": "Joe Gibbs"
+          },
+          "team": {
+            "id": "b30dee06-c437-4e76-8b9c-8b850d52ce21",
+            "name": "Joe Gibbs Racing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3ec1dd6a-c9b8-4d82-821f-23d0bdd4b310",
+      "first_name": "Zane",
+      "last_name": "Smith",
+      "full_name": "Zane Smith",
+      "birthday": "1999-06-09",
+      "rookie_year": 2020,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Huntington Beach, California, United States",
+      "points_eligible": true,
+      "team": {
+        "id": "bd38dfec-bb97-4f29-b032-cc6f0c77dfe6",
+        "name": "Front Row Motorsports"
+      },
+      "cars": [
+        {
+          "id": "122dc137-45ec-41a0-9cf4-c447c34330b4",
+          "number": "38",
+          "sponsors": "Speedy Cash/TitleMax/Benebone/Horizon/Aaron's/Long John Silver's",
+          "status": "ACT",
+          "crew_chief": "Ryan Bergenty",
+          "manufacturer": {
+            "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+            "name": "Ford"
+          },
+          "engine": {
+            "id": "2ff1e55b-7433-4e77-9336-07a74cc3194e",
+            "name": "Ford"
+          },
+          "owner": {
+            "id": "c81a723c-a430-4be5-969f-5fbf21c1d519",
+            "name": "Bob Jenkins"
+          },
+          "team": {
+            "id": "bd38dfec-bb97-4f29-b032-cc6f0c77dfe6",
+            "name": "Front Row Motorsports"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a756eefd-801d-4214-ab1b-0b595c21c37d",
+      "first_name": "Kyle",
+      "last_name": "Larson",
+      "full_name": "Kyle Larson",
+      "birthday": "1992-07-31",
+      "rookie_year": 2013,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Elk Grove, California, United States",
+      "twitter": "@KyleLarsonRacin",
+      "points_eligible": true,
+      "team": {
+        "id": "8427da4c-9c88-4849-9242-0c184d5ed67c",
+        "name": "Hendrick Motorsports",
+        "owner": {
+          "id": "df3acab4-1712-44bb-b913-897b4e20fd50",
+          "name": "Rick Hendrick"
+        }
+      },
+      "cars": [
+        {
+          "id": "3c900bcd-335e-40b5-a8c6-6a774f7b0347",
+          "number": "5",
+          "sponsors": "HendrickCars.com/Valvoline",
+          "status": "ACT",
+          "crew_chief": "Cliff Daniels",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "cda14f61-7d18-4863-a413-da170827ff2b",
+            "name": "Linda Hendrick"
+          },
+          "team": {
+            "id": "8427da4c-9c88-4849-9242-0c184d5ed67c",
+            "name": "Hendrick Motorsports",
+            "owner": {
+              "id": "df3acab4-1712-44bb-b913-897b4e20fd50",
+              "name": "Rick Hendrick"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "b030a8df-e7de-44a4-9f59-34bb9fd227d0",
+      "first_name": "Tyler",
+      "last_name": "Reddick",
+      "full_name": "Tyler Reddick",
+      "birthday": "1996-01-11",
+      "rookie_year": 2014,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Corning, California, United States",
+      "twitter": "@TylerReddick",
+      "points_eligible": true,
+      "team": {
+        "id": "6de1961e-bb84-40d5-855e-4c8f032e3c4a",
+        "name": "23XI Racing",
+        "owner": {
+          "id": "87d0f23e-e7fb-455e-a063-72f38ac948be",
+          "name": "Michael Jordan"
+        }
+      },
+      "cars": [
+        {
+          "id": "16baac28-bb05-4731-9bed-f9d4c3f61319",
+          "number": "45",
+          "sponsors": "Monster Energy/McDonald's/Jordan Brand/Xfinity/SiriusXM/Comparion Insurance/Chumba Casino",
+          "status": "ACT",
+          "crew_chief": "Billy Scott",
+          "manufacturer": {
+            "id": "73364deb-a012-4625-b759-db6a236797e3",
+            "name": "Toyota"
+          },
+          "engine": {
+            "id": "91db24df-134d-4c07-a13b-76266b3dd534",
+            "name": "Toyota"
+          },
+          "owner": {
+            "id": "b54bbedd-be48-4434-9690-936f6e0e3bb1",
+            "name": "Michael Jordan"
+          },
+          "team": {
+            "id": "6de1961e-bb84-40d5-855e-4c8f032e3c4a",
+            "name": "23XI Racing",
+            "owner": {
+              "id": "87d0f23e-e7fb-455e-a063-72f38ac948be",
+              "name": "Michael Jordan"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "e4522ae3-a66d-42e6-992d-f4ea7dd3284c",
+      "first_name": "Carson",
+      "last_name": "Hocevar",
+      "full_name": "Carson Hocevar",
+      "birthday": "2003-01-28",
+      "rookie_year": 2021,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Portage, Michigan, United States",
+      "points_eligible": true,
+      "team": {
+        "id": "9f742920-6e44-4581-8a61-e8c38cf21da4",
+        "name": "Spire Motorsports"
+      },
+      "cars": [
+        {
+          "id": "5d9986fb-1155-4456-a38c-d56b4a618c34",
+          "number": "77",
+          "sponsors": "Zeigler Auto Group/Delaware Life/Gainbridge/Premier Security/Miner Docks, Doors, and More/Chili's",
+          "status": "ACT",
+          "crew_chief": "Luke Lambert",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "e611fa59-af3f-40b8-bd07-935eb5b26b01",
+            "name": "Jeff Dickerson"
+          },
+          "team": {
+            "id": "9f742920-6e44-4581-8a61-e8c38cf21da4",
+            "name": "Spire Motorsports"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5fd3e3fb-322f-4157-ae41-9317fba1997d",
+      "first_name": "Chase",
+      "last_name": "Elliott",
+      "full_name": "Chase Elliott",
+      "birthday": "1995-11-28",
+      "rookie_year": 2014,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Dawsonville, Georgia, United States",
+      "twitter": "@chaseelliott",
+      "points_eligible": true,
+      "team": {
+        "id": "8427da4c-9c88-4849-9242-0c184d5ed67c",
+        "name": "Hendrick Motorsports",
+        "owner": {
+          "id": "df3acab4-1712-44bb-b913-897b4e20fd50",
+          "name": "Rick Hendrick"
+        }
+      },
+      "cars": [
+        {
+          "id": "959829b1-7117-423a-8f7b-eaec8eb3358f",
+          "number": "9",
+          "sponsors": "NAPA Auto Parts/UniFirst/Llumar/Amazon Prime Video/Kelley Blue Book",
+          "status": "ACT",
+          "crew_chief": "Alan Gustafson",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "cda14f61-7d18-4863-a413-da170827ff2b",
+            "name": "Linda Hendrick"
+          },
+          "team": {
+            "id": "8427da4c-9c88-4849-9242-0c184d5ed67c",
+            "name": "Hendrick Motorsports",
+            "owner": {
+              "id": "df3acab4-1712-44bb-b913-897b4e20fd50",
+              "name": "Rick Hendrick"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "25cfebb6-24e5-429c-a9db-c276bab0e228",
+      "first_name": "Chris",
+      "last_name": "Buescher",
+      "full_name": "Chris Buescher",
+      "birthday": "1992-10-29",
+      "rookie_year": 2014,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Prosper, Texas, United States",
+      "twitter": "@Chris_Buescher",
+      "points_eligible": true,
+      "team": {
+        "id": "69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee",
+        "name": "RFK Racing",
+        "owner": {
+          "id": "dc50d5ab-b4d2-41ad-bd4c-f92f67107210",
+          "name": "Brad Keselowki"
+        }
+      },
+      "cars": [
+        {
+          "id": "a7fc0b6d-da2f-4cb6-9f7d-154e5351d788",
+          "number": "17",
+          "sponsors": "Fastenal/Fifth Third Bank/Castrol Edge/BuildSubmarines.com/ESPERION/Travel Centers of America/Kroger",
+          "status": "ACT",
+          "crew_chief": "Scott Graves",
+          "manufacturer": {
+            "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+            "name": "Ford"
+          },
+          "engine": {
+            "id": "2ff1e55b-7433-4e77-9336-07a74cc3194e",
+            "name": "Ford"
+          },
+          "owner": {
+            "id": "4788307e-e269-4409-8fae-bbda98214196",
+            "name": "Jack Roush"
+          },
+          "team": {
+            "id": "69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee",
+            "name": "RFK Racing",
+            "owner": {
+              "id": "dc50d5ab-b4d2-41ad-bd4c-f92f67107210",
+              "name": "Brad Keselowki"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "a27abfd8-d687-4d6c-832d-10fae051ccb5",
+      "first_name": "Todd",
+      "last_name": "Gilliland",
+      "full_name": "Todd Gilliland",
+      "birthday": "2000-05-15",
+      "rookie_year": 2018,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Sherrills Ford, North Carolina, United States",
+      "points_eligible": true,
+      "team": {
+        "id": "bd38dfec-bb97-4f29-b032-cc6f0c77dfe6",
+        "name": "Front Row Motorsports"
+      },
+      "cars": [
+        {
+          "id": "89e035f0-87f6-4835-ac58-8b7da32de4a4",
+          "number": "34",
+          "sponsors": "Love's Travel Stops/A&W Restaurants/Grillo's Pickles/Aaron's/Frontline Enterprises",
+          "status": "ACT",
+          "crew_chief": "Chris Lawson",
+          "manufacturer": {
+            "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+            "name": "Ford"
+          },
+          "engine": {
+            "id": "2ff1e55b-7433-4e77-9336-07a74cc3194e",
+            "name": "Ford"
+          },
+          "owner": {
+            "id": "c81a723c-a430-4be5-969f-5fbf21c1d519",
+            "name": "Bob Jenkins"
+          },
+          "team": {
+            "id": "bd38dfec-bb97-4f29-b032-cc6f0c77dfe6",
+            "name": "Front Row Motorsports"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e989356d-2e28-4e5d-95a1-0b8a06d668dc",
+      "first_name": "Chandler",
+      "last_name": "Smith",
+      "full_name": "Chandler Smith",
+      "birthday": "2002-06-26",
+      "rookie_year": 2021,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Talking Rock, Georgia, United States",
+      "points_eligible": false,
+      "team": {
+        "id": "bd38dfec-bb97-4f29-b032-cc6f0c77dfe6",
+        "name": "Front Row Motorsports"
+      },
+      "cars": [
+        {
+          "id": "a13dc956-85c3-4308-8925-592630bffb86",
+          "number": "36",
+          "sponsors": "QuickTie/Matheus Lumber",
+          "status": "ACT",
+          "crew_chief": "Seth Barbour",
+          "manufacturer": {
+            "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+            "name": "Ford"
+          },
+          "engine": {
+            "id": "2ff1e55b-7433-4e77-9336-07a74cc3194e",
+            "name": "Ford"
+          },
+          "owner": {
+            "id": "c81a723c-a430-4be5-969f-5fbf21c1d519",
+            "name": "Bob Jenkins"
+          },
+          "team": {
+            "id": "bd38dfec-bb97-4f29-b032-cc6f0c77dfe6",
+            "name": "Front Row Motorsports"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e28a64ca-c622-4b28-b0d9-28bc9390f9e4",
+      "first_name": "Ryan",
+      "last_name": "Preece",
+      "full_name": "Ryan Preece",
+      "birthday": "1990-10-25",
+      "rookie_year": 2016,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Berlin, Connecticut, United States",
+      "twitter": "@RyanPreece_",
+      "points_eligible": true,
+      "team": {
+        "id": "69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee",
+        "name": "RFK Racing",
+        "owner": {
+          "id": "dc50d5ab-b4d2-41ad-bd4c-f92f67107210",
+          "name": "Brad Keselowki"
+        }
+      },
+      "cars": [
+        {
+          "id": "b97fbf26-8def-4030-8061-0b2678ac5132",
+          "number": "60",
+          "sponsors": "Kroger/BuildSubmarines.com/Castrol/Mohawk Northeast/Fastenal/ESPERION/Solomon Plumbing/Consumer Cellular/Body Guard/Trimble",
+          "status": "ACT",
+          "crew_chief": "Derrick Finley",
+          "manufacturer": {
+            "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+            "name": "Ford"
+          },
+          "engine": {
+            "id": "2ff1e55b-7433-4e77-9336-07a74cc3194e",
+            "name": "Ford"
+          },
+          "owner": {
+            "id": "4788307e-e269-4409-8fae-bbda98214196",
+            "name": "Jack Roush"
+          },
+          "team": {
+            "id": "69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee",
+            "name": "RFK Racing",
+            "owner": {
+              "id": "dc50d5ab-b4d2-41ad-bd4c-f92f67107210",
+              "name": "Brad Keselowki"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "68b9a7ed-c810-4c0d-a330-7a99b90c2587",
+      "first_name": "Corey",
+      "last_name": "LaJoie",
+      "full_name": "Corey LaJoie",
+      "birthday": "1991-09-25",
+      "rookie_year": 2017,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Concord, North Carolina, United States",
+      "points_eligible": false,
+      "team": {
+        "id": "115610f5-11b9-43ff-a1b4-ef5cdab18119",
+        "name": "Rick Ware Racing"
+      },
+      "cars": [
+        {
+          "id": "178fb0c3-105e-49ff-afe2-f15d337cc6d5",
+          "number": "01",
+          "sponsors": "Schluter Systems",
+          "status": "ACT",
+          "crew_chief": "Jerry Kelley",
+          "manufacturer": {
+            "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+            "name": "Ford"
+          },
+          "engine": {
+            "id": "2ff1e55b-7433-4e77-9336-07a74cc3194e",
+            "name": "Ford"
+          },
+          "owner": {
+            "id": "41c22ea5-0caf-459c-9e97-0a13d3e6c086",
+            "name": "Rick Ware"
+          },
+          "team": {
+            "id": "115610f5-11b9-43ff-a1b4-ef5cdab18119",
+            "name": "Rick Ware Racing"
+          }
+        },
+        {
+          "id": "dee4bd39-19ec-4224-844f-5fda77711e27",
+          "number": "99",
+          "sponsors": "Trimble",
+          "status": "ACT",
+          "crew_chief": "Mike Skarbowski",
+          "manufacturer": {
+            "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+            "name": "Ford"
+          },
+          "engine": {
+            "id": "2ff1e55b-7433-4e77-9336-07a74cc3194e",
+            "name": "Ford"
+          },
+          "owner": {
+            "id": "8dca6e73-82a8-407f-aa90-c2e3460fdae7",
+            "name": "Brad Keselowski"
+          },
+          "team": {
+            "id": "69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee",
+            "name": "RFK Racing",
+            "owner": {
+              "id": "dc50d5ab-b4d2-41ad-bd4c-f92f67107210",
+              "name": "Brad Keselowki"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "8ecaf559-d7b1-47f9-a821-635c9f8416d9",
+      "first_name": "Burt",
+      "last_name": "Myers",
+      "full_name": "Burt Myers",
+      "birthday": "1975-12-30",
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Walnut Cove, North Carolina, United States",
+      "points_eligible": true,
+      "team": {
+        "id": "c5c00a0b-ac74-43fb-8931-dff9a44371ae",
+        "name": "Amerivet Racing"
+      },
+      "cars": [
+        {
+          "id": "85059221-2125-4f44-a921-d005aa84fe1d",
+          "number": "50",
+          "sponsors": "Tibbetts Lumber",
+          "status": "ACT",
+          "crew_chief": "Tony Eury Jr.",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "00aac447-2d5a-4ea8-a532-04f68c789b5a",
+            "name": "William Auchmoody"
+          },
+          "team": {
+            "id": "c5c00a0b-ac74-43fb-8931-dff9a44371ae",
+            "name": "Amerivet Racing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "434eb5c2-23e5-44c3-ac41-9695c900d748",
+      "first_name": "Anthony",
+      "last_name": "Alfredo",
+      "full_name": "Anthony Alfredo",
+      "birthday": "1999-03-31",
+      "rookie_year": 2019,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Ridgefield, Connecticut, United States",
+      "points_eligible": false,
+      "team": {
+        "id": "0e867fe3-003d-422c-b0ce-04e33bc6a823",
+        "name": "Beard Motorsports",
+        "owner": {
+          "id": "e0492ba5-c027-40ef-a794-ee139c324fde",
+          "name": "Mark Beard"
+        }
+      },
+      "cars": [
+        {
+          "id": "e220a4c1-eedb-466c-a8d2-850400933538",
+          "number": "62",
+          "sponsors": "Fortify Building Solutions",
+          "status": "ACT",
+          "crew_chief": "Darren Shaw",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "70938928-7a98-42b2-9878-998c78d86767",
+            "name": "Mark Beard"
+          },
+          "team": {
+            "id": "0e867fe3-003d-422c-b0ce-04e33bc6a823",
+            "name": "Beard Motorsports",
+            "owner": {
+              "id": "e0492ba5-c027-40ef-a794-ee139c324fde",
+              "name": "Mark Beard"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "c9bf58a8-66b6-4d75-a441-c13130ded990",
+      "first_name": "William",
+      "last_name": "Byron",
+      "full_name": "William Byron",
+      "birthday": "1997-11-29",
+      "rookie_year": 2016,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Charlotte, North Carolina, United States",
+      "twitter": "@WilliamByron",
+      "points_eligible": true,
+      "team": {
+        "id": "8427da4c-9c88-4849-9242-0c184d5ed67c",
+        "name": "Hendrick Motorsports",
+        "owner": {
+          "id": "df3acab4-1712-44bb-b913-897b4e20fd50",
+          "name": "Rick Hendrick"
+        }
+      },
+      "cars": [
+        {
+          "id": "7cef9b08-2b70-402f-b5b5-c33c623d3126",
+          "number": "24",
+          "sponsors": "Axalta/Liberty/Z HP/Valvoline/Raptor/Liberty University/All-Pro Auto Reconditioning/Cincinnati/Anduril/Phorm Energy",
+          "status": "ACT",
+          "crew_chief": "Ryan Fugle",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "57fb4b0f-140e-47c6-8710-9e24614b4ff4",
+            "name": "Rick Hendrick"
+          },
+          "team": {
+            "id": "8427da4c-9c88-4849-9242-0c184d5ed67c",
+            "name": "Hendrick Motorsports",
+            "owner": {
+              "id": "df3acab4-1712-44bb-b913-897b4e20fd50",
+              "name": "Rick Hendrick"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "0b2a3633-d6cc-4217-bbd6-44f6ec160ed9",
+      "first_name": "Casey",
+      "last_name": "Mears",
+      "full_name": "Casey Mears",
+      "height": 68,
+      "birthday": "1978-03-12",
+      "rookie_year": 2003,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": "Charlotte, North Carolina, United States",
+      "birth_place": "Bakersfield, California, United States",
+      "hobbies": "Wakeboarding, snowboarding, recreational off-road vehicles, vacationing",
+      "children": "Samantha",
+      "twitter": "@CJMearsGang",
+      "points_eligible": true,
+      "team": {
+        "id": "cb3d176f-ce0e-44d1-9bde-1100ad539be5",
+        "name": "Garage 66"
+      },
+      "cars": [
+        {
+          "id": "42fcad56-ce5c-4ebc-9f80-3daf07096bf7",
+          "number": "66",
+          "sponsors": "The Gracie Foundation/Southern Tier Security/S.I. Yachts",
+          "status": "ACT",
+          "crew_chief": "Carl Long",
+          "manufacturer": {
+            "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+            "name": "Ford"
+          },
+          "engine": {
+            "id": "2ff1e55b-7433-4e77-9336-07a74cc3194e",
+            "name": "Ford"
+          },
+          "owner": {
+            "id": "0b74529e-8d5d-4501-84e7-4a4189ced26b",
+            "name": "Danielle Long"
+          },
+          "team": {
+            "id": "cb3d176f-ce0e-44d1-9bde-1100ad539be5",
+            "name": "Garage 66"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa1dba10-512b-4cfd-bcb7-c8e4963a209d",
+      "first_name": "Cody",
+      "last_name": "Ware",
+      "full_name": "Cody Ware",
+      "birthday": "1995-11-07",
+      "rookie_year": 2015,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Greensboro, North Carolina, United States",
+      "twitter": "@CodyShaneWare",
+      "points_eligible": true,
+      "team": {
+        "id": "115610f5-11b9-43ff-a1b4-ef5cdab18119",
+        "name": "Rick Ware Racing"
+      },
+      "cars": [
+        {
+          "id": "1e6c455d-a659-4523-8263-66e6544263f9",
+          "number": "51",
+          "sponsors": "Jacob Companies/Parts Plus/Arby's/Evel Knievel Museum",
+          "status": "ACT",
+          "crew_chief": "Billy Plourde",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "41c22ea5-0caf-459c-9e97-0a13d3e6c086",
+            "name": "Rick Ware"
+          },
+          "team": {
+            "id": "115610f5-11b9-43ff-a1b4-ef5cdab18119",
+            "name": "Rick Ware Racing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bfcb8d32-fab0-4bfa-be14-cf9466e1d886",
+      "first_name": "Ty",
+      "last_name": "Dillon",
+      "full_name": "Ty Dillon",
+      "birthday": "1992-02-27",
+      "rookie_year": 2012,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": "Welcome, North Carolina, United States",
+      "birth_place": "Welcome, North Carolina, United States",
+      "hobbies": "Dirt bike riding, fishing, hunting, dirt racing",
+      "twitter": "@TyDillon",
+      "points_eligible": true,
+      "team": {
+        "id": "58ca0768-82c7-49ca-a358-773b245db83b",
+        "name": "Kaulig Racing",
+        "owner": {
+          "id": "d7d36ea8-f61a-4ee4-aa38-07635c4f14a3",
+          "name": "Matt Kaulig"
+        }
+      },
+      "cars": [
+        {
+          "id": "2e3b8a4c-5c1c-401d-98b2-7c92bcab23e5",
+          "number": "10",
+          "sponsors": "Grizzly/Sea Best",
+          "status": "ACT",
+          "crew_chief": "Andrew Dickeson",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "935f3f46-6819-46f2-a21c-fb08c2c297c3",
+            "name": "Matt Kaulig"
+          },
+          "team": {
+            "id": "58ca0768-82c7-49ca-a358-773b245db83b",
+            "name": "Kaulig Racing",
+            "owner": {
+              "id": "d7d36ea8-f61a-4ee4-aa38-07635c4f14a3",
+              "name": "Matt Kaulig"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "85c06960-3610-4eff-9ef2-18641b84c952",
+      "first_name": "Kyle",
+      "last_name": "Busch",
+      "full_name": "Kyle Busch",
+      "height": 73,
+      "birthday": "1985-05-02",
+      "rookie_year": 2004,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": "Mooresville, North Carolina, United States",
+      "birth_place": "Las Vegas, Nevada, United States",
+      "hobbies": "Remote-control cars, sand cars, boating, watching Denver Broncos and Chicago Bears football",
+      "twitter": "@kylebusch",
+      "points_eligible": true,
+      "team": {
+        "id": "ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a",
+        "name": "Richard Childress Racing",
+        "owner": {
+          "id": "84e3b257-75b1-40ef-8774-cfb53fab90e9",
+          "name": "Richard Childress"
+        }
+      },
+      "cars": [
+        {
+          "id": "eabaf6dd-b975-4844-b4b4-653f83c57fbb",
+          "number": "8",
+          "sponsors": "Cheddars/Lucas Oil/Morgan & Morgan/BetMGM/Rebel Bourbon/Zone Premium",
+          "status": "ACT",
+          "crew_chief": "Jim Pohlman",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "b28b1f53-bdee-4c44-97fb-bb1fd0ea4a8b",
+            "name": "Richard Childress"
+          },
+          "team": {
+            "id": "ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a",
+            "name": "Richard Childress Racing",
+            "owner": {
+              "id": "84e3b257-75b1-40ef-8774-cfb53fab90e9",
+              "name": "Richard Childress"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "16497cd0-5add-407a-b9a8-eec7d62e413b",
+      "first_name": "Christopher",
+      "last_name": "Bell",
+      "full_name": "Christopher Bell",
+      "birthday": "1994-12-16",
+      "rookie_year": 2016,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Norman, Oklahoma, United States",
+      "twitter": "@CBellRacing",
+      "points_eligible": true,
+      "team": {
+        "id": "b30dee06-c437-4e76-8b9c-8b850d52ce21",
+        "name": "Joe Gibbs Racing"
+      },
+      "cars": [
+        {
+          "id": "278372b1-c038-4238-8a42-f53604ab6b02",
+          "number": "20",
+          "sponsors": "DeWalt/Rheem/Interstate Batteries/Yahoo!/Sport Clips Haircuts/Reser's Fine Foods/Rheem",
+          "status": "ACT",
+          "crew_chief": "Adam Stevens",
+          "manufacturer": {
+            "id": "73364deb-a012-4625-b759-db6a236797e3",
+            "name": "Toyota"
+          },
+          "engine": {
+            "id": "91db24df-134d-4c07-a13b-76266b3dd534",
+            "name": "Toyota"
+          },
+          "owner": {
+            "id": "e7846c1b-f64e-4312-8ee3-13c8a0001a8b",
+            "name": "Joe Gibbs"
+          },
+          "team": {
+            "id": "b30dee06-c437-4e76-8b9c-8b850d52ce21",
+            "name": "Joe Gibbs Racing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e595780e-baa7-4988-9a19-311fef7414d5",
+      "first_name": "Erik",
+      "last_name": "Jones",
+      "full_name": "Erik Jones",
+      "birthday": "1996-05-30",
+      "rookie_year": 2015,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Byron, Michigan, United States",
+      "twitter": "@erik_jones",
+      "points_eligible": true,
+      "team": {
+        "id": "ee6a924b-58f4-40ea-8514-610936e32e78",
+        "name": "LEGACY Motor Club",
+        "owner": {
+          "id": "23972c17-6476-4824-aeb2-43896e2082d9",
+          "name": "Richard Petty"
+        }
+      },
+      "cars": [
+        {
+          "id": "e6fd7d08-83bc-4f2a-8c0b-e5c3cac57ab7",
+          "number": "43",
+          "sponsors": "Advent Health/Dollar Tree/Family Dollar",
+          "status": "ACT",
+          "crew_chief": "Justin Alexander",
+          "manufacturer": {
+            "id": "73364deb-a012-4625-b759-db6a236797e3",
+            "name": "Toyota"
+          },
+          "engine": {
+            "id": "91db24df-134d-4c07-a13b-76266b3dd534",
+            "name": "Toyota"
+          },
+          "owner": {
+            "id": "1d488f0e-334f-464e-a3db-ae3c8bc028e9",
+            "name": "Richard Petty"
+          },
+          "team": {
+            "id": "ee6a924b-58f4-40ea-8514-610936e32e78",
+            "name": "LEGACY Motor Club",
+            "owner": {
+              "id": "23972c17-6476-4824-aeb2-43896e2082d9",
+              "name": "Richard Petty"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "057da6c6-ad81-4c65-b6b1-64b6da9e2ee7",
+      "first_name": "Jimmie",
+      "last_name": "Johnson",
+      "full_name": "Jimmie Johnson",
+      "height": 71,
+      "weight": 165,
+      "birthday": "1975-09-17",
+      "rookie_year": 2002,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": "Charlotte, North Carolina, United States",
+      "birth_place": "El Cajon, California, United States",
+      "hobbies": "Snowboarding, biking, golf",
+      "children": "Genevieve",
+      "twitter": "@JimmieJohnson",
+      "points_eligible": true,
+      "team": {
+        "id": "ee6a924b-58f4-40ea-8514-610936e32e78",
+        "name": "LEGACY Motor Club",
+        "owner": {
+          "id": "23972c17-6476-4824-aeb2-43896e2082d9",
+          "name": "Richard Petty"
+        }
+      },
+      "cars": [
+        {
+          "id": "abbdf5fc-2c19-43c0-a5f3-1487384b3e16",
+          "number": "84",
+          "sponsors": "Carvana",
+          "status": "ACT",
+          "crew_chief": "Chad Johnston",
+          "manufacturer": {
+            "id": "73364deb-a012-4625-b759-db6a236797e3",
+            "name": "Toyota"
+          },
+          "engine": {
+            "id": "91db24df-134d-4c07-a13b-76266b3dd534",
+            "name": "Toyota"
+          },
+          "owner": {
+            "id": "1d488f0e-334f-464e-a3db-ae3c8bc028e9",
+            "name": "Richard Petty"
+          },
+          "team": {
+            "id": "ee6a924b-58f4-40ea-8514-610936e32e78",
+            "name": "LEGACY Motor Club",
+            "owner": {
+              "id": "23972c17-6476-4824-aeb2-43896e2082d9",
+              "name": "Richard Petty"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "e13afeb8-b199-4bf5-8404-5edfdc617565",
+      "first_name": "Justin",
+      "last_name": "Allgaier",
+      "full_name": "Justin Allgaier",
+      "birthday": "1986-06-06",
+      "rookie_year": 2008,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": "Mooresville, North Carolina, United States",
+      "birth_place": "Riverton, Illinois, United States",
+      "hobbies": "R/C cars, wakeboarding, graphic design, target shooting",
+      "twitter": "@J_Allgaier",
+      "points_eligible": false,
+      "team": {
+        "id": "f2f12b65-2b8d-4f87-ba3b-f2c6a12a2bc8",
+        "name": "JR Motorsports"
+      },
+      "cars": [
+        {
+          "id": "8f2492c9-c421-43dd-a338-f27d4133ed73",
+          "number": "40",
+          "sponsors": "Traveller Whiskey",
+          "status": "ACT",
+          "crew_chief": "Greg Ives",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "7b7d1d72-f9b4-4429-bedd-fcf96b1c8218",
+            "name": "Dale Earnhardt Jr."
+          },
+          "team": {
+            "id": "f2f12b65-2b8d-4f87-ba3b-f2c6a12a2bc8",
+            "name": "JR Motorsports"
+          }
+        }
+      ]
+    },
+    {
+      "id": "53a361e5-644d-461e-8777-9b22b3528114",
+      "first_name": "Ty",
+      "last_name": "Gibbs",
+      "full_name": "Ty Gibbs",
+      "birthday": "2002-10-04",
+      "rookie_year": 2021,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Charlotte, North Carolina, United States",
+      "points_eligible": true,
+      "team": {
+        "id": "b30dee06-c437-4e76-8b9c-8b850d52ce21",
+        "name": "Joe Gibbs Racing"
+      },
+      "cars": [
+        {
+          "id": "e6f81236-d2ca-485b-9ef3-aa1ce48209f4",
+          "number": "54",
+          "sponsors": "Monster Energy/SAIA/Interstate Batteries/SiriusXM",
+          "status": "ACT",
+          "crew_chief": "Tyler Allen",
+          "manufacturer": {
+            "id": "73364deb-a012-4625-b759-db6a236797e3",
+            "name": "Toyota"
+          },
+          "engine": {
+            "id": "91db24df-134d-4c07-a13b-76266b3dd534",
+            "name": "Toyota"
+          },
+          "owner": {
+            "id": "e7846c1b-f64e-4312-8ee3-13c8a0001a8b",
+            "name": "Joe Gibbs"
+          },
+          "team": {
+            "id": "b30dee06-c437-4e76-8b9c-8b850d52ce21",
+            "name": "Joe Gibbs Racing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13a58b0b-011e-4a0a-8942-6364004cfea7",
+      "first_name": "Shane",
+      "last_name": "Van Gisbergen",
+      "full_name": "Shane Van Gisbergen",
+      "birthday": "1989-05-09",
+      "rookie_year": 2024,
+      "gender": "M",
+      "status": "ACT",
+      "country": "NEW ZEALAND",
+      "residence": ", , ",
+      "birth_place": "Auckland, , New Zealand",
+      "points_eligible": true,
+      "team": {
+        "id": "26c50f58-f4e7-44db-bb61-cfc9a767e212",
+        "name": "Trackhouse Racing",
+        "owner": {
+          "id": "8f824787-7369-48e9-a83e-4a7e160b5d1d",
+          "name": "Justin Marks"
+        }
+      },
+      "cars": [
+        {
+          "id": "28690246-cf3a-4f2f-85ba-0fc2cd6b9527",
+          "number": "97",
+          "sponsors": "Jockey/Red Bull/Safety Culture/Trackhouse",
+          "status": "ACT",
+          "crew_chief": "Stephen Doran",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "32feeff3-f6ba-484c-b7ba-c46ee41a0bcf",
+            "name": "Justin Marks"
+          },
+          "team": {
+            "id": "26c50f58-f4e7-44db-bb61-cfc9a767e212",
+            "name": "Trackhouse Racing",
+            "owner": {
+              "id": "8f824787-7369-48e9-a83e-4a7e160b5d1d",
+              "name": "Justin Marks"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "048726db-d4ca-49f7-8e28-e8993958236f",
+      "first_name": "Josh",
+      "last_name": "Berry",
+      "full_name": "Josh Berry",
+      "birthday": "1990-10-22",
+      "rookie_year": 2021,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Hendersonville, Tennessee, United States",
+      "twitter": "@JoshBerry",
+      "points_eligible": true,
+      "team": {
+        "id": "0dd8fd36-8bb1-4930-bfdc-d0c6be3b1a13",
+        "name": "Wood Brothers",
+        "owner": {
+          "id": "9fe6c239-ccda-43d0-9bb3-7c72606bf210",
+          "name": "Wood Brothers"
+        }
+      },
+      "cars": [
+        {
+          "id": "df4ce303-5e1b-4f90-bdd0-1e768780109c",
+          "number": "21",
+          "sponsors": "Motorcraft/Quick Lane/DEX Imaging/Wurth/Freightliner/Eero/PPG",
+          "status": "ACT",
+          "crew_chief": "Miles Stanley",
+          "manufacturer": {
+            "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+            "name": "Ford"
+          },
+          "engine": {
+            "id": "2ff1e55b-7433-4e77-9336-07a74cc3194e",
+            "name": "Ford"
+          },
+          "owner": {
+            "id": "90731d44-8da2-45bd-a8a7-41107fc46e03",
+            "name": "Glen Wood"
+          },
+          "team": {
+            "id": "0dd8fd36-8bb1-4930-bfdc-d0c6be3b1a13",
+            "name": "Wood Brothers",
+            "owner": {
+              "id": "9fe6c239-ccda-43d0-9bb3-7c72606bf210",
+              "name": "Wood Brothers"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "6334f9f0-8b97-4020-8204-2ba30e7dd4ba",
+      "first_name": "John H.",
+      "last_name": "Nemechek",
+      "full_name": "John H. Nemechek",
+      "birthday": "1997-06-11",
+      "rookie_year": 2015,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Mooresville, North Carolina, United States",
+      "twitter": "@JHNemechek",
+      "points_eligible": true,
+      "team": {
+        "id": "ee6a924b-58f4-40ea-8514-610936e32e78",
+        "name": "LEGACY Motor Club",
+        "owner": {
+          "id": "23972c17-6476-4824-aeb2-43896e2082d9",
+          "name": "Richard Petty"
+        }
+      },
+      "cars": [
+        {
+          "id": "1dbd3173-2412-48e7-bf44-cca9a72fc127",
+          "number": "42",
+          "sponsors": "Dollar Tree/Pye-Barker Fire & Safety/DriveValue.com/Rexel",
+          "status": "ACT",
+          "crew_chief": "Travis Mack",
+          "manufacturer": {
+            "id": "73364deb-a012-4625-b759-db6a236797e3",
+            "name": "Toyota"
+          },
+          "engine": {
+            "id": "91db24df-134d-4c07-a13b-76266b3dd534",
+            "name": "Toyota"
+          },
+          "owner": {
+            "id": "00ce3576-b3b6-47f5-af84-d3bbcca0435d",
+            "name": "Mike Beam"
+          },
+          "team": {
+            "id": "ee6a924b-58f4-40ea-8514-610936e32e78",
+            "name": "LEGACY Motor Club",
+            "owner": {
+              "id": "23972c17-6476-4824-aeb2-43896e2082d9",
+              "name": "Richard Petty"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "0ce4113d-34c8-4272-b658-3b929238dbd3",
+      "first_name": "Brad",
+      "last_name": "Keselowski",
+      "full_name": "Brad Keselowski",
+      "height": 70,
+      "birthday": "1984-02-12",
+      "rookie_year": 2010,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": "Mooresville, North Carolina, United States",
+      "birth_place": "Rochester Hills, Michigan, United States",
+      "hobbies": "Online racing, video games, University of Michigan football",
+      "twitter": "@keselowski",
+      "points_eligible": true,
+      "team": {
+        "id": "69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee",
+        "name": "RFK Racing",
+        "owner": {
+          "id": "dc50d5ab-b4d2-41ad-bd4c-f92f67107210",
+          "name": "Brad Keselowki"
+        }
+      },
+      "cars": [
+        {
+          "id": "698eee4f-6812-47b1-9940-62e2afc50143",
+          "number": "6",
+          "sponsors": "Castrol Edge/BuildSubmarines.com/Fastenal/Solomon Plumbing/Kroger/Esperion/Consumer Cellular",
+          "status": "ACT",
+          "crew_chief": "Jeremy Bullins",
+          "manufacturer": {
+            "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+            "name": "Ford"
+          },
+          "engine": {
+            "id": "2ff1e55b-7433-4e77-9336-07a74cc3194e",
+            "name": "Ford"
+          },
+          "owner": {
+            "id": "b8e569e0-a3cf-48ee-bd7b-52a2ba1ff1d9",
+            "name": "John Henry"
+          },
+          "team": {
+            "id": "69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee",
+            "name": "RFK Racing",
+            "owner": {
+              "id": "dc50d5ab-b4d2-41ad-bd4c-f92f67107210",
+              "name": "Brad Keselowki"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "65633f63-647c-47d1-94c6-cdef425cda1e",
+      "first_name": "Corey",
+      "last_name": "Heim",
+      "full_name": "Corey Heim",
+      "birthday": "2002-07-05",
+      "rookie_year": 2022,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Marietta, Georgia, United States",
+      "points_eligible": false,
+      "team": {
+        "id": "6de1961e-bb84-40d5-855e-4c8f032e3c4a",
+        "name": "23XI Racing",
+        "owner": {
+          "id": "87d0f23e-e7fb-455e-a063-72f38ac948be",
+          "name": "Michael Jordan"
+        }
+      },
+      "cars": [
+        {
+          "id": "48075039-4a28-49ff-8af8-ad38d995ad47",
+          "number": "67",
+          "sponsors": "Robinhood",
+          "status": "ACT",
+          "crew_chief": "Bootie Barker",
+          "manufacturer": {
+            "id": "73364deb-a012-4625-b759-db6a236797e3",
+            "name": "Toyota"
+          },
+          "engine": {
+            "id": "91db24df-134d-4c07-a13b-76266b3dd534",
+            "name": "Toyota"
+          },
+          "owner": {
+            "id": "b54bbedd-be48-4434-9690-936f6e0e3bb1",
+            "name": "Michael Jordan"
+          },
+          "team": {
+            "id": "6de1961e-bb84-40d5-855e-4c8f032e3c4a",
+            "name": "23XI Racing",
+            "owner": {
+              "id": "87d0f23e-e7fb-455e-a063-72f38ac948be",
+              "name": "Michael Jordan"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "96fdd8d7-3776-42b8-baf2-6b4e2cf2d83d",
+      "first_name": "Michael",
+      "last_name": "McDowell",
+      "full_name": "Michael McDowell",
+      "birthday": "1984-12-21",
+      "rookie_year": 2009,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": "Huntersville, North Carolina, United States",
+      "birth_place": "Glendale, Arizona, United States",
+      "hobbies": "Faith, family, wakeboarding, simulation racing, racquetball, karting",
+      "children": "Trace",
+      "twitter": "@Mc_Driver",
+      "points_eligible": true,
+      "team": {
+        "id": "9f742920-6e44-4581-8a61-e8c38cf21da4",
+        "name": "Spire Motorsports"
+      },
+      "cars": [
+        {
+          "id": "595e9d2a-c678-472d-9209-afb0c7a18f0a",
+          "number": "71",
+          "sponsors": "Workforce/Go Bowling/Group 1001/GUNK/Delaware Life/B'laster",
+          "status": "ACT",
+          "crew_chief": "Travis Peterson",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "e611fa59-af3f-40b8-bd07-935eb5b26b01",
+            "name": "Jeff Dickerson"
+          },
+          "team": {
+            "id": "9f742920-6e44-4581-8a61-e8c38cf21da4",
+            "name": "Spire Motorsports"
+          }
+        }
+      ]
+    },
+    {
+      "id": "894b273e-ce7d-446c-9ab0-d9a474ce9d7f",
+      "first_name": "Joey",
+      "last_name": "Logano",
+      "full_name": "Joey Logano",
+      "height": 72,
+      "weight": 140,
+      "birthday": "1990-05-24",
+      "rookie_year": 2009,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": "Huntersville, North Carolina, United States",
+      "birth_place": "Middletown, Connecticut, United States",
+      "hobbies": "Racing, car restoration, “working on my house,” iRacing, four-wheeling",
+      "twitter": "@joeylogano",
+      "points_eligible": true,
+      "team": {
+        "id": "e337709c-9fb6-4275-ad89-d9c100e71a1d",
+        "name": "Team Penske",
+        "owner": {
+          "id": "57198af5-d912-4efc-9135-95fc6c0a3fc5",
+          "name": "Roger Penske"
+        }
+      },
+      "cars": [
+        {
+          "id": "23a4be38-3039-4757-94f5-b4e478e4d7f8",
+          "number": "22",
+          "sponsors": "Shell Pennzoil/Hunt Brothers Pizza/AAA Insurance",
+          "status": "ACT",
+          "crew_chief": "Paul Wolfe",
+          "manufacturer": {
+            "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+            "name": "Ford"
+          },
+          "engine": {
+            "id": "2ff1e55b-7433-4e77-9336-07a74cc3194e",
+            "name": "Ford"
+          },
+          "owner": {
+            "id": "03246399-5e63-4c21-9c5f-24074e3bf515",
+            "name": "Walter Czarnecki"
+          },
+          "team": {
+            "id": "e337709c-9fb6-4275-ad89-d9c100e71a1d",
+            "name": "Team Penske",
+            "owner": {
+              "id": "57198af5-d912-4efc-9135-95fc6c0a3fc5",
+              "name": "Roger Penske"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "1a64406d-c51c-47ce-8fb9-a5bb62eb0d9f",
+      "first_name": "Austin",
+      "last_name": "Hill",
+      "full_name": "Austin Hill",
+      "birthday": "1994-04-21",
+      "rookie_year": 2022,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Winston, Georgia, United States",
+      "twitter": "@_AustinHill",
+      "points_eligible": false,
+      "team": {
+        "id": "ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a",
+        "name": "Richard Childress Racing",
+        "owner": {
+          "id": "84e3b257-75b1-40ef-8774-cfb53fab90e9",
+          "name": "Richard Childress"
+        }
+      },
+      "cars": [
+        {
+          "id": "649dbd05-7d8d-4afe-b46b-1c80dafb975d",
+          "number": "33",
+          "sponsors": "United Rentals",
+          "status": "ACT",
+          "crew_chief": "Andy Street",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "b28b1f53-bdee-4c44-97fb-bb1fd0ea4a8b",
+            "name": "Richard Childress"
+          },
+          "team": {
+            "id": "ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a",
+            "name": "Richard Childress Racing",
+            "owner": {
+              "id": "84e3b257-75b1-40ef-8774-cfb53fab90e9",
+              "name": "Richard Childress"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "4d95ef3a-46cc-43c2-b340-c92cea2ed7f8",
+      "first_name": "Martin",
+      "last_name": "Truex",
+      "full_name": "Martin Truex Jr",
+      "height": 71,
+      "weight": 180,
+      "birthday": "1980-06-29",
+      "rookie_year": 2004,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": "Mooresville, North Carolina, United States",
+      "birth_place": "Mayetta, New Jersey, United States",
+      "hobbies": "Fishing, hunting, building/racing radio-control boats, riding four-wheelers",
+      "twitter": "@MartinTruex_Jr",
+      "points_eligible": false,
+      "team": {
+        "id": "3b5249ed-a226-4107-b5e0-eaec52d818ef",
+        "name": "TRICON Garage"
+      },
+      "cars": [
+        {
+          "id": "06d43b1d-531a-4a0d-a83c-fb4e313ecf88",
+          "number": "56",
+          "sponsors": "Bass Pro Shops",
+          "status": "ACT",
+          "crew_chief": "Cole Pearn",
+          "manufacturer": {
+            "id": "73364deb-a012-4625-b759-db6a236797e3",
+            "name": "Toyota"
+          },
+          "engine": {
+            "id": "91db24df-134d-4c07-a13b-76266b3dd534",
+            "name": "Toyota"
+          },
+          "owner": {
+            "id": "162d9efc-bcee-47ae-8db4-073c574f8127",
+            "name": "David Gilliland"
+          },
+          "team": {
+            "id": "3b5249ed-a226-4107-b5e0-eaec52d818ef",
+            "name": "TRICON Garage"
+          }
+        }
+      ]
+    },
+    {
+      "id": "939e647d-756f-41d7-ad65-609344f64bd5",
+      "first_name": "Bubba",
+      "last_name": "Wallace",
+      "full_name": "Bubba Wallace",
+      "birthday": "1993-10-08",
+      "rookie_year": 2013,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": "Concord, North Carolina, United States",
+      "birth_place": "Mobile, Alabama, United States",
+      "hobbies": "Paintball, video games, snowboarding",
+      "twitter": "@BubbaWallace",
+      "points_eligible": true,
+      "team": {
+        "id": "6de1961e-bb84-40d5-855e-4c8f032e3c4a",
+        "name": "23XI Racing",
+        "owner": {
+          "id": "87d0f23e-e7fb-455e-a063-72f38ac948be",
+          "name": "Michael Jordan"
+        }
+      },
+      "cars": [
+        {
+          "id": "4a56a3be-1d91-434e-a403-24b3206573b7",
+          "number": "23",
+          "sponsors": "McDonald's/Columbia Sportswear/U.S. Air Force/Leidos/Mobil 1/Hardee's",
+          "status": "ACT",
+          "crew_chief": "Charles Denike",
+          "manufacturer": {
+            "id": "73364deb-a012-4625-b759-db6a236797e3",
+            "name": "Toyota"
+          },
+          "engine": {
+            "id": "91db24df-134d-4c07-a13b-76266b3dd534",
+            "name": "Toyota"
+          },
+          "owner": {
+            "id": "b54bbedd-be48-4434-9690-936f6e0e3bb1",
+            "name": "Michael Jordan"
+          },
+          "team": {
+            "id": "6de1961e-bb84-40d5-855e-4c8f032e3c4a",
+            "name": "23XI Racing",
+            "owner": {
+              "id": "87d0f23e-e7fb-455e-a063-72f38ac948be",
+              "name": "Michael Jordan"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "32251b56-7387-4ade-8482-0917553218f4",
+      "first_name": "JJ",
+      "last_name": "Yeley",
+      "full_name": "JJ Yeley",
+      "height": 68,
+      "birthday": "1976-10-05",
+      "rookie_year": 2006,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": "Charlotte, North Carolina, United States",
+      "birth_place": "Phoenix, Arizona, United States",
+      "hobbies": "Golf",
+      "children": "Faith",
+      "twitter": "@jjyeley1",
+      "points_eligible": false,
+      "team": {
+        "id": "a0b1a19c-cf7f-47f0-b857-024f9c137936",
+        "name": "NY Racing Team",
+        "owner": {
+          "id": "77e559e3-97cc-4e9b-8d01-a76dc6af2b0a",
+          "name": "Johnathan Cohen"
+        }
+      },
+      "cars": [
+        {
+          "id": "fd91c36b-cf34-4ae6-b265-d13dd456c698",
+          "number": "44",
+          "status": "ACT",
+          "crew_chief": "Jay Guy",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "fc9aa7c2-92d1-4baf-8ce9-3607b6cb2f5b",
+            "name": "John Cohen"
+          },
+          "team": {
+            "id": "a0b1a19c-cf7f-47f0-b857-024f9c137936",
+            "name": "NY Racing Team",
+            "owner": {
+              "id": "77e559e3-97cc-4e9b-8d01-a76dc6af2b0a",
+              "name": "Johnathan Cohen"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc04af5e-bd27-4e87-850c-a72e22dcb4a6",
+      "first_name": "AJ",
+      "last_name": "Allmendinger",
+      "full_name": "AJ Allmendinger",
+      "height": 66,
+      "birthday": "1981-12-16",
+      "rookie_year": 2007,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": "Cornelius, North Carolina, United States",
+      "birth_place": "Los Gatos, California, United States",
+      "hobbies": "Golf, karting, bowling, video games",
+      "twitter": "@AJDinger",
+      "points_eligible": true,
+      "team": {
+        "id": "58ca0768-82c7-49ca-a358-773b245db83b",
+        "name": "Kaulig Racing",
+        "owner": {
+          "id": "d7d36ea8-f61a-4ee4-aa38-07635c4f14a3",
+          "name": "Matt Kaulig"
+        }
+      },
+      "cars": [
+        {
+          "id": "03be2c5e-e34e-4eb0-afa5-038d48090d78",
+          "number": "16",
+          "sponsors": "CELSIUS/LeafFilter/Campers Inn RV/Action Industries/Grizzly",
+          "status": "ACT",
+          "crew_chief": "Trent Owens",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "935f3f46-6819-46f2-a21c-fb08c2c297c3",
+            "name": "Matt Kaulig"
+          },
+          "team": {
+            "id": "58ca0768-82c7-49ca-a358-773b245db83b",
+            "name": "Kaulig Racing",
+            "owner": {
+              "id": "d7d36ea8-f61a-4ee4-aa38-07635c4f14a3",
+              "name": "Matt Kaulig"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "e913a9e0-1ab4-494a-be63-7135d1f403c2",
+      "first_name": "Chad",
+      "last_name": "Finchum",
+      "full_name": "Chad Finchum",
+      "birthday": "1994-09-22",
+      "rookie_year": 2018,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Knoxville, Tennessee, United States",
+      "points_eligible": false,
+      "team": {
+        "id": "cb3d176f-ce0e-44d1-9bde-1100ad539be5",
+        "name": "Garage 66"
+      },
+      "cars": []
+    },
+    {
+      "id": "25ca1ab3-b013-48cb-b4a4-c10fb45ba397",
+      "first_name": "Chase",
+      "last_name": "Briscoe",
+      "full_name": "Chase Briscoe",
+      "birthday": "1994-12-15",
+      "rookie_year": 2017,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Mitchell, Indiana, United States",
+      "points_eligible": true,
+      "team": {
+        "id": "b30dee06-c437-4e76-8b9c-8b850d52ce21",
+        "name": "Joe Gibbs Racing"
+      },
+      "cars": [
+        {
+          "id": "1e8fcd69-e12e-4fb4-8dff-8b7ec56f3e3f",
+          "number": "19",
+          "sponsors": "Bass Pro Shops/Columbia Bank/Free Bird Southern Spring Water/Zep",
+          "status": "ACT",
+          "crew_chief": "James Small",
+          "manufacturer": {
+            "id": "73364deb-a012-4625-b759-db6a236797e3",
+            "name": "Toyota"
+          },
+          "engine": {
+            "id": "91db24df-134d-4c07-a13b-76266b3dd534",
+            "name": "Toyota"
+          },
+          "owner": {
+            "id": "e7846c1b-f64e-4312-8ee3-13c8a0001a8b",
+            "name": "Joe Gibbs"
+          },
+          "team": {
+            "id": "b30dee06-c437-4e76-8b9c-8b850d52ce21",
+            "name": "Joe Gibbs Racing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3ee8cca6-048e-4e36-9216-ed27d294611b",
+      "first_name": "Cole",
+      "last_name": "Custer",
+      "full_name": "Cole Custer",
+      "birthday": "1998-01-23",
+      "rookie_year": 2016,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Ladera Ranch, California, United States",
+      "twitter": "@colecuster00",
+      "points_eligible": true,
+      "team": {
+        "id": "0eb623d5-a294-4469-9baa-188d383777f8",
+        "name": "Haas Factory Team"
+      },
+      "cars": [
+        {
+          "id": "ebb590f6-49ac-4bcd-a06c-9b8f7e38b5a8",
+          "number": "41",
+          "sponsors": "Haas Automation/Autodesk/Andy's Frozen Custard/Bonanza",
+          "status": "ACT",
+          "crew_chief": "Aaron Kramer",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "1c6be062-998b-4846-87d0-11eebfe766d8",
+            "name": "Gene Haas"
+          },
+          "team": {
+            "id": "0eb623d5-a294-4469-9baa-188d383777f8",
+            "name": "Haas Factory Team"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5ae1a122-28a3-461b-82e0-955c0d1132fa",
+      "first_name": "BJ",
+      "last_name": "McLeod",
+      "full_name": "BJ McLeod",
+      "birthday": "1983-11-17",
+      "rookie_year": 2016,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Wauchula, Florida, United States",
+      "twitter": "@bjmcleod78",
+      "points_eligible": false,
+      "team": {
+        "id": "24e55761-55f6-4e01-859a-f6cff86645d1",
+        "name": "Live Fast Motorsports"
+      },
+      "cars": [
+        {
+          "id": "28df646d-1617-44a2-bed2-b138260d3240",
+          "number": "78",
+          "status": "ACT",
+          "crew_chief": "David Ingram",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "6fd5f015-f847-4fb8-920d-920795018323",
+            "name": "BJ McLeod"
+          },
+          "team": {
+            "id": "24e55761-55f6-4e01-859a-f6cff86645d1",
+            "name": "Live Fast Motorsports"
+          }
+        }
+      ]
+    },
+    {
+      "id": "abab879c-93b3-4476-95a0-47f60df1a0e4",
+      "first_name": "Noah",
+      "last_name": "Gragson",
+      "full_name": "Noah Gragson",
+      "birthday": "1998-07-15",
+      "rookie_year": 2017,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Las Vegas, Nevada, United States",
+      "points_eligible": true,
+      "team": {
+        "id": "bd38dfec-bb97-4f29-b032-cc6f0c77dfe6",
+        "name": "Front Row Motorsports"
+      },
+      "cars": [
+        {
+          "id": "6713b606-f0b9-4b23-bcf3-9f2e4e9a91a7",
+          "number": "4",
+          "sponsors": "Rush Truck Centers/A&W Root Beer/Miller Tech/TitleMax/Long John's Silver's/Rural King/Grillo's Pickles",
+          "status": "ACT",
+          "crew_chief": "Grant Hutchens",
+          "manufacturer": {
+            "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+            "name": "Ford"
+          },
+          "engine": {
+            "id": "2ff1e55b-7433-4e77-9336-07a74cc3194e",
+            "name": "Ford"
+          },
+          "owner": {
+            "id": "c81a723c-a430-4be5-969f-5fbf21c1d519",
+            "name": "Bob Jenkins"
+          },
+          "team": {
+            "id": "bd38dfec-bb97-4f29-b032-cc6f0c77dfe6",
+            "name": "Front Row Motorsports"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3ebef96f-43b4-422a-9d0c-db0127b25384",
+      "first_name": "Alex",
+      "last_name": "Bowman",
+      "full_name": "Alex Bowman",
+      "birthday": "1993-04-25",
+      "rookie_year": 2013,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Tucson, Arizona, United States",
+      "twitter": "@AlexBRacing",
+      "points_eligible": true,
+      "team": {
+        "id": "8427da4c-9c88-4849-9242-0c184d5ed67c",
+        "name": "Hendrick Motorsports",
+        "owner": {
+          "id": "df3acab4-1712-44bb-b913-897b4e20fd50",
+          "name": "Rick Hendrick"
+        }
+      },
+      "cars": [
+        {
+          "id": "733d54fb-e4f5-4829-bc2a-94af6c9c6504",
+          "number": "48",
+          "sponsors": "Ally Financial",
+          "status": "ACT",
+          "crew_chief": "Blake Harris",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "492ef62b-a861-4672-9940-0ec3133e04f1",
+            "name": "Jeff Gordon"
+          },
+          "team": {
+            "id": "8427da4c-9c88-4849-9242-0c184d5ed67c",
+            "name": "Hendrick Motorsports",
+            "owner": {
+              "id": "df3acab4-1712-44bb-b913-897b4e20fd50",
+              "name": "Rick Hendrick"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "67948099-4196-4e1b-ae9e-b437aa99000a",
+      "first_name": "Ryan",
+      "last_name": "Blaney",
+      "full_name": "Ryan Blaney",
+      "birthday": "1993-12-31",
+      "rookie_year": 2013,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "High Point, North Carolina, United States",
+      "twitter": "@Blaney",
+      "points_eligible": true,
+      "team": {
+        "id": "e337709c-9fb6-4275-ad89-d9c100e71a1d",
+        "name": "Team Penske",
+        "owner": {
+          "id": "57198af5-d912-4efc-9135-95fc6c0a3fc5",
+          "name": "Roger Penske"
+        }
+      },
+      "cars": [
+        {
+          "id": "874ceeea-76f2-4db9-b647-b10be1082ee4",
+          "number": "12",
+          "sponsors": "Menards/Advance Auto Parts/BodyArmor/Wurth/Discount Tire/Dent Wizard/Wabash",
+          "status": "ACT",
+          "crew_chief": "Jonathan Hassler",
+          "manufacturer": {
+            "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+            "name": "Ford"
+          },
+          "engine": {
+            "id": "2ff1e55b-7433-4e77-9336-07a74cc3194e",
+            "name": "Ford"
+          },
+          "owner": {
+            "id": "3a02ed9a-855e-446a-b71b-876861b84f60",
+            "name": "Roger Penske"
+          },
+          "team": {
+            "id": "e337709c-9fb6-4275-ad89-d9c100e71a1d",
+            "name": "Team Penske",
+            "owner": {
+              "id": "57198af5-d912-4efc-9135-95fc6c0a3fc5",
+              "name": "Roger Penske"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "2987a290-93b9-4f4e-9b12-c68b4ed126a4",
+      "first_name": "Riley",
+      "last_name": "Herbst",
+      "full_name": "Riley Herbst",
+      "birthday": "1999-02-24",
+      "rookie_year": 2020,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Las Vegas, Nevada, United States",
+      "points_eligible": true,
+      "team": {
+        "id": "6de1961e-bb84-40d5-855e-4c8f032e3c4a",
+        "name": "23XI Racing",
+        "owner": {
+          "id": "87d0f23e-e7fb-455e-a063-72f38ac948be",
+          "name": "Michael Jordan"
+        }
+      },
+      "cars": [
+        {
+          "id": "27c7e77d-5ab7-44e6-a0ea-8cfcfcd8b4c9",
+          "number": "35",
+          "sponsors": "Monster Energy",
+          "status": "ACT",
+          "crew_chief": "Davin Restivo",
+          "manufacturer": {
+            "id": "73364deb-a012-4625-b759-db6a236797e3",
+            "name": "Toyota"
+          },
+          "engine": {
+            "id": "91db24df-134d-4c07-a13b-76266b3dd534",
+            "name": "Toyota"
+          },
+          "owner": {
+            "id": "b54bbedd-be48-4434-9690-936f6e0e3bb1",
+            "name": "Michael Jordan"
+          },
+          "team": {
+            "id": "6de1961e-bb84-40d5-855e-4c8f032e3c4a",
+            "name": "23XI Racing",
+            "owner": {
+              "id": "87d0f23e-e7fb-455e-a063-72f38ac948be",
+              "name": "Michael Jordan"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "8853e676-384e-4d08-8808-970fd111f36a",
+      "first_name": "Austin",
+      "last_name": "Dillon",
+      "full_name": "Austin Dillon",
+      "birthday": "1990-04-27",
+      "rookie_year": 2010,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": "Welcome, North Carolina, United States",
+      "birth_place": "Welcome, North Carolina, United States",
+      "hobbies": "Hunting, fishing, racing dirt late models, working out, music",
+      "twitter": "@austindillon3",
+      "points_eligible": true,
+      "team": {
+        "id": "ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a",
+        "name": "Richard Childress Racing",
+        "owner": {
+          "id": "84e3b257-75b1-40ef-8774-cfb53fab90e9",
+          "name": "Richard Childress"
+        }
+      },
+      "cars": [
+        {
+          "id": "fbee74ad-5e2d-4f54-bdf5-52b6193b04d6",
+          "number": "3",
+          "sponsors": "Bass Pro Shops/BetMGM/Dow/Breztri/Bioethanol/Titan Risk Solutions/Boot Barn",
+          "status": "ACT",
+          "crew_chief": "Richard Boswell",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "b28b1f53-bdee-4c44-97fb-bb1fd0ea4a8b",
+            "name": "Richard Childress"
+          },
+          "team": {
+            "id": "ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a",
+            "name": "Richard Childress Racing",
+            "owner": {
+              "id": "84e3b257-75b1-40ef-8774-cfb53fab90e9",
+              "name": "Richard Childress"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ebd0a08d-5308-442e-a2ae-2e40aafb3100",
+      "first_name": "Daniel",
+      "last_name": "Suárez",
+      "full_name": "Daniel Suárez",
+      "birthday": "1992-01-07",
+      "rookie_year": 2015,
+      "gender": "M",
+      "status": "ACT",
+      "country": "MEXICO",
+      "residence": ", , ",
+      "birth_place": "Monterrey, , Mexico",
+      "twitter": "@Daniel_SuarezG",
+      "points_eligible": true,
+      "team": {
+        "id": "9f742920-6e44-4581-8a61-e8c38cf21da4",
+        "name": "Spire Motorsports"
+      },
+      "cars": [
+        {
+          "id": "f027a5b4-c260-496a-9470-ede66d9f6144",
+          "number": "7",
+          "sponsors": "Freeway Insurance/Cal Ripken Sr. Foundation/Modo Casino",
+          "status": "ACT",
+          "crew_chief": "Ryan Sparks",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "e611fa59-af3f-40b8-bd07-935eb5b26b01",
+            "name": "Jeff Dickerson"
+          },
+          "team": {
+            "id": "9f742920-6e44-4581-8a61-e8c38cf21da4",
+            "name": "Spire Motorsports"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7c3fdb99-ba7c-4933-b942-11d789408b70",
+      "first_name": "Connor",
+      "last_name": "Zilisch",
+      "full_name": "Connor Zilisch",
+      "birthday": "2006-07-22",
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Mooresville, North Carolina, United States",
+      "points_eligible": true,
+      "team": {
+        "id": "26c50f58-f4e7-44db-bb61-cfc9a767e212",
+        "name": "Trackhouse Racing",
+        "owner": {
+          "id": "8f824787-7369-48e9-a83e-4a7e160b5d1d",
+          "name": "Justin Marks"
+        }
+      },
+      "cars": [
+        {
+          "id": "04b9f3bc-b614-4102-9ce9-db9fad10020d",
+          "number": "88",
+          "sponsors": "Red Bull/Trackhouse",
+          "status": "ACT",
+          "crew_chief": "Randall Burnett",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "32feeff3-f6ba-484c-b7ba-c46ee41a0bcf",
+            "name": "Justin Marks"
+          },
+          "team": {
+            "id": "26c50f58-f4e7-44db-bb61-cfc9a767e212",
+            "name": "Trackhouse Racing",
+            "owner": {
+              "id": "8f824787-7369-48e9-a83e-4a7e160b5d1d",
+              "name": "Justin Marks"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "26f629b5-8682-4db6-a91f-bf0f732f505a",
+      "first_name": "Austin",
+      "last_name": "Cindric",
+      "full_name": "Austin Cindric",
+      "birthday": "1998-09-02",
+      "rookie_year": 2017,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": ", , ",
+      "birth_place": "Mooresville, North Carolina, United States",
+      "twitter": "@AustinCindric",
+      "points_eligible": true,
+      "team": {
+        "id": "e337709c-9fb6-4275-ad89-d9c100e71a1d",
+        "name": "Team Penske",
+        "owner": {
+          "id": "57198af5-d912-4efc-9135-95fc6c0a3fc5",
+          "name": "Roger Penske"
+        }
+      },
+      "cars": [
+        {
+          "id": "3d0cf0c8-f933-48ac-a935-71f1d18d4bd5",
+          "number": "2",
+          "sponsors": "Menards/Discount Tire/Keystone Light/Freightliner/Snap On",
+          "status": "ACT",
+          "crew_chief": "Brian Wilson",
+          "manufacturer": {
+            "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+            "name": "Ford"
+          },
+          "engine": {
+            "id": "2ff1e55b-7433-4e77-9336-07a74cc3194e",
+            "name": "Ford"
+          },
+          "owner": {
+            "id": "3a02ed9a-855e-446a-b71b-876861b84f60",
+            "name": "Roger Penske"
+          },
+          "team": {
+            "id": "e337709c-9fb6-4275-ad89-d9c100e71a1d",
+            "name": "Team Penske",
+            "owner": {
+              "id": "57198af5-d912-4efc-9135-95fc6c0a3fc5",
+              "name": "Roger Penske"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "0cdae85e-0b1d-44d7-9614-a49aff66aeb5",
+      "first_name": "Ricky",
+      "last_name": "Stenhouse",
+      "full_name": "Ricky Stenhouse Jr",
+      "birthday": "1987-10-02",
+      "rookie_year": 2010,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": "Cornelius, North Carolina, United States",
+      "birth_place": "Olive Branch, Mississippi, United States",
+      "hobbies": "Golf, racquetball, basketball, working out, country music",
+      "twitter": "@StenhouseJr",
+      "points_eligible": true,
+      "team": {
+        "id": "fb3e4d03-9408-43c6-b65f-61a2399a146d",
+        "name": "Hyak Motorsports",
+        "owner": {
+          "id": "336e693e-f8f5-4d74-a5d2-23adb8a719aa",
+          "name": "Gordon Smith"
+        }
+      },
+      "cars": [
+        {
+          "id": "efd240d0-8844-4fcb-a15f-062846ae6e4c",
+          "number": "47",
+          "sponsors": "NOS Energy Drink/SunnyD/Real American Beer/Chef Boyardee",
+          "status": "ACT",
+          "crew_chief": "Mike Kelley",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "db238547-f8d4-4999-9614-0e808d83d766",
+            "name": "Tad Geschickter"
+          },
+          "team": {
+            "id": "fb3e4d03-9408-43c6-b65f-61a2399a146d",
+            "name": "Hyak Motorsports",
+            "owner": {
+              "id": "336e693e-f8f5-4d74-a5d2-23adb8a719aa",
+              "name": "Gordon Smith"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fb6c45e9-990e-46e3-88df-174449c13334",
+      "first_name": "Ross",
+      "last_name": "Chastain",
+      "full_name": "Ross Chastain",
+      "birthday": "1992-12-04",
+      "rookie_year": 2012,
+      "gender": "M",
+      "status": "ACT",
+      "country": "UNITED STATES",
+      "residence": "Alva, Florida, United States",
+      "birth_place": "Alva, Florida, United States",
+      "hobbies": "Riding 4-wheelers, boating and tubing",
+      "twitter": "@RossChastain",
+      "points_eligible": true,
+      "team": {
+        "id": "26c50f58-f4e7-44db-bb61-cfc9a767e212",
+        "name": "Trackhouse Racing",
+        "owner": {
+          "id": "8f824787-7369-48e9-a83e-4a7e160b5d1d",
+          "name": "Justin Marks"
+        }
+      },
+      "cars": [
+        {
+          "id": "3cc7ae07-4ec7-4d14-8cdf-59557055db30",
+          "number": "1",
+          "sponsors": "Busch Beer/Mpoose Fraternity/Choice Privileges",
+          "status": "ACT",
+          "crew_chief": "Brandon McSwain",
+          "manufacturer": {
+            "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+            "name": "Chevrolet"
+          },
+          "engine": {
+            "id": "6d1842a1-33cc-4a2a-88c4-b15ec783213a",
+            "name": "Chevrolet"
+          },
+          "owner": {
+            "id": "32feeff3-f6ba-484c-b7ba-c46ee41a0bcf",
+            "name": "Justin Marks"
+          },
+          "team": {
+            "id": "26c50f58-f4e7-44db-bb61-cfc9a767e212",
+            "name": "Trackhouse Racing",
+            "owner": {
+              "id": "8f824787-7369-48e9-a83e-4a7e160b5d1d",
+              "name": "Justin Marks"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

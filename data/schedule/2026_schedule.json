@@ -1,0 +1,2616 @@
+{
+  "series": {
+    "id": "3e32047e-4ff3-4e35-a607-1546a2c32214",
+    "alias": "CUP",
+    "name": "NASCAR Cup Series"
+  },
+  "season": {
+    "id": "2e2bfe7c-f9c2-4009-b9b4-f4511bac7a77",
+    "year": 2026
+  },
+  "events": [
+    {
+      "id": "524cb97a-bdc9-413b-976c-a1470494344a",
+      "name": "NASCAR Cup Series at Bowman Gray",
+      "start_date": "2026-02-01",
+      "track": {
+        "name": "Bowman Gray Stadium",
+        "market": "Winston-Salem",
+        "completed": 1947,
+        "distance": 0.25,
+        "shape": "Oval",
+        "banking": "Turns: 4",
+        "address": "1250 S Martin Luther King Jr Dr",
+        "city": "Winston-Salem",
+        "state": "NC",
+        "zip": "27107",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Short Track",
+        "owner": "International Speedway Corp.",
+        "id": "8dbdf7bb-2ee0-4f06-9a1c-e2c93aa715a0",
+        "lat": "36.083221",
+        "lng": "-80.222061"
+      },
+      "races": [
+        {
+          "id": "38125d3a-ade5-416b-a570-6a27ce0b0ec1",
+          "name": "NASCAR Clash Heat Race 1",
+          "status": "canceled",
+          "distance": 6,
+          "laps": 25,
+          "chase_race": false,
+          "heat_race": true,
+          "award_pole": false,
+          "stage_count": 0,
+          "scheduled": "2026-02-01T01:30:00+00:00",
+          "broadcast": {
+            "network": "FS1",
+            "satellite": "219",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Chase",
+            "last_name": "Elliott",
+            "full_name": "Chase Elliott",
+            "id": "5fd3e3fb-322f-4157-ae41-9317fba1997d"
+          }
+        },
+        {
+          "id": "0331d465-9df1-429e-8cc3-bf9c021532a5",
+          "name": "NASCAR Clash Heat Race 2",
+          "status": "canceled",
+          "distance": 6,
+          "laps": 25,
+          "chase_race": false,
+          "heat_race": true,
+          "award_pole": false,
+          "stage_count": 0,
+          "scheduled": "2026-02-01T01:45:00+00:00",
+          "broadcast": {
+            "network": "FS1",
+            "satellite": "219",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Chris",
+            "last_name": "Buescher",
+            "full_name": "Chris Buescher",
+            "id": "25cfebb6-24e5-429c-a9db-c276bab0e228"
+          }
+        },
+        {
+          "id": "a93d7c95-523d-4178-82ea-6f95b01169c5",
+          "name": "NASCAR Clash Heat Race 3",
+          "status": "canceled",
+          "distance": 6,
+          "laps": 25,
+          "chase_race": false,
+          "heat_race": true,
+          "award_pole": false,
+          "stage_count": 0,
+          "scheduled": "2026-02-01T02:00:00+00:00",
+          "broadcast": {
+            "network": "FS1",
+            "satellite": "219",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Denny",
+            "last_name": "Hamlin",
+            "full_name": "Denny Hamlin",
+            "id": "cb9d6f49-0044-4305-be9a-22d428e52c95"
+          }
+        },
+        {
+          "id": "6e75b95e-98f0-49e9-8b9e-67031da0488e",
+          "name": "NASCAR Clash Heat Race 4",
+          "status": "canceled",
+          "distance": 6,
+          "laps": 25,
+          "chase_race": false,
+          "heat_race": true,
+          "award_pole": false,
+          "stage_count": 0,
+          "scheduled": "2026-02-01T02:15:00+00:00",
+          "broadcast": {
+            "network": "FS1",
+            "satellite": "219",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Tyler",
+            "last_name": "Reddick",
+            "full_name": "Tyler Reddick",
+            "id": "b030a8df-e7de-44a4-9f59-34bb9fd227d0"
+          }
+        },
+        {
+          "id": "5a0416f0-7781-408f-a540-24df00be64e5",
+          "name": "Clash Last Chance Qualifying Race",
+          "status": "closed",
+          "distance": 18,
+          "laps": 75,
+          "chase_race": false,
+          "heat_race": true,
+          "award_pole": false,
+          "stage_count": 0,
+          "scheduled": "2026-02-04T21:30:00+00:00",
+          "start_time": "2026-02-04T21:30:00+00:00",
+          "end_time": "2026-02-04T22:00:00+00:00",
+          "broadcast": {
+            "network": "FOX",
+            "radio": "MRN"
+          }
+        },
+        {
+          "id": "16adca48-2c79-49f7-82c3-0a06fd46e5c4",
+          "name": "Cook Out Clash at Bowman Gray",
+          "status": "closed",
+          "distance": 50,
+          "laps": 200,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": false,
+          "stage_count": 0,
+          "parent_id": "c954e475-01b2-4891-8682-67ff5f815d7a",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "complete",
+              "start_time": "2026-02-04T18:30:00+00:00",
+              "end_time": "2026-02-04T20:30:00+00:00",
+              "internet": "FOX Sports App"
+            }
+          ],
+          "scheduled": "2026-02-04T23:00:00+00:00",
+          "start_time": "2026-02-04T23:00:00+00:00",
+          "end_time": "2026-02-05T01:30:00+00:00",
+          "broadcast": {
+            "network": "FS2",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Chase",
+            "last_name": "Elliott",
+            "full_name": "Chase Elliott",
+            "id": "5fd3e3fb-322f-4157-ae41-9317fba1997d"
+          }
+        }
+      ]
+    },
+    {
+      "id": "80f542ce-802c-4a7d-9738-4a9eb56dd160",
+      "name": "NASCAR Cup Series at Daytona",
+      "start_date": "2026-02-12",
+      "track": {
+        "name": "Daytona International Speedway",
+        "market": "Daytona Beach",
+        "completed": 1958,
+        "distance": 2.5,
+        "shape": "Tri-Oval",
+        "banking": "Turns: 31, Tri-Oval: 18, Backstretch: 3",
+        "frontstretch": 3800,
+        "backstretch": 3000,
+        "address": "1801 West International Speedway Blvd.",
+        "city": "Daytona Beach",
+        "state": "Florida",
+        "zip": "32114-1243",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Superspeedway",
+        "owner": "International Speedway Corp.",
+        "id": "6ff97f68-2e9d-4fe6-8cd8-2969e1d3570b",
+        "lat": "29.192994",
+        "lng": "-81.067"
+      },
+      "races": [
+        {
+          "id": "e2672696-a1c9-48cc-b7bc-977336eddf33",
+          "name": "America 250 Florida Duel at DAYTONA",
+          "status": "scheduled",
+          "distance": 150,
+          "laps": 60,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": false,
+          "stage_count": 0,
+          "parent_id": "52a541f7-db54-4c5f-a7f3-9f7097af26df",
+          "scheduled": "2026-02-13T00:00:00+00:00",
+          "broadcast": {
+            "network": "FS1",
+            "satellite": "219",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Bubba",
+            "last_name": "Wallace",
+            "full_name": "Bubba Wallace",
+            "id": "939e647d-756f-41d7-ad65-609344f64bd5"
+          }
+        },
+        {
+          "id": "4b503455-839b-47cb-a68b-d75e75649550",
+          "name": "America 250 Florida Duel at DAYTONA",
+          "status": "scheduled",
+          "distance": 150,
+          "laps": 60,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": false,
+          "stage_count": 0,
+          "parent_id": "52a541f7-db54-4c5f-a7f3-9f7097af26df",
+          "scheduled": "2026-02-13T01:45:00+00:00",
+          "broadcast": {
+            "network": "FS1",
+            "satellite": "219",
+            "radio": "MRN"
+          }
+        },
+        {
+          "id": "5fb60476-dd14-4efd-821a-dbc4656d58cb",
+          "name": "DAYTONA 500",
+          "status": "initialized",
+          "number": 1,
+          "distance": 500,
+          "laps": 200,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 65,
+          "stage_2_laps": 65,
+          "stage_3_laps": 100,
+          "parent_id": "a3dad4fc-112f-4aff-a261-c918182f7a42",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-02-11T15:00:00+00:00",
+              "network": "FS1",
+              "satellite": "219"
+            },
+            {
+              "sequence": 2,
+              "status": "scheduled",
+              "start_time": "2026-02-13T22:35:00+00:00",
+              "network": "FS1",
+              "satellite": "219"
+            },
+            {
+              "sequence": 3,
+              "status": "scheduled",
+              "start_time": "2026-02-14T20:00:00+00:00",
+              "network": "FS1",
+              "satellite": "219"
+            }
+          ],
+          "qualifying_start_time": "2026-02-12T01:15:00+00:00",
+          "qualifying_status": "scheduled",
+          "qualifying_broadcast": {
+            "network": "FS1",
+            "satellite": "219"
+          },
+          "scheduled": "2026-02-15T19:30:00+00:00",
+          "start_time": "2026-02-15T19:30:00+00:00",
+          "broadcast": {
+            "network": "FOX",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "William",
+            "last_name": "Byron",
+            "full_name": "William Byron",
+            "id": "c9bf58a8-66b6-4d75-a441-c13130ded990"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1524db4a-efa9-471c-a06a-1421cd12b1e1",
+      "name": "NASCAR Cup Series at Atlanta",
+      "start_date": "2026-02-22",
+      "track": {
+        "name": "EchoPark Speedway",
+        "market": "Atlanta",
+        "completed": 1960,
+        "distance": 1.54,
+        "shape": "Quad-Oval",
+        "banking": "Turns:24; Backstretch:5;Tri-Oval:5",
+        "frontstretch": 2332,
+        "backstretch": 1800,
+        "address": "1500 Highways 19 & 41 South",
+        "city": "Hampton",
+        "state": "Georgia",
+        "zip": "30228",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Superspeedway",
+        "owner": "Speedway Motorsports Inc.",
+        "id": "75494065-bf21-4039-8d99-b8e438c8b4a4",
+        "lat": "33.3853713",
+        "lng": "-84.3051564"
+      },
+      "races": [
+        {
+          "id": "245961b9-abb8-4eca-b8aa-e0ac75eff1a6",
+          "name": "Autotrader 400",
+          "status": "scheduled",
+          "number": 2,
+          "distance": 400,
+          "laps": 260,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 60,
+          "stage_2_laps": 100,
+          "stage_3_laps": 100,
+          "parent_id": "02b8a073-8554-44c9-8411-752b3d3a7186",
+          "qualifying_start_time": "2026-02-21T16:00:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-02-22T20:00:00+00:00",
+          "start_time": "2026-02-22T20:00:00+00:00",
+          "broadcast": {
+            "network": "FOX",
+            "radio": "PRN"
+          },
+          "prior_winner": {
+            "first_name": "Christopher",
+            "last_name": "Bell",
+            "full_name": "Christopher Bell",
+            "id": "16497cd0-5add-407a-b9a8-eec7d62e413b"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4b196b01-9da3-4d5d-ab71-ac2c3389e93f",
+      "name": "NASCAR Cup Series at COTA",
+      "start_date": "2026-03-01",
+      "track": {
+        "name": "Circuits of the Americas",
+        "market": "Austin",
+        "completed": 2021,
+        "distance": 3.41,
+        "shape": "Road Course",
+        "address": " 9201 Circuit of the Americas Blvd",
+        "city": "Austin",
+        "state": "Texas",
+        "zip": "78617",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Road Course",
+        "id": "6631f91e-10ff-4089-9091-c11ec1a19aaf",
+        "lat": "30.1346795",
+        "lng": "-97.6381822"
+      },
+      "races": [
+        {
+          "id": "fa62401d-37ad-40fb-ba64-56f10af12f5e",
+          "name": "DuraMax Grand Prix",
+          "status": "scheduled",
+          "number": 3,
+          "distance": 228,
+          "laps": 95,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 20,
+          "stage_2_laps": 25,
+          "stage_3_laps": 50,
+          "parent_id": "59f3f17a-80ea-4634-853c-ce9a5869c33c",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-02-28T17:00:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-02-28T18:10:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-03-01T20:30:00+00:00",
+          "start_time": "2026-03-01T20:30:00+00:00",
+          "broadcast": {
+            "network": "FOX",
+            "radio": "PRN"
+          },
+          "prior_winner": {
+            "first_name": "Christopher",
+            "last_name": "Bell",
+            "full_name": "Christopher Bell",
+            "id": "16497cd0-5add-407a-b9a8-eec7d62e413b"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6e24dd10-6f6b-4282-8591-5fac1496c043",
+      "name": "NASCAR Cup Series at Phoenix",
+      "start_date": "2026-03-08",
+      "track": {
+        "name": "Phoenix Raceway",
+        "market": "Phoenix",
+        "completed": 1964,
+        "distance": 1,
+        "shape": "Tri-Oval",
+        "banking": "Turns1-2:11;Turns3-4:9;Backstretch:9;Frontstretch:3",
+        "frontstretch": 1179,
+        "backstretch": 1551,
+        "address": "7602 S 115th Avenue",
+        "city": "Avondale",
+        "state": "Arizona",
+        "zip": "85323",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "International Speedway Corp.",
+        "id": "5dc82850-ba60-4bd6-8ce3-4e07e8094a83",
+        "lat": "33.3786899",
+        "lng": "-112.3097338"
+      },
+      "races": [
+        {
+          "id": "b66779e2-fd8c-4f3f-8da2-f8bb19bcedc5",
+          "name": "Straight Talk Wireless 500",
+          "status": "scheduled",
+          "number": 4,
+          "distance": 312,
+          "laps": 312,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 60,
+          "stage_2_laps": 125,
+          "stage_3_laps": 127,
+          "parent_id": "ea068b64-221e-426c-baac-7a6c01fe06a7",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-03-07T17:00:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-03-07T18:10:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-03-08T19:30:00+00:00",
+          "start_time": "2026-03-08T19:30:00+00:00",
+          "broadcast": {
+            "network": "FS1",
+            "satellite": "668",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Christopher",
+            "last_name": "Bell",
+            "full_name": "Christopher Bell",
+            "id": "16497cd0-5add-407a-b9a8-eec7d62e413b"
+          }
+        }
+      ]
+    },
+    {
+      "id": "03da9677-3ceb-4bd9-a563-902c48d09897",
+      "name": "NASCAR Cup Series at Las Vegas",
+      "start_date": "2026-03-15",
+      "track": {
+        "name": "Las Vegas Motor Speedway",
+        "market": "Las Vegas",
+        "completed": 1996,
+        "distance": 1.5,
+        "shape": "D-Shaped Oval",
+        "banking": "Turns: 20, Frontstretch: 9, Backstretch: 9",
+        "frontstretch": 2275,
+        "backstretch": 1572,
+        "address": "7000 Las Vegas Blvd. North",
+        "city": "Las Vegas",
+        "state": "Nevada",
+        "zip": "89115",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "Speedway Motorsports Inc.",
+        "id": "9580816f-e17c-4167-8402-ba16725bcb19",
+        "lat": "36.270742",
+        "lng": "-115.002761"
+      },
+      "races": [
+        {
+          "id": "58dba99e-7076-452f-ba9e-b24b088b192c",
+          "name": "Pennzoil 400 presented by Jiffy Lube",
+          "status": "scheduled",
+          "number": 5,
+          "distance": 400,
+          "laps": 267,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 80,
+          "stage_2_laps": 85,
+          "stage_3_laps": 102,
+          "parent_id": "6488364f-b227-465d-903e-39b830ef2a22",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-03-14T18:30:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-03-14T19:40:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-03-15T20:00:00+00:00",
+          "start_time": "2026-03-15T20:00:00+00:00",
+          "broadcast": {
+            "network": "FS1",
+            "satellite": "668",
+            "radio": "PRN"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1f58102b-552b-44df-9a68-ea352da643d9",
+      "name": "NASCAR Cup Series at Darlington",
+      "start_date": "2026-03-22",
+      "track": {
+        "name": "Darlington Raceway",
+        "market": "Darlington",
+        "completed": 1950,
+        "distance": 1.366,
+        "shape": "Oval",
+        "banking": "Turns:23-25;Backstretch:6;Frontstretch:6",
+        "frontstretch": 1229,
+        "backstretch": 1229,
+        "address": "1301 Harry Byrd Hwy",
+        "city": "Darlington",
+        "state": "South Carolina",
+        "zip": "29532",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "International Speedway Corp.",
+        "id": "aab526c7-4279-4693-9cb1-90e3c7b974fc",
+        "lat": "34.2983137",
+        "lng": "-79.910261"
+      },
+      "races": [
+        {
+          "id": "90b0cee2-75aa-489c-83be-54c9e0c87176",
+          "name": "Goodyear 400",
+          "status": "scheduled",
+          "number": 6,
+          "distance": 400,
+          "laps": 293,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 90,
+          "stage_2_laps": 95,
+          "stage_3_laps": 108,
+          "parent_id": "79c2d0b3-79d7-4f03-b2ef-adbc84f9cc96",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-03-21T18:30:00+00:00"
+            },
+            {
+              "sequence": 2,
+              "status": "scheduled",
+              "start_time": "2026-09-05T20:30:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-03-21T19:40:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-03-22T19:00:00+00:00",
+          "start_time": "2026-03-22T19:00:00+00:00",
+          "broadcast": {
+            "network": "FS1",
+            "satellite": "668",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Denny",
+            "last_name": "Hamlin",
+            "full_name": "Denny Hamlin",
+            "id": "cb9d6f49-0044-4305-be9a-22d428e52c95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3c68795c-fcab-461c-9e60-26e4b432d2fa",
+      "name": "NASCAR Cup Series at Martinsville",
+      "start_date": "2026-03-29",
+      "track": {
+        "name": "Martinsville Speedway",
+        "market": "Martinsville",
+        "completed": 1947,
+        "distance": 0.526,
+        "shape": "Oval",
+        "banking": "Turns:12;Backstretch:0;Frontstretch:0",
+        "frontstretch": 800,
+        "backstretch": 800,
+        "address": "340 Speedway Road",
+        "city": "Ridgeway",
+        "state": "Virginia",
+        "zip": "24112",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Short Track",
+        "owner": "International Speedway Corp.",
+        "id": "409dd8fb-2ab9-4181-9f0f-99545083b689",
+        "lat": "36.6340917",
+        "lng": "-79.8519044"
+      },
+      "races": [
+        {
+          "id": "215fb3c6-2b15-4cbe-8699-ea86281bd4f9",
+          "name": "Cook Out 400",
+          "status": "scheduled",
+          "number": 7,
+          "distance": 210,
+          "laps": 400,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 80,
+          "stage_2_laps": 100,
+          "stage_3_laps": 220,
+          "parent_id": "749d7d31-8492-4479-b493-5e3577d10e91",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-03-28T16:30:00+00:00"
+            },
+            {
+              "sequence": 2,
+              "status": "scheduled",
+              "start_time": "2026-10-31T17:00:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-03-28T17:40:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-03-29T19:30:00+00:00",
+          "start_time": "2026-03-29T19:30:00+00:00",
+          "broadcast": {
+            "network": "FS1",
+            "satellite": "668",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Denny",
+            "last_name": "Hamlin",
+            "full_name": "Denny Hamlin",
+            "id": "cb9d6f49-0044-4305-be9a-22d428e52c95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "361d393f-0186-4353-a844-cb81d2df8343",
+      "name": "NASCAR Cup Series at Bristol",
+      "start_date": "2026-04-12",
+      "track": {
+        "name": "Bristol Motor Speedway",
+        "market": "Bristol",
+        "completed": 1961,
+        "distance": 0.533,
+        "shape": "Oval",
+        "banking": "Turns:36;Backstretch:4-8;Frontstretch:5-9",
+        "frontstretch": 650,
+        "backstretch": 650,
+        "address": "151 Speedway Blvd.",
+        "city": "Bristol",
+        "state": "Tennessee",
+        "zip": "37620",
+        "country": "USA",
+        "surface": "Concrete",
+        "track_type": "Short Track",
+        "owner": "Speedway Motorsports Inc.",
+        "id": "18fcc226-bc18-4b66-80fb-4867b654e588",
+        "lat": "36.515656",
+        "lng": "-82.2586316"
+      },
+      "races": [
+        {
+          "id": "2709ffb2-b077-4c5e-9e2d-6fcaf7c3ee3d",
+          "name": "Food City 500",
+          "status": "scheduled",
+          "number": 8,
+          "distance": 266,
+          "laps": 500,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 125,
+          "stage_2_laps": 125,
+          "stage_3_laps": 250,
+          "parent_id": "881f0944-6016-4a13-b2fd-e7c52ac5cfda",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-04-11T20:30:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-04-11T21:40:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-04-12T19:00:00+00:00",
+          "start_time": "2026-04-12T19:00:00+00:00",
+          "broadcast": {
+            "network": "FS1",
+            "satellite": "668",
+            "radio": "PRN"
+          },
+          "prior_winner": {
+            "first_name": "Kyle",
+            "last_name": "Larson",
+            "full_name": "Kyle Larson",
+            "id": "a756eefd-801d-4214-ab1b-0b595c21c37d"
+          }
+        }
+      ]
+    },
+    {
+      "id": "0386bd47-0452-4a03-a24f-6b0cb13135d3",
+      "name": "NASCAR Cup Series at Kansas",
+      "start_date": "2026-04-19",
+      "track": {
+        "name": "Kansas Speedway",
+        "market": "Kansas City",
+        "completed": 2001,
+        "distance": 1.5,
+        "shape": "D-Shaped Oval",
+        "banking": "Turns:15;Backstretch:5:Frontstretch:10.4",
+        "frontstretch": 2685,
+        "backstretch": 2207,
+        "address": "400 Speedway Blvd.",
+        "city": "Kansas City",
+        "state": "Kansas",
+        "zip": "66111",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "International Speedway Corp.",
+        "id": "42d3569d-cc77-4072-88d5-f63046eddf39",
+        "lat": "39.109509",
+        "lng": "-94.822326"
+      },
+      "races": [
+        {
+          "id": "e3180cb4-6557-438e-8a8f-18a09aa8a353",
+          "name": "AdventHealth 400",
+          "status": "scheduled",
+          "number": 9,
+          "distance": 400,
+          "laps": 267,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 80,
+          "stage_2_laps": 85,
+          "stage_3_laps": 102,
+          "parent_id": "bad01c01-be9e-4ebe-adcd-f96ff38389a0",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-04-18T20:00:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-04-18T21:10:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-04-19T18:00:00+00:00",
+          "start_time": "2026-04-19T18:00:00+00:00",
+          "broadcast": {
+            "network": "FOX",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Kyle",
+            "last_name": "Larson",
+            "full_name": "Kyle Larson",
+            "id": "a756eefd-801d-4214-ab1b-0b595c21c37d"
+          }
+        }
+      ]
+    },
+    {
+      "id": "111125c1-a9cc-43ae-b4cc-74e1fd04740c",
+      "name": "NASCAR Cup Series at Talladega",
+      "start_date": "2026-04-26",
+      "track": {
+        "name": "Talladega Superspeedway",
+        "market": "Talladega",
+        "completed": 1969,
+        "distance": 2.66,
+        "shape": "Tri-Oval",
+        "banking": "Turns:33;Backstretch:2;Frontstretch:16.5",
+        "frontstretch": 4300,
+        "backstretch": 4000,
+        "address": "3366 Speedway Blvd.",
+        "city": "Talladega",
+        "state": "Alabama",
+        "zip": "35160",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Superspeedway",
+        "owner": "International Speedway Corp.",
+        "id": "83e96e25-19f7-4538-809c-24e888cc3e41",
+        "lat": "33.5649286",
+        "lng": "-86.0665668"
+      },
+      "races": [
+        {
+          "id": "18f7ee22-9bd5-4f04-9ba3-75d484aab54d",
+          "name": "Jack Link's 500",
+          "status": "scheduled",
+          "number": 10,
+          "distance": 500,
+          "laps": 188,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 60,
+          "stage_2_laps": 60,
+          "stage_3_laps": 68,
+          "parent_id": "80036e59-c997-45d7-8887-2723f1331368",
+          "qualifying_start_time": "2026-04-25T14:30:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-04-26T19:00:00+00:00",
+          "start_time": "2026-04-26T19:00:00+00:00",
+          "broadcast": {
+            "network": "FOX",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Austin",
+            "last_name": "Cindric",
+            "full_name": "Austin Cindric",
+            "id": "26f629b5-8682-4db6-a91f-bf0f732f505a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4d2957dd-b3a2-48de-b044-059ee8eba8a9",
+      "name": "NASCAR Cup Series at Texas",
+      "start_date": "2026-05-03",
+      "track": {
+        "name": "Texas Motor Speedway",
+        "market": "Fort Worth",
+        "completed": 1995,
+        "distance": 1.5,
+        "shape": "Quad-Oval",
+        "banking": "Turns:24;Backstretch:5;Tri-Oval:5",
+        "frontstretch": 2250,
+        "backstretch": 1330,
+        "address": "3601 Highway 114",
+        "city": "Fort Worth",
+        "state": "Texas",
+        "zip": "76177",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "Speedway Motorsports Inc.",
+        "id": "6c2be094-7477-4d92-b7ff-10dfda27e315",
+        "lat": "33.0371179",
+        "lng": "-97.281633"
+      },
+      "races": [
+        {
+          "id": "10a3f85f-6bab-4690-8d67-4bedcc28d0fc",
+          "name": "Würth 400 presented by LIQUI MOLY",
+          "status": "scheduled",
+          "number": 11,
+          "distance": 400,
+          "laps": 267,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 80,
+          "stage_2_laps": 85,
+          "stage_3_laps": 102,
+          "parent_id": "9d85ee83-d54f-44ed-a08f-ee1ab4c232c4",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-05-02T16:30:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-05-02T17:40:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-05-03T19:30:00+00:00",
+          "start_time": "2026-05-03T19:30:00+00:00",
+          "broadcast": {
+            "network": "FS1",
+            "satellite": "668",
+            "radio": "PRN"
+          },
+          "prior_winner": {
+            "first_name": "Joey",
+            "last_name": "Logano",
+            "full_name": "Joey Logano",
+            "id": "894b273e-ce7d-446c-9ab0-d9a474ce9d7f"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b0ed0743-b901-40d1-b50b-f3b1b56534c6",
+      "name": "NASCAR Cup Series at Watkins Glen",
+      "start_date": "2026-05-10",
+      "track": {
+        "name": "Watkins Glen International",
+        "market": "Watkins Glen",
+        "completed": 1956,
+        "distance": 2.45,
+        "shape": "Road Course",
+        "banking": "Turns:6-10",
+        "frontstretch": 0,
+        "backstretch": 0,
+        "address": "2790 County Route 16",
+        "city": "Watkins Glen",
+        "state": "New York",
+        "zip": "14891",
+        "country": "USA",
+        "surface": "Road",
+        "track_type": "Road Course",
+        "owner": "International Speedway Corp.",
+        "id": "d52314d0-06c3-4619-a8d0-1d97a21d8f22",
+        "lat": "42.3455463",
+        "lng": "-76.9224013"
+      },
+      "races": [
+        {
+          "id": "ebf0eb0d-4a52-4eeb-a99f-871911baf369",
+          "name": "Go Bowling at The Glen",
+          "status": "scheduled",
+          "number": 12,
+          "distance": 220,
+          "laps": 90,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 20,
+          "stage_2_laps": 30,
+          "stage_3_laps": 50,
+          "parent_id": "a26c4298-6acf-4fa3-a92d-92b2f62fb355",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-05-09T17:00:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-05-09T18:10:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-05-10T19:00:00+00:00",
+          "start_time": "2026-05-10T19:00:00+00:00",
+          "broadcast": {
+            "network": "FS1",
+            "satellite": "668",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Shane",
+            "last_name": "Van Gisbergen",
+            "full_name": "Shane Van Gisbergen",
+            "id": "13a58b0b-011e-4a0a-8942-6364004cfea7"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6ad4f9ab-3904-4da0-bae7-4b977cf5790a",
+      "name": "NASCAR Cup Series at Dover",
+      "start_date": "2026-05-16",
+      "track": {
+        "name": "Dover Motor Speedway",
+        "market": "Dover",
+        "completed": 1969,
+        "distance": 1,
+        "shape": "Oval",
+        "banking": "Turns:24:Backstretch:9;Frontstretch:9",
+        "frontstretch": 1076,
+        "backstretch": 1076,
+        "address": "1131 North DuPont Highway",
+        "city": "Dover",
+        "state": "Delaware",
+        "zip": "19901",
+        "country": "USA",
+        "surface": "Concrete",
+        "track_type": "Intermediate",
+        "owner": "Dover Motorsports Inc.",
+        "id": "e757d061-86db-4b28-9b19-9a3536a6994e",
+        "lat": "39.189649",
+        "lng": "-75.5300468"
+      },
+      "races": [
+        {
+          "id": "ed24e820-5c83-43ff-b893-2131a7ee1ba7",
+          "name": "NASCAR All-Star Race Heat 1",
+          "status": "time-tbd",
+          "chase_race": false,
+          "heat_race": true,
+          "award_pole": false,
+          "stage_count": 0,
+          "parent_id": "812fa740-fb92-4ea7-965f-42d00c7d183f",
+          "scheduled": "2026-05-16T05:00:00+00:00",
+          "broadcast": {
+            "network": "FOX",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Brad",
+            "last_name": "Keselowski",
+            "full_name": "Brad Keselowski",
+            "id": "0ce4113d-34c8-4272-b658-3b929238dbd3"
+          }
+        },
+        {
+          "id": "f7f73d74-24da-4d69-b8a2-7cadc26b6b73",
+          "name": "NASCAR All-Star Race Heat 2",
+          "status": "time-tbd",
+          "chase_race": false,
+          "heat_race": true,
+          "award_pole": false,
+          "stage_count": 0,
+          "parent_id": "812fa740-fb92-4ea7-965f-42d00c7d183f",
+          "scheduled": "2026-05-16T05:00:00+00:00",
+          "broadcast": {
+            "network": "FOX",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Christopher",
+            "last_name": "Bell",
+            "full_name": "Christopher Bell",
+            "id": "16497cd0-5add-407a-b9a8-eec7d62e413b"
+          }
+        },
+        {
+          "id": "6bf8d9db-55ea-4c05-847d-6c5955f2de62",
+          "name": "NASCAR All-Star Open",
+          "status": "time-tbd",
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": false,
+          "stage_count": 0,
+          "parent_id": "f0931ebf-daa9-4600-a310-459403975cf3",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-05-17T05:00:00+00:00",
+          "broadcast": {
+            "network": "FS1",
+            "satellite": "668",
+            "radio": "MRN"
+          }
+        },
+        {
+          "id": "b564545e-5fc7-4dbe-bd14-4da67f96c61c",
+          "name": "NASCAR All-Star Race",
+          "status": "scheduled",
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": false,
+          "stage_count": 0,
+          "parent_id": "58e453b9-f0c7-4ab5-8cc5-d07ae8705757",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-05-15T19:40:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-05-16T17:00:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-05-17T19:00:00+00:00",
+          "start_time": "2026-05-17T18:00:00+00:00",
+          "broadcast": {
+            "network": "FS1",
+            "satellite": "668",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Christopher",
+            "last_name": "Bell",
+            "full_name": "Christopher Bell",
+            "id": "16497cd0-5add-407a-b9a8-eec7d62e413b"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6b2a46bc-0af2-4d74-bd7e-61507c6ad161",
+      "name": "NASCAR Cup Series at Charlotte",
+      "start_date": "2026-05-24",
+      "track": {
+        "name": "Charlotte Motor Speedway",
+        "market": "Charlotte",
+        "completed": 1960,
+        "distance": 1.5,
+        "shape": "Quad-Oval",
+        "banking": "Turns:24;Backstretch:5;Frontstretch:5",
+        "frontstretch": 1980,
+        "backstretch": 1500,
+        "address": "5555 Concord Parkway South",
+        "city": "Concord",
+        "state": "North Carolina",
+        "zip": "28027",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "Speedway Motorsports Inc.",
+        "id": "c0ae0e00-9899-4d01-869b-56a4763cc54d",
+        "lat": "35.36089",
+        "lng": "-80.6872753"
+      },
+      "races": [
+        {
+          "id": "43b8acfe-3992-4774-8540-2acf54bf29e7",
+          "name": "Coca-Cola 600",
+          "status": "scheduled",
+          "number": 13,
+          "distance": 600,
+          "laps": 400,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": false,
+          "stage_count": 3,
+          "stage_1_laps": 100,
+          "stage_2_laps": 100,
+          "stage_3_laps": 100,
+          "stage_4_laps": 100,
+          "parent_id": "e0f2949e-308d-433d-914a-0708d3c8b783",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-05-23T17:30:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-05-23T18:40:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-05-24T22:00:00+00:00",
+          "start_time": "2026-05-24T22:00:00+00:00",
+          "broadcast": {
+            "network": "PRIME VIDEO",
+            "radio": "PRN"
+          },
+          "prior_winner": {
+            "first_name": "Ross",
+            "last_name": "Chastain",
+            "full_name": "Ross Chastain",
+            "id": "fb6c45e9-990e-46e3-88df-174449c13334"
+          }
+        }
+      ]
+    },
+    {
+      "id": "61fab3db-95f8-42dc-95f9-ee02ae2e9e6e",
+      "name": "NASCAR Cup Series at Nashville",
+      "start_date": "2026-05-31",
+      "track": {
+        "name": "Nashville Superspeedway",
+        "market": "Nashville",
+        "completed": 0,
+        "distance": 1.333,
+        "shape": "Tri-Oval",
+        "banking": "Banking in Corners: 14 degrees; Banking on Straights: Front - 9 degrees; Back - 6 degrees",
+        "frontstretch": 2494,
+        "backstretch": 2203,
+        "address": "4847-F McCrary Road",
+        "city": "Lebanon",
+        "state": "Tennessee",
+        "zip": "37090",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "Dover Motorsports Inc.",
+        "id": "016c7f98-48b0-4b05-a31c-6896f7146eee",
+        "lat": "36.053041",
+        "lng": "-86.418458"
+      },
+      "races": [
+        {
+          "id": "30844a64-9847-4acf-8037-14bfc2e50300",
+          "name": "Cracker Barrel 400",
+          "status": "scheduled",
+          "number": 14,
+          "distance": 399,
+          "laps": 300,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 90,
+          "stage_2_laps": 95,
+          "stage_3_laps": 115,
+          "parent_id": "7ddb8be0-c305-44bc-b37b-e20131260ce3",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-05-30T20:30:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-05-30T21:40:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-05-31T23:00:00+00:00",
+          "start_time": "2026-05-31T23:00:00+00:00",
+          "broadcast": {
+            "network": "PRIME VIDEO",
+            "radio": "PRN"
+          },
+          "prior_winner": {
+            "first_name": "Ryan",
+            "last_name": "Blaney",
+            "full_name": "Ryan Blaney",
+            "id": "67948099-4196-4e1b-ae9e-b437aa99000a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "096dfce5-87c0-497e-a5a5-424ca41c4b7a",
+      "name": "NASCAR Cup Series at Michigan",
+      "start_date": "2026-06-07",
+      "track": {
+        "name": "Michigan International Speedway",
+        "market": "Brooklyn",
+        "completed": 1968,
+        "distance": 2,
+        "shape": "D-Shaped Oval",
+        "banking": "Turns:18;Backstretch:5;Frontstretch:12",
+        "frontstretch": 3600,
+        "backstretch": 2242,
+        "address": "12626 U.S. 12",
+        "city": "Brooklyn",
+        "state": "Michigan",
+        "zip": "49230",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "International Speedway Corp.",
+        "id": "83865dba-7a30-441a-95e0-51219f7e7c56",
+        "lat": "42.0605275",
+        "lng": "-84.2427763"
+      },
+      "races": [
+        {
+          "id": "0aef52bc-8c44-4740-a2e4-d91964e4e095",
+          "name": "FireKeepers Casino 400",
+          "status": "scheduled",
+          "number": 15,
+          "distance": 400,
+          "laps": 200,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 45,
+          "stage_2_laps": 75,
+          "stage_3_laps": 80,
+          "parent_id": "13712d15-8df6-4931-ab18-bf6793e4df81",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-06-06T21:00:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-06-06T22:10:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-06-07T19:00:00+00:00",
+          "start_time": "2026-06-07T19:00:00+00:00",
+          "broadcast": {
+            "network": "PRIME VIDEO",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Denny",
+            "last_name": "Hamlin",
+            "full_name": "Denny Hamlin",
+            "id": "cb9d6f49-0044-4305-be9a-22d428e52c95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e0e3cf0c-b486-42a3-924b-2bb4aa300073",
+      "name": "NASCAR Cup Series at Pocono",
+      "start_date": "2026-06-14",
+      "track": {
+        "name": "Pocono Raceway",
+        "market": "Long Pond",
+        "completed": 1968,
+        "distance": 2.5,
+        "shape": "Tri-Oval",
+        "banking": "Turn1:14;Turn2:8;Turn3:6;Backstretch:0;Frontstretch:0;ShortStretch:0",
+        "frontstretch": 3740,
+        "backstretch": 3055,
+        "address": "Long Pond Road",
+        "city": "Long Pond",
+        "state": "Pennsylvania",
+        "zip": "18334",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "Mattioli Family",
+        "id": "7267d5f0-463e-4a81-a7fe-23b71dd2182e",
+        "lat": "41.0605146",
+        "lng": "-75.5117578"
+      },
+      "races": [
+        {
+          "id": "c38050e9-283b-43b7-b2f7-0d832555d348",
+          "name": "NASCAR Cup Series Race at Pocono",
+          "status": "scheduled",
+          "number": 16,
+          "distance": 400,
+          "laps": 160,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 30,
+          "stage_2_laps": 65,
+          "stage_3_laps": 65,
+          "parent_id": "5d8ea142-90f4-4aa9-81f8-683dfb9556bd",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-06-13T17:00:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-06-13T18:10:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-06-14T19:00:00+00:00",
+          "start_time": "2026-06-14T19:00:00+00:00",
+          "broadcast": {
+            "network": "FOX",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Chase",
+            "last_name": "Briscoe",
+            "full_name": "Chase Briscoe",
+            "id": "25ca1ab3-b013-48cb-b4a4-c10fb45ba397"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cd588a18-5fcb-4a8e-9a37-2e3c6ec6c1e1",
+      "name": "NASCAR Cup Series at San Diego",
+      "start_date": "2026-06-21",
+      "track": {
+        "name": "San Diego Street Course",
+        "distance": 2.2,
+        "shape": "Road Course",
+        "surface": "Road",
+        "track_type": "Road Course",
+        "id": "b1eb3213-4d50-4bad-a5dd-0dcd149c401c",
+        "lat": "",
+        "lng": ""
+      },
+      "races": [
+        {
+          "id": "e1ed6c6b-cb56-4d80-9bdf-768c96c6d25b",
+          "name": "Anduril 250",
+          "status": "scheduled",
+          "number": 17,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 20,
+          "stage_2_laps": 20,
+          "stage_3_laps": 35,
+          "parent_id": "6aa3c1a4-dfbb-4a01-ab4e-12c91ff6afef",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-06-21T20:00:00+00:00",
+          "broadcast": {
+            "network": "PRIME VIDEO",
+            "radio": "MRN"
+          }
+        }
+      ]
+    },
+    {
+      "id": "705356da-d686-4b9f-ada9-4393af48fa7c",
+      "name": "NASCAR Cup Series at Sonoma",
+      "start_date": "2026-06-28",
+      "track": {
+        "name": "Sonoma Raceway",
+        "market": "Sonoma",
+        "completed": 1968,
+        "distance": 1.99,
+        "shape": "Road Course",
+        "banking": "11 Turns varying",
+        "frontstretch": 0,
+        "backstretch": 0,
+        "address": "29355 Arnold Drive",
+        "city": "Sonoma",
+        "state": "California",
+        "zip": "95476",
+        "country": "USA",
+        "surface": "Road",
+        "track_type": "Road Course",
+        "owner": "Speedway Motorsports Inc.",
+        "id": "496fc152-b10f-4941-8439-f933eaae2e13",
+        "lat": "38.1609192",
+        "lng": "-122.4548354"
+      },
+      "races": [
+        {
+          "id": "701fbdc0-c6f4-4719-b803-fd4af99180fd",
+          "name": "Save Mart 350",
+          "status": "scheduled",
+          "number": 18,
+          "distance": 219,
+          "laps": 110,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 25,
+          "stage_2_laps": 30,
+          "stage_3_laps": 55,
+          "parent_id": "511afad6-2581-4211-90ea-7977a2aba859",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-06-27T18:30:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-06-27T19:40:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-06-28T19:30:00+00:00",
+          "start_time": "2026-06-28T19:30:00+00:00",
+          "broadcast": {
+            "network": "TNT",
+            "satellite": "245",
+            "radio": "PRN"
+          },
+          "prior_winner": {
+            "first_name": "Shane",
+            "last_name": "Van Gisbergen",
+            "full_name": "Shane Van Gisbergen",
+            "id": "13a58b0b-011e-4a0a-8942-6364004cfea7"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6794e90a-6a2a-4d77-a72d-603834ffa4df",
+      "name": "NASCAR Cup Series at Chicagoland",
+      "start_date": "2026-07-05",
+      "track": {
+        "name": "Chicagoland Speedway",
+        "market": "Joliet",
+        "completed": 2001,
+        "distance": 1.5,
+        "shape": "D-Shaped Oval",
+        "banking": "Turns:18;Backstretch:5;Tri-Oval:11",
+        "frontstretch": 2400,
+        "backstretch": 1700,
+        "address": "500 Speedway Blvd",
+        "city": "Joliet",
+        "state": "Illinois",
+        "zip": "60433",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "International Speedway Corp.",
+        "id": "0e9dda94-eb5b-49e6-a09f-0869b82ce30b",
+        "lat": "41.44288",
+        "lng": "-88.090588"
+      },
+      "races": [
+        {
+          "id": "c13c3ee2-540a-49db-9531-65f357e20093",
+          "name": "NASCAR Cup Series Race at Chicagoland",
+          "status": "scheduled",
+          "number": 19,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 80,
+          "stage_2_laps": 85,
+          "stage_3_laps": 102,
+          "parent_id": "edeabef5-80e0-4d9a-8d7b-6bca56dc9b78",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-07-03T22:00:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-07-04T19:30:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-07-05T22:00:00+00:00",
+          "start_time": "2026-07-05T22:00:00+00:00",
+          "broadcast": {
+            "network": "TNT",
+            "satellite": "245",
+            "radio": "MRN"
+          }
+        }
+      ]
+    },
+    {
+      "id": "43249e93-8ead-49d5-a898-a2af6fb5085e",
+      "name": "NASCAR Cup Series at Atlanta",
+      "start_date": "2026-07-12",
+      "track": {
+        "name": "EchoPark Speedway",
+        "market": "Atlanta",
+        "completed": 1960,
+        "distance": 1.54,
+        "shape": "Quad-Oval",
+        "banking": "Turns:24; Backstretch:5;Tri-Oval:5",
+        "frontstretch": 2332,
+        "backstretch": 1800,
+        "address": "1500 Highways 19 & 41 South",
+        "city": "Hampton",
+        "state": "Georgia",
+        "zip": "30228",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Superspeedway",
+        "owner": "Speedway Motorsports Inc.",
+        "id": "75494065-bf21-4039-8d99-b8e438c8b4a4",
+        "lat": "33.3853713",
+        "lng": "-84.3051564"
+      },
+      "races": [
+        {
+          "id": "a6ac693c-e982-424c-bcb1-6e5327cce183",
+          "name": "Quaker State 400 Available at Walmart",
+          "status": "scheduled",
+          "number": 20,
+          "distance": 400,
+          "laps": 260,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 60,
+          "stage_2_laps": 100,
+          "stage_3_laps": 40,
+          "parent_id": "03a114f7-f16f-4ca5-a54e-8a06628ba2d9",
+          "qualifying_start_time": "2026-07-11T20:30:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-07-12T23:00:00+00:00",
+          "start_time": "2026-07-12T23:00:00+00:00",
+          "broadcast": {
+            "network": "TNT",
+            "satellite": "242",
+            "radio": "PRN"
+          },
+          "prior_winner": {
+            "first_name": "Chase",
+            "last_name": "Elliott",
+            "full_name": "Chase Elliott",
+            "id": "5fd3e3fb-322f-4157-ae41-9317fba1997d"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1361a12b-d7bb-4639-9458-04db96c1aca9",
+      "name": "NASCAR Cup Series at North Wilkesboro",
+      "start_date": "2026-07-19",
+      "track": {
+        "name": "North Wilkesboro Speedway",
+        "market": "North Wilkesboro",
+        "completed": 1949,
+        "distance": 0.625,
+        "shape": "Oval",
+        "banking": "Turns: 14 degrees; Backstretch: 3; Frontstretch: 3",
+        "address": "381 Speedway Lane",
+        "city": "North Wilkesboro",
+        "state": "North Carolina",
+        "zip": "28659",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Short Track",
+        "id": "b6971a30-705c-46eb-9c54-6201d5832ef7",
+        "lat": "36.144549",
+        "lng": "-81.076988"
+      },
+      "races": [
+        {
+          "id": "0174a40a-eb44-4819-99c2-1d63650a3f07",
+          "name": "Window World 450",
+          "status": "scheduled",
+          "number": 21,
+          "distance": 281,
+          "laps": 450,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 80,
+          "stage_2_laps": 185,
+          "stage_3_laps": 185,
+          "parent_id": "d1728d30-18f1-42db-9083-ec0ffb5a9284",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-07-19T23:00:00+00:00",
+          "broadcast": {
+            "network": "TNT",
+            "satellite": "245",
+            "radio": "PRN"
+          },
+          "prior_winner": {
+            "first_name": "Christopher",
+            "last_name": "Bell",
+            "full_name": "Christopher Bell",
+            "id": "16497cd0-5add-407a-b9a8-eec7d62e413b"
+          }
+        }
+      ]
+    },
+    {
+      "id": "beef7382-5c9b-419d-8a64-06e0ac3cb417",
+      "name": "NASCAR Cup Series at Indianpolis",
+      "start_date": "2026-07-26",
+      "track": {
+        "name": "Indianapolis Motor Speedway",
+        "market": "Indianapolis",
+        "completed": 1909,
+        "distance": 2.5,
+        "shape": "Oval",
+        "banking": "Turns:9;Backstretch:0;Frontstretch:0",
+        "frontstretch": 3330,
+        "backstretch": 3330,
+        "address": "4790 West 16th Street",
+        "city": "Speedway",
+        "state": "Indiana",
+        "zip": "46222",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "Indianapolis Motor Speedway",
+        "id": "421c2846-3b70-4ed9-acdf-be3dbe4957b6",
+        "lat": "39.7903186",
+        "lng": "-86.2336932"
+      },
+      "races": [
+        {
+          "id": "c0131c8a-af78-4e04-8565-79ac32b6cd5d",
+          "name": "Brickyard 400",
+          "status": "scheduled",
+          "number": 22,
+          "distance": 400,
+          "laps": 160,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 50,
+          "stage_2_laps": 50,
+          "stage_3_laps": 60,
+          "parent_id": "bf1af85a-4605-4642-abd0-c3154bc6e71a",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-07-24T17:00:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-07-25T18:00:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-07-26T18:00:00+00:00",
+          "start_time": "2026-07-26T18:00:00+00:00",
+          "broadcast": {
+            "network": "TNT",
+            "satellite": "245",
+            "radio": "IMS"
+          },
+          "prior_winner": {
+            "first_name": "Bubba",
+            "last_name": "Wallace",
+            "full_name": "Bubba Wallace",
+            "id": "939e647d-756f-41d7-ad65-609344f64bd5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7af7e02-e6eb-411d-bd80-95c783f86d26",
+      "name": "NASCAR Cup Series at Iowa",
+      "start_date": "2026-08-09",
+      "track": {
+        "name": "Iowa Speedway",
+        "market": "Iowa",
+        "completed": 2006,
+        "distance": 0.875,
+        "shape": "Tri-Oval",
+        "banking": "Degree of Banking on Turns: 12-14 degrees; Degree of Banking on Frontstretch: 10 degrees; Degree of Banking on Backstretch: 4 degrees",
+        "frontstretch": 1075,
+        "backstretch": 869,
+        "address": "3333 Rusty Wallace Drive",
+        "city": "Newton",
+        "state": "Iowa",
+        "zip": "50208",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Short Track",
+        "owner": "Clement Family/Rusty Wallace",
+        "id": "6c9c2390-93fc-47e7-a788-4bfbed7b3c3c",
+        "lat": "41.6798052",
+        "lng": "-93.0197377"
+      },
+      "races": [
+        {
+          "id": "ccb66b4a-209f-4253-8ec9-c3a78e14da59",
+          "name": "Iowa Corn 350 Powered by Ethanol",
+          "status": "scheduled",
+          "number": 23,
+          "distance": 306,
+          "laps": 350,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 70,
+          "stage_2_laps": 140,
+          "stage_3_laps": 140,
+          "parent_id": "db59ff2e-210d-4166-bde5-7e2abae0a6cc",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-08-08T18:00:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-08-08T19:10:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-08-09T19:30:00+00:00",
+          "start_time": "2026-08-09T19:30:00+00:00",
+          "broadcast": {
+            "network": "USA",
+            "satellite": "245",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "William",
+            "last_name": "Byron",
+            "full_name": "William Byron",
+            "id": "c9bf58a8-66b6-4d75-a441-c13130ded990"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fb3fb4ec-c293-4161-9e8b-0eb6cbb7035b",
+      "name": "NASCAR Cup Series at Richmond",
+      "start_date": "2026-08-15",
+      "track": {
+        "name": "Richmond Raceway",
+        "market": "Richmond",
+        "completed": 1946,
+        "distance": 0.75,
+        "shape": "Tri-Oval",
+        "banking": "Turns:14;Backstretch:8;Frontstretch:2",
+        "frontstretch": 1290,
+        "backstretch": 860,
+        "address": "600 East Laburnum Avenue",
+        "city": "Richmond",
+        "state": "Virginia",
+        "zip": "23222",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Short Track",
+        "owner": "International Speedway Corp.",
+        "id": "734227a1-a32f-40bf-b174-0c0e7aa0d696",
+        "lat": "37.5922778",
+        "lng": "-77.4193382"
+      },
+      "races": [
+        {
+          "id": "52413f8b-728a-4e0b-850b-533ce5ed928b",
+          "name": "Cook Out 400",
+          "status": "scheduled",
+          "number": 24,
+          "distance": 300,
+          "laps": 400,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 70,
+          "stage_2_laps": 160,
+          "stage_3_laps": 170,
+          "parent_id": "cd9d4aeb-35b9-4678-8367-9ad3e975b68a",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-08-14T19:30:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-08-14T20:40:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-08-15T23:00:00+00:00",
+          "start_time": "2026-08-15T23:00:00+00:00",
+          "broadcast": {
+            "network": "USA",
+            "satellite": "245",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Austin",
+            "last_name": "Dillon",
+            "full_name": "Austin Dillon",
+            "id": "8853e676-384e-4d08-8808-970fd111f36a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8c0a9a68-0ab9-4bb7-8bf9-7982924fb510",
+      "name": "NASCAR Cup Series at New Hampshire",
+      "start_date": "2026-08-23",
+      "track": {
+        "name": "New Hampshire Motor Speedway",
+        "market": "Loudon",
+        "completed": 1990,
+        "distance": 1.058,
+        "shape": "Oval",
+        "banking": "Turns: 2 & 7; Backstretch:1; Frontstretch:1",
+        "frontstretch": 1500,
+        "backstretch": 1500,
+        "address": "1122 Rte. 106 North",
+        "city": "Loudon",
+        "state": "New Hampshire",
+        "zip": "03307",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "Speedway Motorsports Inc.",
+        "id": "cd705ff5-045b-4c96-a96e-74a98b5f95af",
+        "lat": "43.3616662",
+        "lng": "-71.4649443"
+      },
+      "races": [
+        {
+          "id": "89a17033-389b-42cd-9bd5-2eb01653a699",
+          "name": "NASCAR Cup Series Race at New Hampshire",
+          "status": "scheduled",
+          "number": 25,
+          "distance": 318,
+          "laps": 301,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 70,
+          "stage_2_laps": 115,
+          "stage_3_laps": 116,
+          "parent_id": "1cb91cda-1f27-4286-8e3b-378cd0f3b0f1",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-08-22T14:30:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-08-22T15:40:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-08-23T19:00:00+00:00",
+          "start_time": "2026-08-23T19:00:00+00:00",
+          "broadcast": {
+            "network": "USA",
+            "satellite": "245",
+            "radio": "PRN"
+          },
+          "prior_winner": {
+            "first_name": "Ryan",
+            "last_name": "Blaney",
+            "full_name": "Ryan Blaney",
+            "id": "67948099-4196-4e1b-ae9e-b437aa99000a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8715fbac-e9de-4f00-83ab-31621b6ff5bc",
+      "name": "NASCAR Cup Series at Daytona",
+      "start_date": "2026-08-29",
+      "track": {
+        "name": "Daytona International Speedway",
+        "market": "Daytona Beach",
+        "completed": 1958,
+        "distance": 2.5,
+        "shape": "Tri-Oval",
+        "banking": "Turns: 31, Tri-Oval: 18, Backstretch: 3",
+        "frontstretch": 3800,
+        "backstretch": 3000,
+        "address": "1801 West International Speedway Blvd.",
+        "city": "Daytona Beach",
+        "state": "Florida",
+        "zip": "32114-1243",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Superspeedway",
+        "owner": "International Speedway Corp.",
+        "id": "6ff97f68-2e9d-4fe6-8cd8-2969e1d3570b",
+        "lat": "29.192994",
+        "lng": "-81.067"
+      },
+      "races": [
+        {
+          "id": "f5eaf2fb-2922-43f3-bc31-8676022734a2",
+          "name": "Coke Zero Sugar 400",
+          "status": "scheduled",
+          "number": 26,
+          "distance": 400,
+          "laps": 160,
+          "chase_race": false,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 35,
+          "stage_2_laps": 60,
+          "stage_3_laps": 65,
+          "parent_id": "3cfcbbc5-c692-4efb-8fdf-e5c1eb55fa64",
+          "qualifying_start_time": "2026-08-28T21:00:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-08-29T23:30:00+00:00",
+          "start_time": "2026-08-29T23:30:00+00:00",
+          "broadcast": {
+            "network": "NBC",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Ryan",
+            "last_name": "Blaney",
+            "full_name": "Ryan Blaney",
+            "id": "67948099-4196-4e1b-ae9e-b437aa99000a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c880ca8f-c5b0-4280-a93a-41d0b7736e72",
+      "name": "NASCAR Cup Series at Darlington",
+      "start_date": "2026-09-06",
+      "track": {
+        "name": "Darlington Raceway",
+        "market": "Darlington",
+        "completed": 1950,
+        "distance": 1.366,
+        "shape": "Oval",
+        "banking": "Turns:23-25;Backstretch:6;Frontstretch:6",
+        "frontstretch": 1229,
+        "backstretch": 1229,
+        "address": "1301 Harry Byrd Hwy",
+        "city": "Darlington",
+        "state": "South Carolina",
+        "zip": "29532",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "International Speedway Corp.",
+        "id": "aab526c7-4279-4693-9cb1-90e3c7b974fc",
+        "lat": "34.2983137",
+        "lng": "-79.910261"
+      },
+      "races": [
+        {
+          "id": "4116a61a-98d1-420b-bc4f-4771b69f17f7",
+          "name": "Cook Out Southern 500",
+          "status": "scheduled",
+          "number": 27,
+          "distance": 501,
+          "laps": 367,
+          "chase_race": true,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 115,
+          "stage_2_laps": 115,
+          "stage_3_laps": 137,
+          "parent_id": "44cb4027-198c-4f23-96bc-6a33e4bcc6ae",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-09-06T21:00:00+00:00",
+          "broadcast": {
+            "network": "USA",
+            "satellite": "245",
+            "radio": "PRN"
+          },
+          "prior_winner": {
+            "first_name": "Chase",
+            "last_name": "Briscoe",
+            "full_name": "Chase Briscoe",
+            "id": "25ca1ab3-b013-48cb-b4a4-c10fb45ba397"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3ccd18e0-25d7-454c-9eda-c38a09518eab",
+      "name": "NASCAR Cup Series at Gateway",
+      "start_date": "2026-09-13",
+      "track": {
+        "name": "World Wide Technology Raceway at Gateway",
+        "market": "St. Louis",
+        "completed": 1967,
+        "distance": 1.25,
+        "shape": "Oval",
+        "frontstretch": 1922,
+        "backstretch": 1976,
+        "address": "700 Raceway Blvd.",
+        "city": "Madison",
+        "state": "Illinois",
+        "zip": "62060",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "Dover Motorsports Inc.",
+        "id": "0562038b-e8cc-4f69-b29a-59c46aae8f6d",
+        "lat": "38.6481202",
+        "lng": "-90.1331453"
+      },
+      "races": [
+        {
+          "id": "51593289-9cac-42cd-a421-989443ddd737",
+          "name": "Enjoy Illinois 300",
+          "status": "scheduled",
+          "number": 28,
+          "distance": 300,
+          "laps": 240,
+          "chase_race": true,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 45,
+          "stage_2_laps": 95,
+          "stage_3_laps": 100,
+          "parent_id": "fe838e06-886e-454f-9deb-8676ce43d5cf",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-09-12T19:30:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-09-12T20:40:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-09-13T19:00:00+00:00",
+          "start_time": "2026-09-13T19:00:00+00:00",
+          "broadcast": {
+            "network": "USA",
+            "satellite": "245",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Denny",
+            "last_name": "Hamlin",
+            "full_name": "Denny Hamlin",
+            "id": "cb9d6f49-0044-4305-be9a-22d428e52c95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ab4da7b9-2209-4389-b175-4594e7cd976c",
+      "name": "NASCAR Cup Series at Bristol",
+      "start_date": "2026-09-19",
+      "track": {
+        "name": "Bristol Motor Speedway",
+        "market": "Bristol",
+        "completed": 1961,
+        "distance": 0.533,
+        "shape": "Oval",
+        "banking": "Turns:36;Backstretch:4-8;Frontstretch:5-9",
+        "frontstretch": 650,
+        "backstretch": 650,
+        "address": "151 Speedway Blvd.",
+        "city": "Bristol",
+        "state": "Tennessee",
+        "zip": "37620",
+        "country": "USA",
+        "surface": "Concrete",
+        "track_type": "Short Track",
+        "owner": "Speedway Motorsports Inc.",
+        "id": "18fcc226-bc18-4b66-80fb-4867b654e588",
+        "lat": "36.515656",
+        "lng": "-82.2586316"
+      },
+      "races": [
+        {
+          "id": "ef6b2fc1-42f1-456a-ac45-0e11408c5473",
+          "name": "Bass Pro Shops Night Race",
+          "status": "scheduled",
+          "number": 29,
+          "distance": 266,
+          "laps": 500,
+          "chase_race": true,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 125,
+          "stage_2_laps": 125,
+          "stage_3_laps": 250,
+          "parent_id": "932279df-6cae-45b7-a0b0-680e7ab02144",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-09-18T20:30:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-09-18T21:40:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-09-19T23:30:00+00:00",
+          "start_time": "2026-09-19T23:30:00+00:00",
+          "broadcast": {
+            "network": "USA",
+            "satellite": "245",
+            "radio": "PRN"
+          },
+          "prior_winner": {
+            "first_name": "Kyle",
+            "last_name": "Larson",
+            "full_name": "Kyle Larson",
+            "id": "a756eefd-801d-4214-ab1b-0b595c21c37d"
+          }
+        }
+      ]
+    },
+    {
+      "id": "63f55d67-fd4f-4ea0-99c3-2357cb02faac",
+      "name": "NASCAR Cup Series at Kansas",
+      "start_date": "2026-09-27",
+      "track": {
+        "name": "Kansas Speedway",
+        "market": "Kansas City",
+        "completed": 2001,
+        "distance": 1.5,
+        "shape": "D-Shaped Oval",
+        "banking": "Turns:15;Backstretch:5:Frontstretch:10.4",
+        "frontstretch": 2685,
+        "backstretch": 2207,
+        "address": "400 Speedway Blvd.",
+        "city": "Kansas City",
+        "state": "Kansas",
+        "zip": "66111",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "International Speedway Corp.",
+        "id": "42d3569d-cc77-4072-88d5-f63046eddf39",
+        "lat": "39.109509",
+        "lng": "-94.822326"
+      },
+      "races": [
+        {
+          "id": "28c8560f-d8bf-463d-9d3b-9a4571177e51",
+          "name": "Hollywood Casino 400",
+          "status": "scheduled",
+          "number": 30,
+          "distance": 400,
+          "laps": 267,
+          "chase_race": true,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 80,
+          "stage_2_laps": 85,
+          "stage_3_laps": 102,
+          "parent_id": "2cd88887-3bf0-4132-9c04-32071860f66c",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-09-26T14:00:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-09-26T15:10:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-09-27T19:00:00+00:00",
+          "start_time": "2026-09-27T19:00:00+00:00",
+          "broadcast": {
+            "network": "USA",
+            "satellite": "245",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Chase",
+            "last_name": "Elliott",
+            "full_name": "Chase Elliott",
+            "id": "5fd3e3fb-322f-4157-ae41-9317fba1997d"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7ac8e216-9a18-4a61-bf6e-3799e3a22d8b",
+      "name": "NASCAR Cup Series at Las Vegas",
+      "start_date": "2026-10-04",
+      "track": {
+        "name": "Las Vegas Motor Speedway",
+        "market": "Las Vegas",
+        "completed": 1996,
+        "distance": 1.5,
+        "shape": "D-Shaped Oval",
+        "banking": "Turns: 20, Frontstretch: 9, Backstretch: 9",
+        "frontstretch": 2275,
+        "backstretch": 1572,
+        "address": "7000 Las Vegas Blvd. North",
+        "city": "Las Vegas",
+        "state": "Nevada",
+        "zip": "89115",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "Speedway Motorsports Inc.",
+        "id": "9580816f-e17c-4167-8402-ba16725bcb19",
+        "lat": "36.270742",
+        "lng": "-115.002761"
+      },
+      "races": [
+        {
+          "id": "7e57d403-b800-4db7-8cb2-b2a2a177b4d9",
+          "name": "South Point 400",
+          "status": "scheduled",
+          "number": 31,
+          "distance": 400,
+          "laps": 267,
+          "chase_race": true,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 80,
+          "stage_2_laps": 85,
+          "stage_3_laps": 102,
+          "parent_id": "2336cc90-9a7e-4b1b-84a8-b71ea6febcf0",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-10-03T20:30:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-10-03T21:40:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-10-04T21:30:00+00:00",
+          "start_time": "2026-10-04T21:30:00+00:00",
+          "broadcast": {
+            "network": "USA",
+            "satellite": "245",
+            "radio": "PRN"
+          },
+          "prior_winner": {
+            "first_name": "Denny",
+            "last_name": "Hamlin",
+            "full_name": "Denny Hamlin",
+            "id": "cb9d6f49-0044-4305-be9a-22d428e52c95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9edd1bfa-e9b6-46ea-96f0-683606939d0c",
+      "name": "NASCAR Cup Series at Charlotte",
+      "start_date": "2026-10-11",
+      "track": {
+        "name": "Charlotte Motor Speedway",
+        "market": "Charlotte",
+        "completed": 1960,
+        "distance": 1.5,
+        "shape": "Quad-Oval",
+        "banking": "Turns:24;Backstretch:5;Frontstretch:5",
+        "frontstretch": 1980,
+        "backstretch": 1500,
+        "address": "5555 Concord Parkway South",
+        "city": "Concord",
+        "state": "North Carolina",
+        "zip": "28027",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "Speedway Motorsports Inc.",
+        "id": "c0ae0e00-9899-4d01-869b-56a4763cc54d",
+        "lat": "35.36089",
+        "lng": "-80.6872753"
+      },
+      "races": [
+        {
+          "id": "5900cc11-4702-4a13-82fe-88add3921db5",
+          "name": "Bank of America 400",
+          "status": "scheduled",
+          "number": 32,
+          "distance": 267,
+          "laps": 401,
+          "chase_race": true,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 0,
+          "stage_2_laps": 0,
+          "stage_3_laps": 0,
+          "parent_id": "f4fb98cf-fac9-4b69-96c7-6b7347edac6c",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-10-11T19:00:00+00:00",
+          "broadcast": {
+            "network": "USA",
+            "satellite": "242",
+            "radio": "PRN"
+          },
+          "prior_winner": {
+            "first_name": "Martin",
+            "last_name": "Truex",
+            "full_name": "Martin Truex Jr",
+            "id": "4d95ef3a-46cc-43c2-b340-c92cea2ed7f8"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9e91f4fb-98ba-4eec-b4d5-024f14c53ac2",
+      "name": "NASCAR Cup Series at Phoenix",
+      "start_date": "2026-10-18",
+      "track": {
+        "name": "Phoenix Raceway",
+        "market": "Phoenix",
+        "completed": 1964,
+        "distance": 1,
+        "shape": "Tri-Oval",
+        "banking": "Turns1-2:11;Turns3-4:9;Backstretch:9;Frontstretch:3",
+        "frontstretch": 1179,
+        "backstretch": 1551,
+        "address": "7602 S 115th Avenue",
+        "city": "Avondale",
+        "state": "Arizona",
+        "zip": "85323",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "International Speedway Corp.",
+        "id": "5dc82850-ba60-4bd6-8ce3-4e07e8094a83",
+        "lat": "33.3786899",
+        "lng": "-112.3097338"
+      },
+      "races": [
+        {
+          "id": "e6d965b5-db40-43b0-a3b5-5551d00307bb",
+          "name": "Freeway Insurance 500",
+          "status": "scheduled",
+          "number": 33,
+          "distance": 312,
+          "laps": 312,
+          "chase_race": true,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 60,
+          "stage_2_laps": 125,
+          "stage_3_laps": 127,
+          "parent_id": "5a0898e5-3f7b-4d7d-8171-5b646e5867ab",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-10-17T20:30:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-10-17T21:40:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-10-18T19:00:00+00:00",
+          "start_time": "2026-10-18T19:00:00+00:00",
+          "broadcast": {
+            "network": "USA",
+            "satellite": "245",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Ryan",
+            "last_name": "Blaney",
+            "full_name": "Ryan Blaney",
+            "id": "67948099-4196-4e1b-ae9e-b437aa99000a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "0ad8a625-7ac8-4c69-8742-91f0adde0aea",
+      "name": "NASCAR Cup Series at Talladega",
+      "start_date": "2026-10-25",
+      "track": {
+        "name": "Talladega Superspeedway",
+        "market": "Talladega",
+        "completed": 1969,
+        "distance": 2.66,
+        "shape": "Tri-Oval",
+        "banking": "Turns:33;Backstretch:2;Frontstretch:16.5",
+        "frontstretch": 4300,
+        "backstretch": 4000,
+        "address": "3366 Speedway Blvd.",
+        "city": "Talladega",
+        "state": "Alabama",
+        "zip": "35160",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Superspeedway",
+        "owner": "International Speedway Corp.",
+        "id": "83e96e25-19f7-4538-809c-24e888cc3e41",
+        "lat": "33.5649286",
+        "lng": "-86.0665668"
+      },
+      "races": [
+        {
+          "id": "ca0f6238-d2c1-4248-9b0c-6d9ca861c85f",
+          "name": "Yellawood 500",
+          "status": "scheduled",
+          "number": 34,
+          "distance": 500,
+          "laps": 188,
+          "chase_race": true,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 60,
+          "stage_2_laps": 60,
+          "stage_3_laps": 68,
+          "parent_id": "71a3fb23-75d0-40ee-af7f-bb0a59acbba5",
+          "qualifying_start_time": "2026-10-24T17:00:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-10-25T18:00:00+00:00",
+          "start_time": "2026-10-25T18:00:00+00:00",
+          "broadcast": {
+            "network": "NBC",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Chase",
+            "last_name": "Briscoe",
+            "full_name": "Chase Briscoe",
+            "id": "25ca1ab3-b013-48cb-b4a4-c10fb45ba397"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e29ef011-bc31-4b82-a989-451bd7c30ddc",
+      "name": "NASCAR Cup Series at Martinsville",
+      "start_date": "2026-11-01",
+      "track": {
+        "name": "Martinsville Speedway",
+        "market": "Martinsville",
+        "completed": 1947,
+        "distance": 0.526,
+        "shape": "Oval",
+        "banking": "Turns:12;Backstretch:0;Frontstretch:0",
+        "frontstretch": 800,
+        "backstretch": 800,
+        "address": "340 Speedway Road",
+        "city": "Ridgeway",
+        "state": "Virginia",
+        "zip": "24112",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Short Track",
+        "owner": "International Speedway Corp.",
+        "id": "409dd8fb-2ab9-4181-9f0f-99545083b689",
+        "lat": "36.6340917",
+        "lng": "-79.8519044"
+      },
+      "races": [
+        {
+          "id": "8fd775d6-cd8c-42a2-8e5e-42cb17764d84",
+          "name": "Xfinity 500",
+          "status": "scheduled",
+          "number": 35,
+          "distance": 263,
+          "laps": 500,
+          "chase_race": true,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 130,
+          "stage_2_laps": 130,
+          "stage_3_laps": 240,
+          "parent_id": "390f6b71-739e-439d-a4e9-de9fa659aacd",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-11-01T19:00:00+00:00",
+          "broadcast": {
+            "network": "NBC",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "William",
+            "last_name": "Byron",
+            "full_name": "William Byron",
+            "id": "c9bf58a8-66b6-4d75-a441-c13130ded990"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6d258cb1-5ce3-4d9d-8dd5-cb18f5eb8948",
+      "name": "NASCAR Cup Series at Homestead-Miami",
+      "start_date": "2026-11-08",
+      "track": {
+        "name": "Homestead-Miami Speedway",
+        "market": "Homestead",
+        "completed": 1999,
+        "distance": 1.5,
+        "shape": "Oval",
+        "banking": "Turns:18-20;Backstretch:4;Frontstretch:4",
+        "frontstretch": 1760,
+        "backstretch": 1760,
+        "address": "One Speedway Blvd.",
+        "city": "Homestead",
+        "state": "Florida",
+        "zip": "33035-1500",
+        "country": "USA",
+        "surface": "Paved",
+        "track_type": "Intermediate",
+        "owner": "International Speedway Corp.",
+        "id": "9e171ce2-7b98-4bed-b870-a01d7e393cda",
+        "lat": "25.455509",
+        "lng": "-80.41191"
+      },
+      "races": [
+        {
+          "id": "de3ae787-5f01-4930-a6a5-cfba4e0ac3ac",
+          "name": "NASCAR Cup Series Championship Race",
+          "status": "scheduled",
+          "number": 36,
+          "distance": 400,
+          "laps": 267,
+          "chase_race": true,
+          "heat_race": false,
+          "award_pole": true,
+          "stage_count": 2,
+          "stage_1_laps": 80,
+          "stage_2_laps": 85,
+          "stage_3_laps": 102,
+          "parent_id": "22100db4-ce2f-43ba-9361-4ed773b06a2d",
+          "practices": [
+            {
+              "sequence": 1,
+              "status": "scheduled",
+              "start_time": "2026-11-06T22:30:00+00:00"
+            }
+          ],
+          "qualifying_start_time": "2026-11-07T19:30:00+00:00",
+          "qualifying_status": "scheduled",
+          "scheduled": "2026-11-08T20:00:00+00:00",
+          "start_time": "2026-11-08T20:00:00+00:00",
+          "broadcast": {
+            "network": "NBC",
+            "radio": "MRN"
+          },
+          "prior_winner": {
+            "first_name": "Kyle",
+            "last_name": "Larson",
+            "full_name": "Kyle Larson",
+            "id": "a756eefd-801d-4214-ab1b-0b595c21c37d"
+          }
+        }
+      ]
+    }
+  ]
+}
