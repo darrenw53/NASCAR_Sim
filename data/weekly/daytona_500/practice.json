@@ -3,11 +3,11 @@ Practice
 {
   "id": "5fb60476-dd14-4efd-821a-dbc4656d58cb",
   "name": "DAYTONA 500",
-  "status": "prerace",
-  "condition": "conditions_caution",
+  "status": "qualifying",
+  "condition": "warmup",
   "number": 1,
   "distance": 500,
-  "laps": 200,
+  "laps": 999,
   "chase_race": false,
   "heat_race": false,
   "award_pole": true,
@@ -141,7 +141,7 @@ Practice
             "first_name": "Corey",
             "last_name": "LaJoie",
             "full_name": "Corey LaJoie",
-            "points_eligible": true,
+            "points_eligible": false,
             "in_chase": false,
             "id": "68b9a7ed-c810-4c0d-a330-7a99b90c2587"
           }
@@ -322,7 +322,7 @@ Practice
             "first_name": "Corey",
             "last_name": "Heim",
             "full_name": "Corey Heim",
-            "points_eligible": true,
+            "points_eligible": false,
             "in_chase": false,
             "id": "65633f63-647c-47d1-94c6-cdef425cda1e"
           }
@@ -721,7 +721,7 @@ Practice
             "first_name": "Justin",
             "last_name": "Allgaier",
             "full_name": "Justin Allgaier",
-            "points_eligible": true,
+            "points_eligible": false,
             "in_chase": false,
             "id": "e13afeb8-b199-4bf5-8404-5edfdc617565"
           }
@@ -972,7 +972,7 @@ Practice
             "first_name": "Anthony",
             "last_name": "Alfredo",
             "full_name": "Anthony Alfredo",
-            "points_eligible": true,
+            "points_eligible": false,
             "in_chase": false,
             "id": "434eb5c2-23e5-44c3-ac41-9695c900d748"
           }
@@ -1275,7 +1275,7 @@ Practice
             "first_name": "Chandler",
             "last_name": "Smith",
             "full_name": "Chandler Smith",
-            "points_eligible": true,
+            "points_eligible": false,
             "in_chase": false,
             "id": "e989356d-2e28-4e5d-95a1-0b8a06d668dc"
           }
@@ -1480,7 +1480,7 @@ Practice
             "first_name": "BJ",
             "last_name": "McLeod",
             "full_name": "BJ McLeod",
-            "points_eligible": true,
+            "points_eligible": false,
             "in_chase": false,
             "id": "5ae1a122-28a3-461b-82e0-955c0d1132fa"
           }
@@ -1549,7 +1549,7 @@ Practice
             "first_name": "JJ",
             "last_name": "Yeley",
             "full_name": "JJ Yeley",
-            "points_eligible": true,
+            "points_eligible": false,
             "in_chase": false,
             "id": "32251b56-7387-4ade-8482-0917553218f4"
           }
@@ -1572,4 +1572,3 @@ Practice
     }
   ]
 }
-
