@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import os
 import re
 from pathlib import Path
 import json
@@ -36,6 +35,20 @@ DATA_DRIVERS = ROOT / "data" / "drivers"
 DATA_FD = ROOT / "data" / "fan_duel"
 
 
+def name_key(s: str) -> str:
+    """Normalize driver names to match across sources (handles Jr/Sr/initials/punctuation)."""
+    s = (s or "").lower().strip()
+    s = re.sub(r"[^\w\s]", "", s)                 # remove punctuation
+    s = re.sub(r"\b(jr|sr|ii|iii|iv|v)\b", "", s) # remove suffix tokens
+    s = " ".join(s.split())
+    parts = s.split()
+    if not parts:
+        return ""
+    if len(parts) == 1:
+        return parts[0]
+    return f"{parts[0]} {parts[-1]}"              # first + last
+
+
 @st.cache_data(show_spinner=False)
 def list_races() -> list[str]:
     if not DATA_WEEKLY.exists():
@@ -46,8 +59,10 @@ def list_races() -> list[str]:
 @st.cache_data(show_spinner=False)
 def load_week(race_slug: str):
     week_dir = DATA_WEEKLY / race_slug
+
     notes_path = week_dir / "notes.json"
-    notes = json.loads(notes_path.read_text()) if notes_path.exists() else {}
+    notes = json.loads(notes_path.read_text(encoding="utf-8")) if notes_path.exists() else {}
+
     results_dir = week_dir / "race_results"
     results_all = load_results_folder(results_dir) if results_dir.exists() else pd.DataFrame()
 
@@ -85,27 +100,6 @@ def build_driver_table(
     fd_df,
     weights: dict[str, float],
 ) -> pd.DataFrame:
-    # ---
-    # Name matching note:
-    # FanDuel names are typically "First Last" (no punctuation/suffix), while practice/qual feeds
-    # often include middle initials or suffixes (e.g., "John H. Nemechek", "Ricky Stenhouse Jr").
-    # We merge on a normalized key to avoid everything falling back to 0.50.
-
-    def _name_key(s: str) -> str:
-        s = (s or "").lower().strip()
-        # remove punctuation (periods, apostrophes, etc.)
-        s = re.sub(r"[^\w\s]", "", s)
-        # remove common suffixes
-        s = re.sub(r"\b(jr|sr|ii|iii|iv|v)\b", "", s).strip()
-        # keep first + last token (handles middle initials)
-        parts = s.split()
-        if not parts:
-            return ""
-        if len(parts) == 1:
-            return parts[0]
-        return f"{parts[0]} {parts[-1]}"
-
-    # Build component tables (copy to avoid mutating cached inputs)
     hist = build_track_history_score(results_all).copy()
     prac = build_practice_score(practice_df).copy()
     qual = build_qualifying_score(qual_df).copy()
@@ -113,14 +107,13 @@ def build_driver_table(
 
     # Start from FanDuel pool so optimizer always has salary data
     df = fd_df.copy()
-    df["name_key"] = df["driver_name"].astype(str).apply(_name_key)
+    df["name_key"] = df["driver_name"].astype(str).apply(name_key)
 
-    # Add normalized keys to feature tables
-    for _tbl in (hist, prac, qual, base):
-        if "driver_name" in _tbl.columns:
-            _tbl["name_key"] = _tbl["driver_name"].astype(str).apply(_name_key)
+    for t in (hist, prac, qual, base):
+        if "driver_name" in t.columns:
+            t["name_key"] = t["driver_name"].astype(str).apply(name_key)
 
-    # Merge on name_key to prevent mismatch from initials/suffixes
+    # Merge via normalized key (prevents "John H. Nemechek" vs "John Nemechek" issues)
     if "driver_name" in hist.columns:
         df = df.merge(hist.drop(columns=["driver_name"]), on="name_key", how="left")
     else:
@@ -141,7 +134,6 @@ def build_driver_table(
     else:
         df = df.merge(base, on="name_key", how="left", suffixes=("", "_b"))
 
-    # Restore display name (FanDuel) and remove key
     df = df.drop(columns=["name_key"])
 
     # Neutral fill for missing scores
@@ -158,7 +150,6 @@ def build_driver_table(
         + w["baseline"] * df["baseline_score"]
     ).clip(0, 1)
 
-    # Helpful display columns
     keep = [
         "driver_name",
         "salary",
@@ -191,7 +182,7 @@ def main():
 
     races = list_races()
     if not races:
-        st.error("No weekly races found in data/weekly. Add a folder per race (see README).")
+        st.error("No weekly races found in data/weekly. Add a folder per race.")
         return
 
     with st.sidebar:
@@ -205,20 +196,8 @@ def main():
         baseline_weight = st.slider("Season baseline", 0.0, 1.0, float(DEFAULTS["baseline_weight"]), 0.01)
 
         st.header("Simulation")
-        n_sims = st.number_input(
-            "Simulations",
-            min_value=2000,
-            max_value=200000,
-            value=int(DEFAULTS["n_sims"]),
-            step=1000,
-        )
-        rng_seed = st.number_input(
-            "RNG seed (repeatability)",
-            min_value=0,
-            max_value=9999999,
-            value=int(DEFAULTS["rng_seed"]),
-            step=1,
-        )
+        n_sims = st.number_input("Simulations", min_value=2000, max_value=200000, value=int(DEFAULTS["n_sims"]), step=1000)
+        rng_seed = st.number_input("RNG seed (repeatability)", min_value=0, max_value=9999999, value=int(DEFAULTS["rng_seed"]), step=1)
 
         blend_sim_vs_fd = st.slider("Blend: Sim vs FanDuel FPPG", 0.0, 1.0, float(DEFAULTS["blend_sim_vs_fd"]), 0.01)
         performance_sd = st.slider("Performance randomness (SD)", 0.20, 1.50, float(DEFAULTS["performance_sd"]), 0.01)
@@ -242,7 +221,6 @@ def main():
     track_type = (notes.get("track_type") or "").strip().lower()
     total_laps = int(notes.get("total_laps") or 200)
 
-    # Apply track-type preset if available (but keep user sliders as the final authority)
     if track_type in TRACK_TYPE_PRESETS:
         preset = TRACK_TYPE_PRESETS[track_type]
         st.info(
@@ -255,7 +233,6 @@ def main():
     driver_table = build_driver_table(notes, results_all, practice_df, qual_df, baseline_df, fd_df, weights)
 
     colA, colB = st.columns([1.2, 1.0], gap="large")
-
     with colA:
         st.subheader("Driver pool + component scores")
         st.caption("Scores are normalized 0–1. Missing data is treated as neutral (0.50).")
@@ -291,19 +268,20 @@ def main():
     st.subheader("Simulation results")
 
     sim_input = driver_table[["driver_name", "composite_score"]].copy()
-    # add qualifying position if present (helps place-differential)
     if "qual_pos" in driver_table.columns:
         sim_input["qual_pos"] = pd.to_numeric(driver_table["qual_pos"], errors="coerce")
-
     sim_input["driver_id"] = np.arange(len(sim_input))  # internal id for this run
 
     with st.spinner("Running Monte Carlo..."):
         sim_summary, sims_long = simulate_race(sim_input, cfg)
 
-    projections = blend_sim_with_fanduel(sim_summary, fd_df, blend=float(blend_sim_vs_fd)).sort_values("final_proj", ascending=False)
+    projections = (
+        blend_sim_with_fanduel(sim_summary, fd_df, blend=float(blend_sim_vs_fd))
+        .sort_values("final_proj", ascending=False)
+        .reset_index(drop=True)
+    )
 
     c1, c2 = st.columns([1.0, 1.0], gap="large")
-
     with c1:
         st.subheader("Top projections (Sim blended with FanDuel FPPG)")
         show_cols = [
@@ -338,14 +316,42 @@ def main():
     st.divider()
     st.subheader("FanDuel optimizer (single best lineup)")
 
+    # --- Include / Exclude driver controls ---
+    st.caption("Use these to force lock/ban drivers from the optimizer pool.")
+    all_names = projections["driver_name"].dropna().astype(str).tolist()
+
+    colx, coly = st.columns(2)
+    with colx:
+        include_names = st.multiselect(
+            "Include ONLY these drivers (optional)",
+            options=all_names,
+            default=[],
+        )
+    with coly:
+        exclude_names = st.multiselect(
+            "Exclude these drivers (optional)",
+            options=all_names,
+            default=[],
+        )
+
+    opt_df = projections.copy()
+    if include_names:
+        opt_df = opt_df[opt_df["driver_name"].isin(include_names)].copy()
+    if exclude_names:
+        opt_df = opt_df[~opt_df["driver_name"].isin(exclude_names)].copy()
+
     try:
         lineup = optimize_lineup(
-            projections,
+            opt_df,
             salary_cap=int(salary_cap),
             lineup_size=int(lineup_size),
             pool_size=int(optimizer_pool),
         )
+
+        # Display lineup with added reference columns (projected finish + FD FPPG)
         st.dataframe(lineup, use_container_width=True)
+
+        # total row values are repeated per row by design; show once
         st.success(
             f"Total Salary: {int(lineup['total_salary'].iloc[0])} | "
             f"Total Projection: {lineup['total_proj'].iloc[0]:.2f}"
@@ -356,19 +362,28 @@ def main():
     st.divider()
     st.subheader("Download artifacts")
 
-    # Save projection + sims to outputs for reuse
     out_proj = ROOT / "outputs" / "projections" / f"{race_slug}_projections.csv"
     out_sims = ROOT / "outputs" / "sims" / f"{race_slug}_sims_long.csv"
 
-    # ✅ Critical fix: ensure directories exist (Streamlit Cloud starts clean)
+    # Ensure directories exist (Streamlit Cloud)
     out_proj.parent.mkdir(parents=True, exist_ok=True)
     out_sims.parent.mkdir(parents=True, exist_ok=True)
 
     projections.to_csv(out_proj, index=False)
     sims_long.to_csv(out_sims, index=False)
 
-    st.download_button("Download projections CSV", data=out_proj.read_bytes(), file_name=out_proj.name, mime="text/csv")
-    st.download_button("Download sim-long CSV", data=out_sims.read_bytes(), file_name=out_sims.name, mime="text/csv")
+    st.download_button(
+        "Download projections CSV",
+        data=out_proj.read_bytes(),
+        file_name=out_proj.name,
+        mime="text/csv",
+    )
+    st.download_button(
+        "Download sim-long CSV",
+        data=out_sims.read_bytes(),
+        file_name=out_sims.name,
+        mime="text/csv",
+    )
 
 
 if __name__ == "__main__":
