@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import re
 from pathlib import Path
 import json
 
@@ -84,17 +85,64 @@ def build_driver_table(
     fd_df,
     weights: dict[str, float],
 ) -> pd.DataFrame:
-    hist = build_track_history_score(results_all)
-    prac = build_practice_score(practice_df)
-    qual = build_qualifying_score(qual_df)
+    # ---
+    # Name matching note:
+    # FanDuel names are typically "First Last" (no punctuation/suffix), while practice/qual feeds
+    # often include middle initials or suffixes (e.g., "John H. Nemechek", "Ricky Stenhouse Jr").
+    # We merge on a normalized key to avoid everything falling back to 0.50.
+
+    def _name_key(s: str) -> str:
+        s = (s or "").lower().strip()
+        # remove punctuation (periods, apostrophes, etc.)
+        s = re.sub(r"[^\w\s]", "", s)
+        # remove common suffixes
+        s = re.sub(r"\b(jr|sr|ii|iii|iv|v)\b", "", s).strip()
+        # keep first + last token (handles middle initials)
+        parts = s.split()
+        if not parts:
+            return ""
+        if len(parts) == 1:
+            return parts[0]
+        return f"{parts[0]} {parts[-1]}"
+
+    # Build component tables (copy to avoid mutating cached inputs)
+    hist = build_track_history_score(results_all).copy()
+    prac = build_practice_score(practice_df).copy()
+    qual = build_qualifying_score(qual_df).copy()
+    base = baseline_df.copy()
 
     # Start from FanDuel pool so optimizer always has salary data
     df = fd_df.copy()
+    df["name_key"] = df["driver_name"].astype(str).apply(_name_key)
 
-    df = df.merge(hist, on="driver_name", how="left")
-    df = df.merge(prac, on="driver_name", how="left", suffixes=("", "_p"))
-    df = df.merge(qual, on="driver_name", how="left", suffixes=("", "_q"))
-    df = df.merge(baseline_df, on="driver_name", how="left", suffixes=("", "_b"))
+    # Add normalized keys to feature tables
+    for _tbl in (hist, prac, qual, base):
+        if "driver_name" in _tbl.columns:
+            _tbl["name_key"] = _tbl["driver_name"].astype(str).apply(_name_key)
+
+    # Merge on name_key to prevent mismatch from initials/suffixes
+    if "driver_name" in hist.columns:
+        df = df.merge(hist.drop(columns=["driver_name"]), on="name_key", how="left")
+    else:
+        df = df.merge(hist, on="name_key", how="left")
+
+    if "driver_name" in prac.columns:
+        df = df.merge(prac.drop(columns=["driver_name"]), on="name_key", how="left", suffixes=("", "_p"))
+    else:
+        df = df.merge(prac, on="name_key", how="left", suffixes=("", "_p"))
+
+    if "driver_name" in qual.columns:
+        df = df.merge(qual.drop(columns=["driver_name"]), on="name_key", how="left", suffixes=("", "_q"))
+    else:
+        df = df.merge(qual, on="name_key", how="left", suffixes=("", "_q"))
+
+    if "driver_name" in base.columns:
+        df = df.merge(base.drop(columns=["driver_name"]), on="name_key", how="left", suffixes=("", "_b"))
+    else:
+        df = df.merge(base, on="name_key", how="left", suffixes=("", "_b"))
+
+    # Restore display name (FanDuel) and remove key
+    df = df.drop(columns=["name_key"])
 
     # Neutral fill for missing scores
     for c in ["history_score", "practice_score", "qual_score", "baseline_score"]:
