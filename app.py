@@ -1,4 +1,3 @@
-
 from __future__ import annotations
 
 import os
@@ -65,7 +64,7 @@ def load_baseline():
     # Default to 2025 season strength as baseline
     p = DATA_DRIVERS / "2025_driver_stats.json"
     if not p.exists():
-        return pd.DataFrame(columns=["driver_id","driver_name","baseline_score"])
+        return pd.DataFrame(columns=["driver_id", "driver_name", "baseline_score"])
     return load_season_baseline(p)
 
 
@@ -76,7 +75,15 @@ def load_fd_pool():
     return load_fanduel_csv(p)
 
 
-def build_driver_table(notes, results_all, practice_df, qual_df, baseline_df, fd_df, weights: dict[str,float]) -> pd.DataFrame:
+def build_driver_table(
+    notes,
+    results_all,
+    practice_df,
+    qual_df,
+    baseline_df,
+    fd_df,
+    weights: dict[str, float],
+) -> pd.DataFrame:
     hist = build_track_history_score(results_all)
     prac = build_practice_score(practice_df)
     qual = build_qualifying_score(qual_df)
@@ -85,32 +92,42 @@ def build_driver_table(notes, results_all, practice_df, qual_df, baseline_df, fd
     df = fd_df.copy()
 
     df = df.merge(hist, on="driver_name", how="left")
-    df = df.merge(prac, on="driver_name", how="left", suffixes=("","_p"))
-    df = df.merge(qual, on="driver_name", how="left", suffixes=("","_q"))
-    df = df.merge(baseline_df, on="driver_name", how="left", suffixes=("","_b"))
+    df = df.merge(prac, on="driver_name", how="left", suffixes=("", "_p"))
+    df = df.merge(qual, on="driver_name", how="left", suffixes=("", "_q"))
+    df = df.merge(baseline_df, on="driver_name", how="left", suffixes=("", "_b"))
 
     # Neutral fill for missing scores
-    for c in ["history_score","practice_score","qual_score","baseline_score"]:
+    for c in ["history_score", "practice_score", "qual_score", "baseline_score"]:
         if c not in df.columns:
             df[c] = np.nan
         df[c] = pd.to_numeric(df[c], errors="coerce").fillna(0.5)
 
     w = normalize_weights(weights)
     df["composite_score"] = (
-        w["past"]*df["history_score"] +
-        w["practice"]*df["practice_score"] +
-        w["qual"]*df["qual_score"] +
-        w["baseline"]*df["baseline_score"]
-    ).clip(0,1)
+        w["past"] * df["history_score"]
+        + w["practice"] * df["practice_score"]
+        + w["qual"] * df["qual_score"]
+        + w["baseline"] * df["baseline_score"]
+    ).clip(0, 1)
 
     # Helpful display columns
     keep = [
-        "driver_name","salary","fd_fppg",
+        "driver_name",
+        "salary",
+        "fd_fppg",
         "composite_score",
-        "history_score","practice_score","qual_score","baseline_score",
-        "history_avg_finish","history_starts",
-        "practice_pos","practice_speed","qual_pos","qual_speed",
-        "season_avg_finish","season_starts"
+        "history_score",
+        "practice_score",
+        "qual_score",
+        "baseline_score",
+        "history_avg_finish",
+        "history_starts",
+        "practice_pos",
+        "practice_speed",
+        "qual_pos",
+        "qual_speed",
+        "season_avg_finish",
+        "season_starts",
     ]
     for c in keep:
         if c not in df.columns:
@@ -140,8 +157,20 @@ def main():
         baseline_weight = st.slider("Season baseline", 0.0, 1.0, float(DEFAULTS["baseline_weight"]), 0.01)
 
         st.header("Simulation")
-        n_sims = st.number_input("Simulations", min_value=2000, max_value=200000, value=int(DEFAULTS["n_sims"]), step=1000)
-        rng_seed = st.number_input("RNG seed (repeatability)", min_value=0, max_value=9999999, value=int(DEFAULTS["rng_seed"]), step=1)
+        n_sims = st.number_input(
+            "Simulations",
+            min_value=2000,
+            max_value=200000,
+            value=int(DEFAULTS["n_sims"]),
+            step=1000,
+        )
+        rng_seed = st.number_input(
+            "RNG seed (repeatability)",
+            min_value=0,
+            max_value=9999999,
+            value=int(DEFAULTS["rng_seed"]),
+            step=1,
+        )
 
         blend_sim_vs_fd = st.slider("Blend: Sim vs FanDuel FPPG", 0.0, 1.0, float(DEFAULTS["blend_sim_vs_fd"]), 0.01)
         performance_sd = st.slider("Performance randomness (SD)", 0.20, 1.50, float(DEFAULTS["performance_sd"]), 0.01)
@@ -168,7 +197,10 @@ def main():
     # Apply track-type preset if available (but keep user sliders as the final authority)
     if track_type in TRACK_TYPE_PRESETS:
         preset = TRACK_TYPE_PRESETS[track_type]
-        st.info(f"Track preset detected: **{track_type}** (suggested SD={preset['performance_sd']}, DNF boost={preset['dnf_boost']})")
+        st.info(
+            f"Track preset detected: **{track_type}** "
+            f"(suggested SD={preset['performance_sd']}, DNF boost={preset['dnf_boost']})"
+        )
 
     weights = {"past": past_weight, "practice": practice_weight, "qual": qual_weight, "baseline": baseline_weight}
 
@@ -183,7 +215,7 @@ def main():
 
     with colB:
         st.subheader("Composite score leaderboard")
-        chart_df = driver_table[["driver_name","composite_score"]].head(20).set_index("driver_name")
+        chart_df = driver_table[["driver_name", "composite_score"]].head(20).set_index("driver_name")
         st.bar_chart(chart_df)
 
         st.subheader("Weight normalization (auto)")
@@ -210,7 +242,7 @@ def main():
     st.divider()
     st.subheader("Simulation results")
 
-    sim_input = driver_table[["driver_name","composite_score"]].copy()
+    sim_input = driver_table[["driver_name", "composite_score"]].copy()
     # add qualifying position if present (helps place-differential)
     if "qual_pos" in driver_table.columns:
         sim_input["qual_pos"] = pd.to_numeric(driver_table["qual_pos"], errors="coerce")
@@ -226,7 +258,21 @@ def main():
 
     with c1:
         st.subheader("Top projections (Sim blended with FanDuel FPPG)")
-        show_cols = ["driver_name","salary","fd_fppg","sim_fd_points","final_proj","value_per_1k","win_pct","top5_pct","top10_pct","avg_finish","dnf_pct","avg_laps_led","p90_fd_points"]
+        show_cols = [
+            "driver_name",
+            "salary",
+            "fd_fppg",
+            "sim_fd_points",
+            "final_proj",
+            "value_per_1k",
+            "win_pct",
+            "top5_pct",
+            "top10_pct",
+            "avg_finish",
+            "dnf_pct",
+            "avg_laps_led",
+            "p90_fd_points",
+        ]
         for c in show_cols:
             if c not in projections.columns:
                 projections[c] = np.nan
@@ -234,11 +280,11 @@ def main():
 
     with c2:
         st.subheader("Win% (Top 15)")
-        win_chart = projections[["driver_name","win_pct"]].head(15).set_index("driver_name")
+        win_chart = projections[["driver_name", "win_pct"]].head(15).set_index("driver_name")
         st.bar_chart(win_chart)
 
         st.subheader("Top-5% (Top 15)")
-        top5_chart = projections[["driver_name","top5_pct"]].head(15).set_index("driver_name")
+        top5_chart = projections[["driver_name", "top5_pct"]].head(15).set_index("driver_name")
         st.bar_chart(top5_chart)
 
     st.divider()
@@ -252,7 +298,10 @@ def main():
             pool_size=int(optimizer_pool),
         )
         st.dataframe(lineup, use_container_width=True)
-        st.success(f"Total Salary: {int(lineup['total_salary'].iloc[0])} | Total Projection: {lineup['total_proj'].iloc[0]:.2f}")
+        st.success(
+            f"Total Salary: {int(lineup['total_salary'].iloc[0])} | "
+            f"Total Projection: {lineup['total_proj'].iloc[0]:.2f}"
+        )
     except Exception as e:
         st.warning(f"Optimizer did not return a lineup: {e}")
 
@@ -262,6 +311,11 @@ def main():
     # Save projection + sims to outputs for reuse
     out_proj = ROOT / "outputs" / "projections" / f"{race_slug}_projections.csv"
     out_sims = ROOT / "outputs" / "sims" / f"{race_slug}_sims_long.csv"
+
+    # ✅ Critical fix: ensure directories exist (Streamlit Cloud starts clean)
+    out_proj.parent.mkdir(parents=True, exist_ok=True)
+    out_sims.parent.mkdir(parents=True, exist_ok=True)
+
     projections.to_csv(out_proj, index=False)
     sims_long.to_csv(out_sims, index=False)
 
