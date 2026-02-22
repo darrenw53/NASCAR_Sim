@@ -24,7 +24,7 @@ from src.features.baseline_score import load_season_baseline
 from src.utils.helpers import normalize_weights
 from src.simulation.race_simulator import SimConfig, simulate_race
 from src.fantasy.projections import blend_sim_with_fanduel
-from src.fantasy.optimizer import optimize_lineup
+from src.fantasy.optimizer import optimize_lineup, optimize_top_n_lineups
 
 
 APP_TITLE = "SignalAI NASCAR Simulator + FanDuel Optimizer (Starter)"
@@ -85,65 +85,57 @@ def load_baseline():
 
 
 @st.cache_data(show_spinner=False)
-def load_fd_pool():
-    """
-    Load FanDuel slate/player-pool CSV.
+def load_fd_pool_from_disk() -> tuple[pd.DataFrame, str]:
+    """Load FanDuel player pool from known on-disk locations.
 
-    Streamlit Cloud note:
-    - Repo file paths must exist inside the deployed repo.
-    - To avoid FileNotFoundError, we support (1) sidebar upload, then (2) a set of common repo paths.
+    Returns (df, source_label). Raises FileNotFoundError if none found.
     """
-    # 1) Sidebar upload (preferred for Streamlit Cloud)
-    uploaded = st.sidebar.file_uploader("FanDuel player pool CSV (weekly slate)", type=["csv"])
-    if uploaded is not None:
-        try:
-            return load_fanduel_csv(uploaded)
-        except Exception as e:
-            st.error(f"Could not read uploaded FanDuel CSV: {e}")
-            st.stop()
-
-    # 2) Common repo paths (fallback)
     candidates = [
         DATA_FD / "week_players.csv",
-        DATA_FD / "players.csv",
-        ROOT / "data" / "fanduel" / "week_players.csv",
-        ROOT / "data" / "fanduel" / "players.csv",
-        DATA_WEEKLY / "fan_duel" / "week_players.csv",
-        DATA_WEEKLY / "fan_duel" / "players.csv",
+        ROOT / "data" / "weekly" / "fan_duel" / "week_players.csv",
+        ROOT / "data" / "weekly" / "fan_duel" / "players.csv",
+        ROOT / "data" / "weekly" / "fan_duel" / "fanduel_player_pool.csv",
     ]
 
     for p in candidates:
         if p.exists():
-            return load_fanduel_csv(p)
+            return load_fanduel_csv(p), str(p)
 
-    # 3) Helpful error message listing what exists under data/
-    data_dir = ROOT / "data"
-    existing = []
-    if data_dir.exists():
-        for p in data_dir.rglob("*.csv"):
-            try:
-                existing.append(str(p.relative_to(ROOT)))
-            except Exception:
-                existing.append(str(p))
-    msg = "FanDuel CSV not found.
+    tried = "\n".join([f"- {c}" for c in candidates])
+    raise FileNotFoundError("FanDuel player pool CSV not found. Tried:\n" + tried)
 
-Tried these paths:
-" + "
-".join([f"- {str(p)}" for p in candidates])
-    if existing:
-        msg += "
 
-CSV files currently in your repo under /data:
-" + "
-".join([f"- {p}" for p in sorted(existing)[:200]])
-    msg += "
+def load_fd_pool_ui() -> pd.DataFrame:
+    """Load FanDuel pool via optional upload (preferred for Streamlit Cloud).
 
-Fix options:
-- Upload the FanDuel CSV using the sidebar uploader, OR
-- Add your slate file at: data/fan_duel/week_players.csv (recommended)."
-    st.error(msg)
-    st.stop()
+    If no upload provided, falls back to repo paths.
+    """
+    st.sidebar.subheader("FanDuel player pool")
+    uploaded = st.sidebar.file_uploader(
+        "Upload FanDuel player pool CSV (recommended on Streamlit Cloud)",
+        type=["csv"],
+        help=(
+            "If you don't upload, the app will look for a CSV at: "
+            "data/fan_duel/week_players.csv OR data/weekly/fan_duel/week_players.csv"
+        ),
+    )
 
+    if uploaded is not None:
+        df = load_fanduel_csv(uploaded)
+        st.sidebar.caption(f"Loaded FanDuel pool from upload: {uploaded.name}")
+        return df
+
+    # Disk fallback (repo file)
+    try:
+        df, src = load_fd_pool_from_disk()
+        st.sidebar.caption(f"Loaded FanDuel pool from repo: {src}")
+        return df
+    except FileNotFoundError as e:
+        st.error(str(e))
+        st.info(
+            "Fix options: (1) Upload the CSV in the sidebar, OR (2) commit one of the expected files to your repo."
+        )
+        st.stop()
 
 
 def build_driver_table(
@@ -251,8 +243,12 @@ def main():
         baseline_weight = st.slider("Season baseline", 0.0, 1.0, float(DEFAULTS["baseline_weight"]), 0.01)
 
         st.header("Simulation")
-        n_sims = st.number_input("Simulations", min_value=2000, max_value=200000, value=int(DEFAULTS["n_sims"]), step=1000)
-        rng_seed = st.number_input("RNG seed (repeatability)", min_value=0, max_value=9999999, value=int(DEFAULTS["rng_seed"]), step=1)
+        n_sims = st.number_input(
+            "Simulations", min_value=2000, max_value=200000, value=int(DEFAULTS["n_sims"]), step=1000
+        )
+        rng_seed = st.number_input(
+            "RNG seed (repeatability)", min_value=0, max_value=9999999, value=int(DEFAULTS["rng_seed"]), step=1
+        )
 
         blend_sim_vs_fd = st.slider("Blend: Sim vs FanDuel FPPG", 0.0, 1.0, float(DEFAULTS["blend_sim_vs_fd"]), 0.01)
         performance_sd = st.slider("Performance randomness (SD)", 0.20, 1.50, float(DEFAULTS["performance_sd"]), 0.01)
@@ -271,7 +267,7 @@ def main():
 
     notes, results_all, practice_df, qual_df = load_week(race_slug)
     baseline_df = load_baseline()
-    fd_df = load_fd_pool()
+    fd_df = load_fd_pool_ui()
 
     track_type = (notes.get("track_type") or "").strip().lower()
     total_laps = int(notes.get("total_laps") or 200)
@@ -439,6 +435,51 @@ def main():
         file_name=out_sims.name,
         mime="text/csv",
     )
+
+    # FanDuel lineup upload export (Top 150 unique lineups)
+    try:
+        export_pool = opt_df.dropna(subset=["fd_id"]).copy() if "fd_id" in opt_df.columns else opt_df.copy()
+        top_lineups = optimize_top_n_lineups(
+            export_pool,
+            n=150,
+            salary_cap=int(salary_cap),
+            lineup_size=int(lineup_size),
+            pool_size=int(optimizer_pool),
+        )
+
+        import io, csv as _csv
+
+        _buf = io.StringIO()
+        _w = _csv.writer(_buf)
+
+        # FanDuel upload template header: 5 driver columns + blanks
+        _w.writerow(["Driver", "Driver", "Driver", "Driver", "Driver", "", "Instructions"])
+
+        for _, r in top_lineups.iterrows():
+            slots = []
+            for i in range(1, int(lineup_size) + 1):
+                name = r.get(f"driver_{i}", "")
+                fd = r.get(f"fd_{i}", "")
+                if pd.isna(fd) or str(fd).strip() == "":
+                    slots.append(str(name))
+                else:
+                    slots.append(f"{str(fd).strip()}:{str(name).strip()}")
+
+            # Pad to 5 slots for FanDuel upload stability
+            while len(slots) < 5:
+                slots.append("")
+
+            _w.writerow(slots[:5] + ["", ""])
+
+        fd_upload_bytes = _buf.getvalue().encode("utf-8")
+        st.download_button(
+            "Export Top 150 FanDuel Lineups (upload template CSV)",
+            data=fd_upload_bytes,
+            file_name=f"{race_slug}_fanduel_top150.csv",
+            mime="text/csv",
+        )
+    except Exception as e:
+        st.warning(f"Could not build FanDuel upload export: {e}")
 
 
 if __name__ == "__main__":
