@@ -1,0 +1,28 @@
+{
+  "id": "8f7977f3-dc3f-48c0-88d6-9fb530dc7959",
+  "name": "Ambetter Health 400",
+  "status": "closed",
+  "condition": "normal",
+  "number": 2,
+  "distance": 400,
+  "laps": 260,
+  "chase_race": false,
+  "heat_race": false,
+  "award_pole": true,
+  "purse": 0,
+  "restrictor_plate": true,
+  "scheduled": "2025-02-23T20:00:00+00:00",
+  "parent_id": "02b8a073-8554-44c9-8411-752b3d3a7186",
+  "track": {
+    "name": "Atlanta Motor Speedway",
+    "distance": 1.54,
+    "shape": "Quad-Oval",
+    "banking": "Turns:24; Backstretch:5;Tri-Oval:5",
+    "frontstretch": 2332,
+    "backstretch": 1800,
+    "id": "75494065-bf21-4039-8d99-b8e438c8b4a4",
+    "lat": "33.3853713",
+    "lng": "-84.3051564"
+  },
+  "practices": []
+}
