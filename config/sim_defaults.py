@@ -6,18 +6,20 @@ DEFAULTS = {
     "past_weight": 0.40,
     "practice_weight": 0.25,
     "qual_weight": 0.20,
-    "baseline_weight": 0.15,  # season-long driver strength
-    "blend_sim_vs_fd": 0.60,  # final proj = blend*sim + (1-blend)*FD_FPPG
-    "performance_sd": 0.65,   # bigger = more randomness in finishing order
-    "dnf_base": 0.07,         # baseline DNF probability
-    "dnf_superspeedway_boost": 0.08,  # additional DNF risk for superspeedways
+    "baseline_weight": 0.15,
+    "blend_sim_vs_fd": 0.60,
+    "performance_sd": 0.65,
+    "dnf_base": 0.07,
+    "dnf_superspeedway_boost": 0.08,
     "dominator_top_k": 6,
-    "dominator_strength": 1.35,  # higher -> laps led more concentrated among top drivers
+    "dominator_strength": 1.35,
     "optimizer_pool": 44,
+    "optimizer_value_weight": 0.20,
+    "optimizer_p90_weight": 0.03,
     "max_exposure_pct": 0.60,
     "min_unique_drivers": 1,
     "max_dominators": 0,
     "dominator_pool_size_opt": 8,
     "salary_cap": 50000,
-    "lineup_size": 5
+    "lineup_size": 5,
 }
