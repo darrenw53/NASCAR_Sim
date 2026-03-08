@@ -1,4 +1,3 @@
-
 from __future__ import annotations
 
 DEFAULTS = {
@@ -14,7 +13,11 @@ DEFAULTS = {
     "dnf_superspeedway_boost": 0.08,  # additional DNF risk for superspeedways
     "dominator_top_k": 6,
     "dominator_strength": 1.35,  # higher -> laps led more concentrated among top drivers
-    "optimizer_pool": 25,
+    "optimizer_pool": 44,
+    "max_exposure_pct": 0.60,
+    "min_unique_drivers": 1,
+    "max_dominators": 0,
+    "dominator_pool_size_opt": 8,
     "salary_cap": 50000,
     "lineup_size": 5
 }
