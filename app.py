@@ -3,7 +3,6 @@ from __future__ import annotations
 import re
 from pathlib import Path
 import json
-import itertools
 
 import numpy as np
 import pandas as pd
@@ -25,7 +24,7 @@ from src.features.baseline_score import load_season_baseline
 from src.utils.helpers import normalize_weights
 from src.simulation.race_simulator import SimConfig, simulate_race
 from src.fantasy.projections import blend_sim_with_fanduel
-from src.fantasy.optimizer import optimize_lineup  # <-- ONLY import what's guaranteed to exist
+from src.fantasy.optimizer import optimize_lineup, optimize_top_n_lineups
 
 
 APP_TITLE = "SignalAI NASCAR Simulator + FanDuel Optimizer (Starter)"
@@ -33,23 +32,21 @@ APP_TITLE = "SignalAI NASCAR Simulator + FanDuel Optimizer (Starter)"
 ROOT = Path(__file__).parent
 DATA_WEEKLY = ROOT / "data" / "weekly"
 DATA_DRIVERS = ROOT / "data" / "drivers"
-# FanDuel slates can live in multiple locations depending on how you organize weekly data.
-# The loader functions below search known paths and also support UI upload (best for Streamlit Cloud).
 DATA_FD = ROOT / "data" / "fan_duel"
 
 
 def name_key(s: str) -> str:
     """Normalize driver names to match across sources (handles Jr/Sr/initials/punctuation)."""
     s = (s or "").lower().strip()
-    s = re.sub(r"[^\w\s]", "", s)                 # remove punctuation
-    s = re.sub(r"\b(jr|sr|ii|iii|iv|v)\b", "", s) # remove suffix tokens
+    s = re.sub(r"[^\w\s]", "", s)
+    s = re.sub(r"\b(jr|sr|ii|iii|iv|v)\b", "", s)
     s = " ".join(s.split())
     parts = s.split()
     if not parts:
         return ""
     if len(parts) == 1:
         return parts[0]
-    return f"{parts[0]} {parts[-1]}"              # first + last
+    return f"{parts[0]} {parts[-1]}"
 
 
 @st.cache_data(show_spinner=False)
@@ -80,7 +77,6 @@ def load_week(race_slug: str):
 
 @st.cache_data(show_spinner=False)
 def load_baseline():
-    # Default to 2025 season strength as baseline
     p = DATA_DRIVERS / "2025_driver_stats.json"
     if not p.exists():
         return pd.DataFrame(columns=["driver_id", "driver_name", "baseline_score"])
@@ -89,10 +85,6 @@ def load_baseline():
 
 @st.cache_data(show_spinner=False)
 def load_fd_pool_from_disk() -> tuple[pd.DataFrame, str]:
-    """Load FanDuel player pool from known on-disk locations.
-
-    Returns (df, source_label). Raises FileNotFoundError if none found.
-    """
     candidates = [
         DATA_FD / "week_players.csv",
         ROOT / "data" / "weekly" / "fan_duel" / "week_players.csv",
@@ -111,10 +103,6 @@ def load_fd_pool_from_disk() -> tuple[pd.DataFrame, str]:
 
 
 def load_fd_pool_ui() -> pd.DataFrame:
-    """Load FanDuel pool via optional upload (preferred for Streamlit Cloud).
-
-    If no upload provided, falls back to repo paths.
-    """
     st.sidebar.subheader("FanDuel player pool")
     uploaded = st.sidebar.file_uploader(
         "Upload FanDuel player pool CSV (recommended on Streamlit Cloud)",
@@ -130,7 +118,6 @@ def load_fd_pool_ui() -> pd.DataFrame:
         st.sidebar.caption(f"Loaded FanDuel pool from upload: {uploaded.name}")
         return df
 
-    # Disk fallback (repo file)
     try:
         df, src = load_fd_pool_from_disk()
         st.sidebar.caption(f"Loaded FanDuel pool from repo: {src}")
@@ -157,7 +144,6 @@ def build_driver_table(
     qual = build_qualifying_score(qual_df).copy()
     base = baseline_df.copy()
 
-    # Start from FanDuel pool so optimizer always has salary data
     df = fd_df.copy()
     df["name_key"] = df["driver_name"].astype(str).apply(name_key)
 
@@ -165,7 +151,6 @@ def build_driver_table(
         if "driver_name" in t.columns:
             t["name_key"] = t["driver_name"].astype(str).apply(name_key)
 
-    # Merge via normalized key (prevents name formatting differences)
     if "driver_name" in hist.columns:
         df = df.merge(hist.drop(columns=["driver_name"]), on="name_key", how="left")
     else:
@@ -188,7 +173,6 @@ def build_driver_table(
 
     df = df.drop(columns=["name_key"])
 
-    # Neutral fill for missing scores
     for c in ["history_score", "practice_score", "qual_score", "baseline_score"]:
         if c not in df.columns:
             df[c] = np.nan
@@ -228,66 +212,6 @@ def build_driver_table(
     return df.sort_values("composite_score", ascending=False).reset_index(drop=True)
 
 
-def optimize_top_n_lineups_local(
-    df: pd.DataFrame,
-    n: int = 150,
-    salary_cap: int = 50000,
-    lineup_size: int = 5,
-    pool_size: int = 25,
-) -> pd.DataFrame:
-    """
-    Self-contained Top-N lineup generator (no dependency on optimizer.py having this function).
-
-    Expects at minimum: driver_name, salary, final_proj
-    If present, uses: fd_id
-
-    Returns:
-      lineup_rank, total_salary, total_proj, driver_1..driver_k, fd_1..fd_k (if fd_id exists)
-    """
-    n = int(n)
-    n = max(1, min(n, 250))  # FanDuel upload max is 250
-
-    pool = df.dropna(subset=["salary", "final_proj"]).copy()
-    pool["salary"] = pd.to_numeric(pool["salary"], errors="coerce")
-    pool["final_proj"] = pd.to_numeric(pool["final_proj"], errors="coerce")
-    pool = pool.dropna(subset=["salary", "final_proj"])
-
-    pool = pool.sort_values("final_proj", ascending=False).head(int(pool_size)).reset_index(drop=True)
-
-    if len(pool) < lineup_size:
-        raise ValueError("Not enough drivers in optimizer pool after filters.")
-
-    salaries = pool["salary"].to_numpy()
-    projs = pool["final_proj"].to_numpy()
-
-    combos = []
-    idxs = range(len(pool))
-    for comb in itertools.combinations(idxs, int(lineup_size)):
-        sal = float(salaries[list(comb)].sum())
-        if sal > salary_cap:
-            continue
-        score = float(projs[list(comb)].sum())
-        combos.append((score, sal, comb))
-
-    if not combos:
-        raise ValueError("No valid lineups found under salary cap. Try increasing pool size or check salaries.")
-
-    combos.sort(key=lambda x: (x[0], x[1]), reverse=True)
-    combos = combos[:n]
-
-    rows = []
-    has_fd = "fd_id" in pool.columns
-    for rank, (score, sal, comb) in enumerate(combos, start=1):
-        row = {"lineup_rank": rank, "total_salary": int(round(sal)), "total_proj": score}
-        for i, idx in enumerate(comb, start=1):
-            row[f"driver_{i}"] = str(pool.loc[idx, "driver_name"])
-            if has_fd:
-                row[f"fd_{i}"] = pool.loc[idx, "fd_id"]
-        rows.append(row)
-
-    return pd.DataFrame(rows)
-
-
 def main():
     st.set_page_config(page_title="NASCAR Simulator", layout="wide")
     st.title(APP_TITLE)
@@ -323,6 +247,10 @@ def main():
         salary_cap = st.number_input("Salary cap", min_value=30000, max_value=70000, value=int(DEFAULTS["salary_cap"]), step=1000)
         lineup_size = st.number_input("Lineup size", min_value=4, max_value=6, value=int(DEFAULTS["lineup_size"]), step=1)
         optimizer_pool = st.slider("Optimizer player pool (top N by proj)", 10, 44, int(DEFAULTS["optimizer_pool"]), 1)
+        max_exposure_pct = st.slider("Top-150 max driver exposure", 0.10, 1.00, float(DEFAULTS["max_exposure_pct"]), 0.05)
+        min_unique_drivers = st.slider("Top-150 min unique drivers", 1, 4, int(DEFAULTS["min_unique_drivers"]), 1)
+        max_dominators = st.slider("Max dominators per lineup (0 = off)", 0, 5, int(DEFAULTS["max_dominators"]), 1)
+        dominator_pool_size_opt = st.slider("Dominator candidate pool (top projected)", 4, 12, int(DEFAULTS["dominator_pool_size_opt"]), 1)
 
         run = st.button("Run simulation")
 
@@ -341,7 +269,6 @@ def main():
         )
 
     weights = {"past": past_weight, "practice": practice_weight, "qual": qual_weight, "baseline": baseline_weight}
-
     driver_table = build_driver_table(notes, results_all, practice_df, qual_df, baseline_df, fd_df, weights)
 
     colA, colB = st.columns([1.2, 1.0], gap="large")
@@ -361,7 +288,6 @@ def main():
     if not run:
         st.stop()
 
-    # Sim config
     dnf_prob = float(dnf_base)
     if track_type in TRACK_TYPE_PRESETS:
         dnf_prob = min(0.60, dnf_prob + float(TRACK_TYPE_PRESETS[track_type]["dnf_boost"]))
@@ -382,7 +308,7 @@ def main():
     sim_input = driver_table[["driver_name", "composite_score"]].copy()
     if "qual_pos" in driver_table.columns:
         sim_input["qual_pos"] = pd.to_numeric(driver_table["qual_pos"], errors="coerce")
-    sim_input["driver_id"] = np.arange(len(sim_input))  # internal id for this run
+    sim_input["driver_id"] = np.arange(len(sim_input))
 
     with st.spinner("Running Monte Carlo..."):
         sim_summary, sims_long = simulate_race(sim_input, cfg)
@@ -428,7 +354,6 @@ def main():
     st.divider()
     st.subheader("FanDuel optimizer (single best lineup)")
 
-    # --- Include / Exclude driver controls ---
     st.caption("Use these to force lock/ban drivers from the optimizer pool.")
     all_names = projections["driver_name"].dropna().astype(str).tolist()
 
@@ -494,18 +419,23 @@ def main():
         mime="text/csv",
     )
 
-    # FanDuel lineup upload export (Top 150 unique lineups)
     try:
         export_pool = opt_df.dropna(subset=["fd_id"]).copy() if "fd_id" in opt_df.columns else opt_df.copy()
-        top_lineups = optimize_top_n_lineups_local(
+        top_lineups = optimize_top_n_lineups(
             export_pool,
             n=150,
             salary_cap=int(salary_cap),
             lineup_size=int(lineup_size),
             pool_size=int(optimizer_pool),
+            max_exposure_pct=float(max_exposure_pct),
+            min_unique_drivers=int(min_unique_drivers),
+            max_dominators=(None if int(max_dominators) <= 0 else int(max_dominators)),
+            dominator_pool_size=int(dominator_pool_size_opt),
         )
 
-        import io, csv as _csv
+        import io
+        import csv as _csv
+
         _buf = io.StringIO()
         _w = _csv.writer(_buf)
         _w.writerow(["Driver", "Driver", "Driver", "Driver", "Driver", "", "Instructions"])
