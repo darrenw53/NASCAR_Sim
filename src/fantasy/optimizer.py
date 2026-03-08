@@ -26,17 +26,37 @@ def _prepare_pool(df: pd.DataFrame, pool_size: int | None = None) -> pd.DataFram
 
     pool = pool.dropna(subset=["salary", "final_proj"]).copy()
 
-    sort_cols: list[str] = ["final_proj"]
-    ascending: list[bool] = [False]
+    # Primary sort signal remains final_proj.
+    # Value and p90 are only used as small, capped nudges so cheap drivers
+    # do not get pushed too aggressively to the top of the optimizer pool.
+    pool["optimizer_sort_score"] = pool["final_proj"].astype(float)
 
     if "value_per_1k" in pool.columns:
-        sort_cols.append("value_per_1k")
-        ascending.append(False)
-    if "p90_fd_points" in pool.columns:
-        sort_cols.append("p90_fd_points")
-        ascending.append(False)
+        value_bonus = pd.to_numeric(pool["value_per_1k"], errors="coerce").fillna(0.0)
 
-    pool = pool.sort_values(sort_cols, ascending=ascending).reset_index(drop=True)
+        # Center around the pool mean so this acts as a relative nudge only.
+        value_bonus = value_bonus - value_bonus.mean()
+
+        # Cap the impact so outlier cheap drivers do not dominate pool ordering.
+        value_bonus = value_bonus.clip(lower=-0.75, upper=0.75)
+
+        # Small throttle only.
+        pool["optimizer_sort_score"] += 0.20 * value_bonus
+
+    if "p90_fd_points" in pool.columns:
+        p90_bonus = pd.to_numeric(pool["p90_fd_points"], errors="coerce").fillna(0.0)
+
+        # Center and cap ceiling influence as a mild secondary factor.
+        p90_bonus = p90_bonus - p90_bonus.mean()
+        p90_bonus = p90_bonus.clip(lower=-3.0, upper=3.0)
+
+        # Very light secondary ceiling nudge.
+        pool["optimizer_sort_score"] += 0.03 * p90_bonus
+
+    pool = pool.sort_values(
+        ["optimizer_sort_score", "final_proj"],
+        ascending=[False, False]
+    ).reset_index(drop=True)
 
     if pool_size is not None:
         pool_size = int(pool_size)
