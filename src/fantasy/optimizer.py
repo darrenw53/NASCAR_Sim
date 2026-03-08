@@ -7,7 +7,12 @@ import numpy as np
 import pandas as pd
 
 
-def _prepare_pool(df: pd.DataFrame, pool_size: int | None = None) -> pd.DataFrame:
+def _prepare_pool(
+    df: pd.DataFrame,
+    pool_size: int | None = None,
+    value_weight: float = 0.20,
+    p90_weight: float = 0.03,
+) -> pd.DataFrame:
     pool = df.dropna(subset=["salary", "final_proj"]).copy()
     pool["salary"] = pd.to_numeric(pool["salary"], errors="coerce")
     pool["final_proj"] = pd.to_numeric(pool["final_proj"], errors="coerce")
@@ -26,12 +31,15 @@ def _prepare_pool(df: pd.DataFrame, pool_size: int | None = None) -> pd.DataFram
 
     pool = pool.dropna(subset=["salary", "final_proj"]).copy()
 
+    value_weight = float(max(0.0, value_weight))
+    p90_weight = float(max(0.0, p90_weight))
+
     # Primary sort signal remains final_proj.
     # Value and p90 are only used as small, capped nudges so cheap drivers
     # do not get pushed too aggressively to the top of the optimizer pool.
     pool["optimizer_sort_score"] = pool["final_proj"].astype(float)
 
-    if "value_per_1k" in pool.columns:
+    if value_weight > 0.0 and "value_per_1k" in pool.columns:
         value_bonus = pd.to_numeric(pool["value_per_1k"], errors="coerce").fillna(0.0)
 
         # Center around the pool mean so this acts as a relative nudge only.
@@ -40,18 +48,16 @@ def _prepare_pool(df: pd.DataFrame, pool_size: int | None = None) -> pd.DataFram
         # Cap the impact so outlier cheap drivers do not dominate pool ordering.
         value_bonus = value_bonus.clip(lower=-0.75, upper=0.75)
 
-        # Small throttle only.
-        pool["optimizer_sort_score"] += 0.20 * value_bonus
+        pool["optimizer_sort_score"] += value_weight * value_bonus
 
-    if "p90_fd_points" in pool.columns:
+    if p90_weight > 0.0 and "p90_fd_points" in pool.columns:
         p90_bonus = pd.to_numeric(pool["p90_fd_points"], errors="coerce").fillna(0.0)
 
         # Center and cap ceiling influence as a mild secondary factor.
         p90_bonus = p90_bonus - p90_bonus.mean()
         p90_bonus = p90_bonus.clip(lower=-3.0, upper=3.0)
 
-        # Very light secondary ceiling nudge.
-        pool["optimizer_sort_score"] += 0.03 * p90_bonus
+        pool["optimizer_sort_score"] += p90_weight * p90_bonus
 
     pool = pool.sort_values(
         ["optimizer_sort_score", "final_proj"],
@@ -98,14 +104,21 @@ def optimize_lineup(
     salary_cap: int = 50000,
     lineup_size: int = 5,
     pool_size: int | None = None,
+    value_weight: float = 0.20,
+    p90_weight: float = 0.03,
 ) -> pd.DataFrame:
     """
     Return the single best lineup using the existing final_proj values.
 
     This does not change any simulation or projection calculations.
-    It only searches the lineup space more reliably than the original reduced-pool brute force.
+    It only changes optimizer pool ranking and lineup search.
     """
-    pool = _prepare_pool(df, pool_size=pool_size)
+    pool = _prepare_pool(
+        df,
+        pool_size=pool_size,
+        value_weight=value_weight,
+        p90_weight=p90_weight,
+    )
 
     if len(pool) < int(lineup_size):
         raise ValueError("Not enough drivers in optimizer pool after filters.")
@@ -131,6 +144,7 @@ def optimize_lineup(
         "p90_fd_points",
         "qual_pos",
         "fd_id",
+        "optimizer_sort_score",
     ]
     for c in optional:
         if c in pool.columns:
@@ -158,6 +172,8 @@ def optimize_top_n_lineups(
     min_unique_drivers: int = 1,
     max_dominators: int | None = None,
     dominator_pool_size: int = 8,
+    value_weight: float = 0.20,
+    p90_weight: float = 0.03,
 ) -> pd.DataFrame:
     """
     Generate top-N unique lineups without changing projection math.
@@ -171,7 +187,13 @@ def optimize_top_n_lineups(
     min_unique_drivers = max(1, int(min_unique_drivers))
     max_exposure_pct = float(max(0.0, min(1.0, max_exposure_pct)))
 
-    pool = _prepare_pool(df, pool_size=pool_size)
+    pool = _prepare_pool(
+        df,
+        pool_size=pool_size,
+        value_weight=value_weight,
+        p90_weight=p90_weight,
+    )
+
     if len(pool) < int(lineup_size):
         raise ValueError("Not enough drivers in optimizer pool after filters.")
 
