@@ -247,22 +247,6 @@ def main():
         salary_cap = st.number_input("Salary cap", min_value=30000, max_value=70000, value=int(DEFAULTS["salary_cap"]), step=1000)
         lineup_size = st.number_input("Lineup size", min_value=4, max_value=6, value=int(DEFAULTS["lineup_size"]), step=1)
         optimizer_pool = st.slider("Optimizer player pool (top N by proj)", 10, 44, int(DEFAULTS["optimizer_pool"]), 1)
-        optimizer_value_weight = st.slider(
-            "Optimizer value weight",
-            0.00,
-            0.50,
-            float(DEFAULTS["optimizer_value_weight"]),
-            0.01,
-            help="0.00 turns off value influence in optimizer pool ranking. This does not change final projections.",
-        )
-        optimizer_p90_weight = st.slider(
-            "Optimizer p90 weight",
-            0.00,
-            0.10,
-            float(DEFAULTS["optimizer_p90_weight"]),
-            0.01,
-            help="Small ceiling-based tiebreaker used only in optimizer pool ranking.",
-        )
         max_exposure_pct = st.slider("Top-150 max driver exposure", 0.10, 1.00, float(DEFAULTS["max_exposure_pct"]), 0.05)
         min_unique_drivers = st.slider("Top-150 min unique drivers", 1, 4, int(DEFAULTS["min_unique_drivers"]), 1)
         max_dominators = st.slider("Max dominators per lineup (0 = off)", 0, 5, int(DEFAULTS["max_dominators"]), 1)
@@ -368,9 +352,9 @@ def main():
         st.bar_chart(top5_chart)
 
     st.divider()
-    st.subheader("FanDuel optimizer (single best lineup)")
+    st.subheader("FanDuel optimizer (sim finish only)")
 
-    st.caption("Use these to force lock/ban drivers from the optimizer pool.")
+    st.caption("Optimizer now ranks lineups by simulated average finishing position only, while keeping total salary at or under the cap.")
     all_names = projections["driver_name"].dropna().astype(str).tolist()
 
     colx, coly = st.columns(2)
@@ -399,15 +383,13 @@ def main():
             salary_cap=int(salary_cap),
             lineup_size=int(lineup_size),
             pool_size=int(optimizer_pool),
-            value_weight=float(optimizer_value_weight),
-            p90_weight=float(optimizer_p90_weight),
         )
 
         st.dataframe(lineup, use_container_width=True)
 
         st.success(
             f"Total Salary: {int(lineup['total_salary'].iloc[0])} | "
-            f"Total Projection: {lineup['total_proj'].iloc[0]:.2f}"
+            f"Lineup Avg Finish: {lineup['total_avg_finish'].iloc[0]:.2f}"
         )
     except Exception as e:
         st.warning(f"Optimizer did not return a lineup: {e}")
@@ -449,8 +431,6 @@ def main():
             min_unique_drivers=int(min_unique_drivers),
             max_dominators=(None if int(max_dominators) <= 0 else int(max_dominators)),
             dominator_pool_size=int(dominator_pool_size_opt),
-            value_weight=float(optimizer_value_weight),
-            p90_weight=float(optimizer_p90_weight),
         )
 
         import io
