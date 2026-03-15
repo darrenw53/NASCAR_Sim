@@ -13,12 +13,26 @@ def _prepare_pool(
     value_weight: float = 0.20,
     p90_weight: float = 0.03,
 ) -> pd.DataFrame:
-    pool = df.dropna(subset=["salary", "final_proj"]).copy()
+    """
+    Build the optimizer pool using simulation finishing position only.
+
+    value_weight and p90_weight are intentionally ignored here so lineup
+    selection is driven only by simulated finishing position plus salary cap.
+    They are kept in the function signature for backward compatibility with
+    the existing app imports/calls.
+    """
+    required_cols = ["salary"]
+    if "avg_finish" in df.columns:
+        required_cols.append("avg_finish")
+    else:
+        required_cols.append("final_proj")
+
+    pool = df.dropna(subset=required_cols).copy()
     pool["salary"] = pd.to_numeric(pool["salary"], errors="coerce")
-    pool["final_proj"] = pd.to_numeric(pool["final_proj"], errors="coerce")
 
     optional_numeric = [
         "avg_finish",
+        "final_proj",
         "fd_fppg",
         "sim_fd_points",
         "value_per_1k",
@@ -29,40 +43,22 @@ def _prepare_pool(
         if col in pool.columns:
             pool[col] = pd.to_numeric(pool[col], errors="coerce")
 
-    pool = pool.dropna(subset=["salary", "final_proj"]).copy()
+    pool = pool.dropna(subset=["salary"]).copy()
 
-    value_weight = float(max(0.0, value_weight))
-    p90_weight = float(max(0.0, p90_weight))
-
-    # Primary sort signal remains final_proj.
-    # Value and p90 are only used as small, capped nudges so cheap drivers
-    # do not get pushed too aggressively to the top of the optimizer pool.
-    pool["optimizer_sort_score"] = pool["final_proj"].astype(float)
-
-    if value_weight > 0.0 and "value_per_1k" in pool.columns:
-        value_bonus = pd.to_numeric(pool["value_per_1k"], errors="coerce").fillna(0.0)
-
-        # Center around the pool mean so this acts as a relative nudge only.
-        value_bonus = value_bonus - value_bonus.mean()
-
-        # Cap the impact so outlier cheap drivers do not dominate pool ordering.
-        value_bonus = value_bonus.clip(lower=-0.75, upper=0.75)
-
-        pool["optimizer_sort_score"] += value_weight * value_bonus
-
-    if p90_weight > 0.0 and "p90_fd_points" in pool.columns:
-        p90_bonus = pd.to_numeric(pool["p90_fd_points"], errors="coerce").fillna(0.0)
-
-        # Center and cap ceiling influence as a mild secondary factor.
-        p90_bonus = p90_bonus - p90_bonus.mean()
-        p90_bonus = p90_bonus.clip(lower=-3.0, upper=3.0)
-
-        pool["optimizer_sort_score"] += p90_weight * p90_bonus
-
-    pool = pool.sort_values(
-        ["optimizer_sort_score", "final_proj"],
-        ascending=[False, False]
-    ).reset_index(drop=True)
+    if "avg_finish" in pool.columns:
+        pool = pool.dropna(subset=["avg_finish"]).copy()
+        pool["optimizer_sort_score"] = -pool["avg_finish"].astype(float)
+        pool = pool.sort_values(
+            ["avg_finish", "final_proj", "sim_fd_points"],
+            ascending=[True, False, False],
+        ).reset_index(drop=True)
+    else:
+        pool = pool.dropna(subset=["final_proj"]).copy()
+        pool["optimizer_sort_score"] = pool["final_proj"].astype(float)
+        pool = pool.sort_values(
+            ["final_proj"],
+            ascending=[False],
+        ).reset_index(drop=True)
 
     if pool_size is not None:
         pool_size = int(pool_size)
@@ -86,10 +82,14 @@ def _build_combo_table(
         return combos, np.array([], dtype=float), np.array([], dtype=float)
 
     salaries = pool["salary"].to_numpy(dtype=float)
-    projs = pool["final_proj"].to_numpy(dtype=float)
+
+    if "avg_finish" in pool.columns and pool["avg_finish"].notna().any():
+        objective_values = pool["avg_finish"].to_numpy(dtype=float)
+    else:
+        objective_values = -pool["final_proj"].to_numpy(dtype=float)
 
     combo_salaries = salaries[combos].sum(axis=1)
-    combo_scores = projs[combos].sum(axis=1)
+    combo_scores = objective_values[combos].sum(axis=1)
 
     valid_mask = combo_salaries <= float(salary_cap)
     return combos[valid_mask], combo_salaries[valid_mask], combo_scores[valid_mask]
@@ -108,10 +108,10 @@ def optimize_lineup(
     p90_weight: float = 0.03,
 ) -> pd.DataFrame:
     """
-    Return the single best lineup using the existing final_proj values.
+    Return the single best lineup using simulation finishing position only.
 
-    This does not change any simulation or projection calculations.
-    It only changes optimizer pool ranking and lineup search.
+    Primary objective: lowest combined simulated average finishing position.
+    Constraint: lineup salary must stay at or below salary_cap.
     """
     pool = _prepare_pool(
         df,
@@ -132,7 +132,8 @@ def optimize_lineup(
     if len(combos) == 0:
         raise ValueError("No valid lineup found under salary cap. Try increasing pool size or check salaries.")
 
-    best_idx = int(np.lexsort((combo_salaries, combo_scores))[-1])
+    # Lower combo score is better because it is built from avg_finish.
+    best_idx = int(np.lexsort((combo_salaries, -combo_scores))[0])
     best = combos[best_idx]
 
     cols = ["driver_name", "salary", "final_proj"]
@@ -152,7 +153,10 @@ def optimize_lineup(
 
     chosen = pool.loc[list(best), cols].copy()
     chosen["total_salary"] = int(round(float(combo_salaries[best_idx])))
-    chosen["total_proj"] = float(combo_scores[best_idx])
+    if "avg_finish" in chosen.columns:
+        chosen["total_avg_finish"] = float(combo_scores[best_idx]) / max(1, len(chosen))
+    else:
+        chosen["total_proj"] = float(-combo_scores[best_idx])
 
     if "avg_finish" in chosen.columns:
         chosen = chosen.sort_values(["avg_finish", "final_proj"], ascending=[True, False]).reset_index(drop=True)
@@ -176,9 +180,10 @@ def optimize_top_n_lineups(
     p90_weight: float = 0.03,
 ) -> pd.DataFrame:
     """
-    Generate top-N unique lineups without changing projection math.
+    Generate top-N unique lineups using simulation finishing position only.
 
-    Lineups are ranked by total final_proj. Optional controls apply only to lineup construction:
+    Lineups are ranked by lowest combined simulated average finishing position.
+    Optional controls apply only to lineup construction:
     - max_exposure_pct: max share of exported lineups any one driver can appear in
     - min_unique_drivers: each new lineup must differ by at least this many drivers vs prior selected lineups
     - max_dominators: optional cap on number of dominator candidates (top projected drivers) in a lineup
@@ -219,7 +224,8 @@ def optimize_top_n_lineups(
     if len(combos) == 0:
         raise ValueError("No valid lineups remained after dominator constraint.")
 
-    order = np.lexsort((combo_salaries, combo_scores))[::-1]
+    # Lower combo score is better because it is built from avg_finish.
+    order = np.lexsort((combo_salaries, -combo_scores))
     combos = combos[order]
     combo_salaries = combo_salaries[order]
     combo_scores = combo_scores[order]
@@ -250,8 +256,11 @@ def optimize_top_n_lineups(
         row: dict[str, object] = {
             "lineup_rank": len(selected_rows) + 1,
             "total_salary": int(round(float(sal))),
-            "total_proj": float(score),
         }
+        if "avg_finish" in pool.columns:
+            row["total_avg_finish"] = float(score) / max(1, int(lineup_size))
+        else:
+            row["total_proj"] = float(-score)
         for i, idx in enumerate(comb_tuple, start=1):
             row[f"driver_{i}"] = str(pool.loc[idx, "driver_name"])
             if has_fd:
