@@ -352,9 +352,9 @@ def main():
         st.bar_chart(top5_chart)
 
     st.divider()
-    st.subheader("FanDuel optimizer (sim finish only)")
+    st.subheader("FanDuel optimizer (best lineup by simulation finishing position)")
 
-    st.caption("Optimizer now ranks lineups by simulated average finishing position only, while keeping total salary at or under the cap.")
+    st.caption("Optimizer now ranks lineups by the lowest simulation average finishing position while staying at or under the salary cap.")
     all_names = projections["driver_name"].dropna().astype(str).tolist()
 
     colx, coly = st.columns(2)
@@ -389,7 +389,7 @@ def main():
 
         st.success(
             f"Total Salary: {int(lineup['total_salary'].iloc[0])} | "
-            f"Lineup Avg Finish: {lineup['total_avg_finish'].iloc[0]:.2f}"
+            f"Lineup Avg Finish: {lineup['lineup_avg_finish'].iloc[0]:.2f}"
         )
     except Exception as e:
         st.warning(f"Optimizer did not return a lineup: {e}")
