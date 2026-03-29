@@ -1,0 +1,5267 @@
+{
+  "id": "65c1eacb-ce2e-43ab-b0f6-4d62f83a6e89",
+  "name": "Cook Out 400",
+  "status": "closed",
+  "condition": "normal",
+  "number": 7,
+  "distance": 210,
+  "laps": 400,
+  "actual_distance": 210.4,
+  "chase_race": false,
+  "heat_race": false,
+  "award_pole": true,
+  "purse": 0,
+  "restrictor_plate": false,
+  "avg_speed": 68.17,
+  "victory_margin": "4.617",
+  "elapsed_time": "3:05:11",
+  "lead_changes": 9,
+  "cautions": "10",
+  "caution_laps": 86,
+  "stage_count": 2,
+  "current_stage": 3,
+  "stage_1_laps": 80,
+  "stage_2_laps": 100,
+  "stage_3_laps": 220,
+  "scheduled": "2025-03-30T19:00:00+00:00",
+  "start_time": "2025-03-30T19:00:00+00:00",
+  "end_time": "2025-03-30T22:30:00+00:00",
+  "parent_id": "749d7d31-8492-4479-b493-5e3577d10e91",
+  "laps_completed": 400,
+  "track": {
+    "name": "Martinsville Speedway",
+    "distance": 0.526,
+    "shape": "Oval",
+    "banking": "Turns:12;Backstretch:0;Frontstretch:0",
+    "frontstretch": 800,
+    "backstretch": 800,
+    "id": "409dd8fb-2ab9-4181-9f0f-99545083b689",
+    "lat": "36.6340917",
+    "lng": "-79.8519044"
+  },
+  "comments": "Denny Hamlin won the Cook Out 400 at Martinsville Speedway, his 55th NASCAR Cup Series victory. Prior to the start no cars dropped to the rear of the field under penalty. ",
+  "flags": [
+    {
+      "sequence": 1,
+      "lap": 0,
+      "flag_state": "warmup",
+      "created_at": "2025-03-30T22:18:06+00:00"
+    },
+    {
+      "sequence": 2,
+      "lap": 0,
+      "flag_state": "green",
+      "created_at": "2025-03-30T22:18:06+00:00"
+    },
+    {
+      "sequence": 3,
+      "lap": 30,
+      "flag_state": "yellow",
+      "created_at": "2025-03-30T22:18:06+00:00",
+      "comments": "Debris Turn 4",
+      "beneficiary": "66   "
+    },
+    {
+      "sequence": 4,
+      "lap": 38,
+      "flag_state": "green",
+      "created_at": "2025-03-30T22:18:06+00:00"
+    },
+    {
+      "sequence": 5,
+      "lap": 70,
+      "flag_state": "yellow",
+      "created_at": "2025-03-30T22:18:06+00:00",
+      "comments": "No. 17 Incident Frontstretch",
+      "beneficiary": "66   "
+    },
+    {
+      "sequence": 6,
+      "lap": 77,
+      "flag_state": "green",
+      "created_at": "2025-03-30T22:18:06+00:00"
+    },
+    {
+      "sequence": 7,
+      "lap": 80,
+      "flag_state": "yellow",
+      "created_at": "2025-03-30T22:18:06+00:00",
+      "comments": "Stage 1 Conclusion",
+      "beneficiary": "17   "
+    },
+    {
+      "sequence": 8,
+      "lap": 91,
+      "flag_state": "green",
+      "created_at": "2025-03-30T22:18:06+00:00"
+    },
+    {
+      "sequence": 9,
+      "lap": 121,
+      "flag_state": "yellow",
+      "created_at": "2025-03-30T22:18:06+00:00",
+      "comments": "No. 50 Stopped Turn 1",
+      "beneficiary": "66   "
+    },
+    {
+      "sequence": 10,
+      "lap": 130,
+      "flag_state": "green",
+      "created_at": "2025-03-30T22:18:06+00:00"
+    },
+    {
+      "sequence": 11,
+      "lap": 180,
+      "flag_state": "yellow",
+      "created_at": "2025-03-30T22:18:06+00:00",
+      "comments": "Stage 2 Conclusion",
+      "beneficiary": "47   "
+    },
+    {
+      "sequence": 12,
+      "lap": 192,
+      "flag_state": "green",
+      "created_at": "2025-03-30T22:18:06+00:00"
+    },
+    {
+      "sequence": 13,
+      "lap": 200,
+      "flag_state": "yellow",
+      "created_at": "2025-03-30T22:18:06+00:00",
+      "comments": "Nos. 35, 2 Incident Turn 1",
+      "beneficiary": "88   "
+    },
+    {
+      "sequence": 14,
+      "lap": 206,
+      "flag_state": "green",
+      "created_at": "2025-03-30T22:18:06+00:00"
+    },
+    {
+      "sequence": 15,
+      "lap": 274,
+      "flag_state": "yellow",
+      "created_at": "2025-03-30T22:18:06+00:00",
+      "comments": "No. 88 Spin Turn 4",
+      "beneficiary": "43   "
+    },
+    {
+      "sequence": 16,
+      "lap": 285,
+      "flag_state": "green",
+      "created_at": "2025-03-30T22:18:06+00:00"
+    },
+    {
+      "sequence": 17,
+      "lap": 297,
+      "flag_state": "yellow",
+      "created_at": "2025-03-30T22:18:06+00:00",
+      "comments": "Nos. 54, 38, 45 Incident Turn 2",
+      "beneficiary": "17   "
+    },
+    {
+      "sequence": 18,
+      "lap": 305,
+      "flag_state": "green",
+      "created_at": "2025-03-30T22:18:06+00:00"
+    },
+    {
+      "sequence": 19,
+      "lap": 308,
+      "flag_state": "yellow",
+      "created_at": "2025-03-30T22:18:06+00:00",
+      "comments": "Nos. 17, 4 Incident Turn 2",
+      "beneficiary": "47   "
+    },
+    {
+      "sequence": 20,
+      "lap": 314,
+      "flag_state": "green",
+      "created_at": "2025-03-30T22:18:06+00:00"
+    },
+    {
+      "sequence": 21,
+      "lap": 316,
+      "flag_state": "yellow",
+      "created_at": "2025-03-30T22:18:06+00:00",
+      "comments": "Nos. 19, 22 Incident Turn 2",
+      "beneficiary": "42   "
+    },
+    {
+      "sequence": 22,
+      "lap": 324,
+      "flag_state": "green",
+      "created_at": "2025-03-30T22:18:06+00:00"
+    },
+    {
+      "sequence": 23,
+      "lap": 399,
+      "flag_state": "finish",
+      "created_at": "2025-03-30T22:18:06+00:00"
+    }
+  ],
+  "results": [
+    {
+      "start_position": 5,
+      "position": 1,
+      "status": "running",
+      "driver_rating": 148.4,
+      "best_lap": 195,
+      "best_lap_speed": 93.798,
+      "best_lap_time": 20.188,
+      "elapsed_time": 11110.572,
+      "fastest_laps": 75,
+      "avg_position": 2.418,
+      "avg_speed": 68.173,
+      "last_lap_speed": 87.642,
+      "last_lap_time": 21.606,
+      "avg_restart_speed": 91.38,
+      "points": 54,
+      "bonus_points": 14,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 1,
+      "pit_stop_count": 6,
+      "stage_1_points": 3,
+      "stage_2_points": 10,
+      "stage_2_win": true,
+      "laps_led": 274,
+      "times_led": 2,
+      "laps_completed": 400,
+      "car": {
+        "number": "11",
+        "sponsors": "Progressive/Sport Clips/Interstate Batteries/King's Hawaiian/National Debt Relief/Yahoo!",
+        "crew_chief": "Chris Gayle",
+        "id": "a4fca4d9-9ffa-4b72-8673-f851f6fd9677",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "e7846c1b-f64e-4312-8ee3-13c8a0001a8b",
+          "name": "Joe Gibbs"
+        },
+        "team": {
+          "id": "b30dee06-c437-4e76-8b9c-8b850d52ce21",
+          "name": "Joe Gibbs Racing"
+        }
+      },
+      "driver": {
+        "first_name": "Denny",
+        "last_name": "Hamlin",
+        "full_name": "Denny Hamlin",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "cb9d6f49-0044-4305-be9a-22d428e52c95"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -7,
+          "in_time": 713.911,
+          "out_time": 756.369
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -6,
+          "in_time": 1805.951,
+          "out_time": 1848.127
+        },
+        {
+          "sequence": 5,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -2,
+          "in_time": 5155.079,
+          "out_time": 5197.183
+        },
+        {
+          "sequence": 6,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": 0,
+          "in_time": 7609.004,
+          "out_time": 7651.35
+        }
+      ],
+      "leads": [
+        {
+          "sequence": 1,
+          "start_lap": 126,
+          "end_lap": 325
+        },
+        {
+          "sequence": 2,
+          "start_lap": 327,
+          "end_lap": 400
+        }
+      ]
+    },
+    {
+      "start_position": 1,
+      "position": 2,
+      "status": "running",
+      "driver_rating": 115.2,
+      "best_lap": 4,
+      "best_lap_speed": 93.093,
+      "best_lap_time": 20.341,
+      "elapsed_time": 11115.189,
+      "fastest_laps": 21,
+      "avg_position": 5.105,
+      "avg_speed": 68.145,
+      "last_lap_speed": 87.687,
+      "last_lap_time": 21.595,
+      "avg_restart_speed": 91.127,
+      "points": 38,
+      "bonus_points": 3,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 8,
+      "stage_1_points": 0,
+      "stage_2_points": 3,
+      "laps_led": 25,
+      "times_led": 3,
+      "laps_completed": 400,
+      "car": {
+        "number": "20",
+        "sponsors": "DeWalt/Rheem/Interstate Batteries/Yahoo!",
+        "crew_chief": "Adam Stevens",
+        "id": "278372b1-c038-4238-8a42-f53604ab6b02",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "e7846c1b-f64e-4312-8ee3-13c8a0001a8b",
+          "name": "Joe Gibbs"
+        },
+        "team": {
+          "id": "b30dee06-c437-4e76-8b9c-8b850d52ce21",
+          "name": "Joe Gibbs Racing"
+        }
+      },
+      "driver": {
+        "first_name": "Christopher",
+        "last_name": "Bell",
+        "full_name": "Christopher Bell",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "16497cd0-5add-407a-b9a8-eec7d62e413b"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -3,
+          "in_time": 713.111,
+          "out_time": 751.484
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -6,
+          "in_time": 1808.357,
+          "out_time": 1851.966
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -9,
+          "in_time": 3522.474,
+          "out_time": 3565.618
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": 1,
+          "in_time": 5157.629,
+          "out_time": 5200.807
+        },
+        {
+          "sequence": 7,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": 2,
+          "in_time": 7610.47,
+          "out_time": 7652.614
+        },
+        {
+          "sequence": 8,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": -17,
+          "in_time": 11136.963,
+          "out_time": 11175.803
+        }
+      ],
+      "leads": [
+        {
+          "sequence": 1,
+          "start_lap": 0,
+          "end_lap": 23
+        },
+        {
+          "sequence": 2,
+          "start_lap": 33,
+          "end_lap": 33
+        },
+        {
+          "sequence": 3,
+          "start_lap": 326,
+          "end_lap": 326
+        }
+      ]
+    },
+    {
+      "start_position": 8,
+      "position": 3,
+      "status": "running",
+      "driver_rating": 116.6,
+      "best_lap": 133,
+      "best_lap_speed": 93.405,
+      "best_lap_time": 20.273,
+      "elapsed_time": 11115.783,
+      "fastest_laps": 14,
+      "avg_position": 4.47,
+      "avg_speed": 68.141,
+      "last_lap_speed": 87.062,
+      "last_lap_time": 21.75,
+      "avg_restart_speed": 90.99,
+      "points": 42,
+      "bonus_points": 8,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 7,
+      "stage_1_points": 0,
+      "stage_2_points": 8,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 400,
+      "car": {
+        "number": "23",
+        "sponsors": "McDonald's/Columbia Sportswear/U.S. Air Force/Leidos/MoneyLion/Dr Pepper/DoorDash",
+        "crew_chief": "Charles Denike",
+        "id": "4a56a3be-1d91-434e-a403-24b3206573b7",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "b54bbedd-be48-4434-9690-936f6e0e3bb1",
+          "name": "Michael Jordan"
+        },
+        "team": {
+          "id": "6de1961e-bb84-40d5-855e-4c8f032e3c4a",
+          "name": "23XI Racing",
+          "owner": {
+            "id": "87d0f23e-e7fb-455e-a063-72f38ac948be",
+            "name": "Michael Jordan"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Bubba",
+        "last_name": "Wallace",
+        "full_name": "Bubba Wallace",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "939e647d-756f-41d7-ad65-609344f64bd5"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -5,
+          "in_time": 715.442,
+          "out_time": 758.272
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -9,
+          "in_time": 1806.317,
+          "out_time": 1849.263
+        },
+        {
+          "sequence": 5,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -2,
+          "in_time": 5155.864,
+          "out_time": 5199.433
+        },
+        {
+          "sequence": 6,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": 0,
+          "in_time": 7610.085,
+          "out_time": 7653.252
+        },
+        {
+          "sequence": 7,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": -17,
+          "in_time": 11137.998,
+          "out_time": 11177.744
+        }
+      ]
+    },
+    {
+      "start_position": 2,
+      "position": 4,
+      "status": "running",
+      "driver_rating": 122.7,
+      "best_lap": 94,
+      "best_lap_speed": 93.276,
+      "best_lap_time": 20.301,
+      "elapsed_time": 11116.915,
+      "fastest_laps": 60,
+      "avg_position": 3.893,
+      "avg_speed": 68.134,
+      "last_lap_speed": 84.919,
+      "last_lap_time": 22.299,
+      "avg_restart_speed": 91.056,
+      "points": 46,
+      "bonus_points": 13,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 8,
+      "stage_1_points": 4,
+      "stage_2_points": 9,
+      "laps_led": 42,
+      "times_led": 2,
+      "laps_completed": 400,
+      "car": {
+        "number": "9",
+        "sponsors": "NAPA Auto Parts/UniFirst/Llumar/Amazon Prime Video",
+        "crew_chief": "Alan Gustafson",
+        "id": "959829b1-7117-423a-8f7b-eaec8eb3358f",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "cda14f61-7d18-4863-a413-da170827ff2b",
+          "name": "Linda Hendrick"
+        },
+        "team": {
+          "id": "8427da4c-9c88-4849-9242-0c184d5ed67c",
+          "name": "Hendrick Motorsports",
+          "owner": {
+            "id": "df3acab4-1712-44bb-b913-897b4e20fd50",
+            "name": "Rick Hendrick"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Chase",
+        "last_name": "Elliott",
+        "full_name": "Chase Elliott",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "5fd3e3fb-322f-4157-ae41-9317fba1997d"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -8,
+          "in_time": 712.677,
+          "out_time": 755.157
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -7,
+          "in_time": 1805.048,
+          "out_time": 1847.598
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -8,
+          "in_time": 3519.965,
+          "out_time": 3562.701
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -2,
+          "in_time": 5155.436,
+          "out_time": 5198.536
+        },
+        {
+          "sequence": 7,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": -2,
+          "in_time": 7609.617,
+          "out_time": 7653.314
+        },
+        {
+          "sequence": 8,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": -17,
+          "in_time": 11139.35,
+          "out_time": 11183.564
+        }
+      ],
+      "leads": [
+        {
+          "sequence": 1,
+          "start_lap": 24,
+          "end_lap": 32
+        },
+        {
+          "sequence": 2,
+          "start_lap": 93,
+          "end_lap": 125
+        }
+      ]
+    },
+    {
+      "start_position": 4,
+      "position": 5,
+      "status": "running",
+      "driver_rating": 108.9,
+      "best_lap": 5,
+      "best_lap_speed": 92.792,
+      "best_lap_time": 20.407,
+      "elapsed_time": 11117.521,
+      "fastest_laps": 13,
+      "avg_position": 6.448,
+      "avg_speed": 68.13,
+      "last_lap_speed": 86.517,
+      "last_lap_time": 21.887,
+      "avg_restart_speed": 90.543,
+      "points": 35,
+      "bonus_points": 3,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 8,
+      "stage_1_points": 1,
+      "stage_2_points": 2,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 400,
+      "car": {
+        "number": "5",
+        "sponsors": "HendrickCars.com/Valvoline",
+        "crew_chief": "Cliff Daniels",
+        "id": "3c900bcd-335e-40b5-a8c6-6a774f7b0347",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "cda14f61-7d18-4863-a413-da170827ff2b",
+          "name": "Linda Hendrick"
+        },
+        "team": {
+          "id": "8427da4c-9c88-4849-9242-0c184d5ed67c",
+          "name": "Hendrick Motorsports",
+          "owner": {
+            "id": "df3acab4-1712-44bb-b913-897b4e20fd50",
+            "name": "Rick Hendrick"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Kyle",
+        "last_name": "Larson",
+        "full_name": "Kyle Larson",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "a756eefd-801d-4214-ab1b-0b595c21c37d"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -7,
+          "in_time": 714.278,
+          "out_time": 757.618
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -10,
+          "in_time": 1805.509,
+          "out_time": 1849.259
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -1,
+          "in_time": 3520.766,
+          "out_time": 3558.461
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": 0,
+          "in_time": 5157.938,
+          "out_time": 5201.492
+        },
+        {
+          "sequence": 7,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": 2,
+          "in_time": 7611.558,
+          "out_time": 7654.181
+        },
+        {
+          "sequence": 8,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": -17,
+          "in_time": 11140.227,
+          "out_time": 11185.966
+        }
+      ]
+    },
+    {
+      "start_position": 17,
+      "position": 6,
+      "status": "running",
+      "driver_rating": 100.4,
+      "best_lap": 291,
+      "best_lap_speed": 92.465,
+      "best_lap_time": 20.479,
+      "elapsed_time": 11118.973,
+      "fastest_laps": 7,
+      "avg_position": 9.953,
+      "avg_speed": 68.121,
+      "last_lap_speed": 86.85,
+      "last_lap_time": 21.803,
+      "avg_restart_speed": 90.373,
+      "points": 35,
+      "bonus_points": 4,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 8,
+      "stage_1_points": 0,
+      "stage_2_points": 4,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 400,
+      "car": {
+        "number": "1",
+        "sponsors": "Busch/Moose Fraternity/Kubota/Jockey/Trackhouse/Choice Privileges",
+        "crew_chief": "Phil Surgen",
+        "id": "3cc7ae07-4ec7-4d14-8cdf-59557055db30",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "32feeff3-f6ba-484c-b7ba-c46ee41a0bcf",
+          "name": "Justin Marks"
+        },
+        "team": {
+          "id": "26c50f58-f4e7-44db-bb61-cfc9a767e212",
+          "name": "Trackhouse Racing",
+          "owner": {
+            "id": "8f824787-7369-48e9-a83e-4a7e160b5d1d",
+            "name": "Justin Marks"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Ross",
+        "last_name": "Chastain",
+        "full_name": "Ross Chastain",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "fb6c45e9-990e-46e3-88df-174449c13334"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -8,
+          "in_time": 718.524,
+          "out_time": 763.68
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -5,
+          "in_time": 1812.084,
+          "out_time": 1856.204
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -3,
+          "in_time": 3524.4,
+          "out_time": 3564.104
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -4,
+          "in_time": 5157.3,
+          "out_time": 5202.628
+        },
+        {
+          "sequence": 7,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": 0,
+          "in_time": 7611.198,
+          "out_time": 7654.737
+        },
+        {
+          "sequence": 8,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": 3,
+          "in_time": 11145.461,
+          "out_time": 11166.041
+        }
+      ]
+    },
+    {
+      "start_position": 21,
+      "position": 7,
+      "status": "running",
+      "driver_rating": 70.7,
+      "best_lap": 289,
+      "best_lap_speed": 92.155,
+      "best_lap_time": 20.548,
+      "elapsed_time": 11119.434,
+      "fastest_laps": 6,
+      "avg_position": 20.46,
+      "avg_speed": 68.119,
+      "last_lap_speed": 86.699,
+      "last_lap_time": 21.841,
+      "avg_restart_speed": 89.664,
+      "points": 35,
+      "bonus_points": 5,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 8,
+      "stage_1_points": 5,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 400,
+      "car": {
+        "number": "60",
+        "sponsors": "Kroger/BuildSubmarines.com/Gevalia/Entenmann's/Solomon Plumbing",
+        "crew_chief": "Derrick Finley",
+        "id": "b97fbf26-8def-4030-8061-0b2678ac5132",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "4788307e-e269-4409-8fae-bbda98214196",
+          "name": "Jack Roush"
+        },
+        "team": {
+          "id": "69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee",
+          "name": "Roush Fenway Keselowski Racing"
+        }
+      },
+      "driver": {
+        "first_name": "Ryan",
+        "last_name": "Preece",
+        "full_name": "Ryan Preece",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "e28a64ca-c622-4b28-b0d9-28bc9390f9e4"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -12,
+          "in_time": 720.597,
+          "out_time": 770.885
+        },
+        {
+          "sequence": 4,
+          "lap": 85,
+          "leader_lap": 85,
+          "positions_gained": -13,
+          "in_time": 2391.333,
+          "out_time": 2436.774
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -2,
+          "in_time": 3532.939,
+          "out_time": 3579.981
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -1,
+          "in_time": 5163.798,
+          "out_time": 5209.408
+        },
+        {
+          "sequence": 7,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": 0,
+          "in_time": 7619.419,
+          "out_time": 7665.687
+        },
+        {
+          "sequence": 8,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": 4,
+          "in_time": 11147.097,
+          "out_time": 11170.583
+        }
+      ]
+    },
+    {
+      "start_position": 7,
+      "position": 8,
+      "status": "running",
+      "driver_rating": 96.4,
+      "best_lap": 80,
+      "best_lap_speed": 92.787,
+      "best_lap_time": 20.408,
+      "elapsed_time": 11120.865,
+      "fastest_laps": 27,
+      "avg_position": 11.49,
+      "avg_speed": 68.11,
+      "last_lap_speed": 87.355,
+      "last_lap_time": 21.677,
+      "avg_restart_speed": 90.406,
+      "points": 39,
+      "bonus_points": 10,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 9,
+      "stage_1_points": 10,
+      "stage_2_points": 0,
+      "stage_1_win": true,
+      "laps_led": 13,
+      "times_led": 1,
+      "laps_completed": 400,
+      "car": {
+        "number": "22",
+        "sponsors": "Shell Pennzoil/Hunt Brothers Pizza/AAA Insurance",
+        "crew_chief": "Paul Wolfe",
+        "id": "23a4be38-3039-4757-94f5-b4e478e4d7f8",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "03246399-5e63-4c21-9c5f-24074e3bf515",
+          "name": "Walter Czarnecki"
+        },
+        "team": {
+          "id": "e337709c-9fb6-4275-ad89-d9c100e71a1d",
+          "name": "Team Penske",
+          "owner": {
+            "id": "57198af5-d912-4efc-9135-95fc6c0a3fc5",
+            "name": "Roger Penske"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Joey",
+        "last_name": "Logano",
+        "full_name": "Joey Logano",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "894b273e-ce7d-446c-9ab0-d9a474ce9d7f"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -1,
+          "in_time": 715.099,
+          "out_time": 752.259
+        },
+        {
+          "sequence": 4,
+          "lap": 85,
+          "leader_lap": 85,
+          "positions_gained": -7,
+          "in_time": 2388.474,
+          "out_time": 2431.506
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": 2,
+          "in_time": 3526.748,
+          "out_time": 3564.41
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": 2,
+          "in_time": 5159.116,
+          "out_time": 5202.078
+        },
+        {
+          "sequence": 7,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": 1,
+          "in_time": 7612.308,
+          "out_time": 7655.328
+        },
+        {
+          "sequence": 8,
+          "lap": 319,
+          "leader_lap": 320,
+          "positions_gained": -2,
+          "in_time": 9265.505,
+          "out_time": 9313.23
+        },
+        {
+          "sequence": 9,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": 3,
+          "in_time": 11150.829,
+          "out_time": 11167.08
+        }
+      ],
+      "leads": [
+        {
+          "sequence": 1,
+          "start_lap": 74,
+          "end_lap": 86
+        }
+      ]
+    },
+    {
+      "start_position": 11,
+      "position": 9,
+      "status": "running",
+      "driver_rating": 98.6,
+      "best_lap": 195,
+      "best_lap_speed": 92.533,
+      "best_lap_time": 20.464,
+      "elapsed_time": 11121.077,
+      "fastest_laps": 4,
+      "avg_position": 9.073,
+      "avg_speed": 68.109,
+      "last_lap_speed": 85.691,
+      "last_lap_time": 22.098,
+      "avg_restart_speed": 90.387,
+      "points": 34,
+      "bonus_points": 6,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 8,
+      "stage_1_points": 0,
+      "stage_2_points": 6,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 400,
+      "car": {
+        "number": "19",
+        "sponsors": "Bass Pro Shops",
+        "crew_chief": "James Small",
+        "id": "1e8fcd69-e12e-4fb4-8dff-8b7ec56f3e3f",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "e7846c1b-f64e-4312-8ee3-13c8a0001a8b",
+          "name": "Joe Gibbs"
+        },
+        "team": {
+          "id": "b30dee06-c437-4e76-8b9c-8b850d52ce21",
+          "name": "Joe Gibbs Racing"
+        }
+      },
+      "driver": {
+        "first_name": "Chase",
+        "last_name": "Briscoe",
+        "full_name": "Chase Briscoe",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "25ca1ab3-b013-48cb-b4a4-c10fb45ba397"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -6,
+          "in_time": 716.879,
+          "out_time": 760.822
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -7,
+          "in_time": 1809.738,
+          "out_time": 1853.384
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -2,
+          "in_time": 3523.495,
+          "out_time": 3562.105
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -1,
+          "in_time": 5156.56,
+          "out_time": 5200.182
+        },
+        {
+          "sequence": 7,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": -1,
+          "in_time": 7611.935,
+          "out_time": 7656.035
+        },
+        {
+          "sequence": 8,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": 3,
+          "in_time": 11146.218,
+          "out_time": 11168.127
+        }
+      ]
+    },
+    {
+      "start_position": 25,
+      "position": 10,
+      "status": "running",
+      "driver_rating": 81.3,
+      "best_lap": 328,
+      "best_lap_speed": 91.518,
+      "best_lap_time": 20.691,
+      "elapsed_time": 11121.586,
+      "fastest_laps": 2,
+      "avg_position": 16.655,
+      "avg_speed": 68.105,
+      "last_lap_speed": 87.501,
+      "last_lap_time": 21.641,
+      "avg_restart_speed": 89.816,
+      "points": 27,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 8,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 400,
+      "car": {
+        "number": "34",
+        "sponsors": "Love's Travel Stops/A&W Restaurants/Grillo's Pickles/Long John Silver's/Colortech",
+        "crew_chief": "Chris Lawson",
+        "id": "89e035f0-87f6-4835-ac58-8b7da32de4a4",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "c81a723c-a430-4be5-969f-5fbf21c1d519",
+          "name": "Bob Jenkins"
+        },
+        "team": {
+          "id": "bd38dfec-bb97-4f29-b032-cc6f0c77dfe6",
+          "name": "Front Row Motorsports"
+        }
+      },
+      "driver": {
+        "first_name": "Todd",
+        "last_name": "Gilliland",
+        "full_name": "Todd Gilliland",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "a27abfd8-d687-4d6c-832d-10fae051ccb5"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -4,
+          "in_time": 721.076,
+          "out_time": 766.773
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -5,
+          "in_time": 1811.482,
+          "out_time": 1855.337
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -10,
+          "in_time": 3525.606,
+          "out_time": 3571.407
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -3,
+          "in_time": 5161.589,
+          "out_time": 5206.82
+        },
+        {
+          "sequence": 7,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": -3,
+          "in_time": 7615.791,
+          "out_time": 7663.744
+        },
+        {
+          "sequence": 8,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": 4,
+          "in_time": 11152.259,
+          "out_time": 11168.726
+        }
+      ]
+    },
+    {
+      "start_position": 32,
+      "position": 11,
+      "status": "running",
+      "driver_rating": 90.7,
+      "best_lap": 195,
+      "best_lap_speed": 92.488,
+      "best_lap_time": 20.474,
+      "elapsed_time": 11122.211,
+      "fastest_laps": 6,
+      "avg_position": 10.523,
+      "avg_speed": 68.102,
+      "last_lap_speed": 86.95,
+      "last_lap_time": 21.778,
+      "avg_restart_speed": 90.334,
+      "points": 31,
+      "bonus_points": 5,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 7,
+      "stage_1_points": 0,
+      "stage_2_points": 5,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 400,
+      "car": {
+        "number": "12",
+        "sponsors": "Menards/Advance Auto Parts/BodyArmor/Wurth/Discount Tire/Dent Wizard/Wabash",
+        "crew_chief": "Jonathan Hassler",
+        "id": "874ceeea-76f2-4db9-b647-b10be1082ee4",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "3a02ed9a-855e-446a-b71b-876861b84f60",
+          "name": "Roger Penske"
+        },
+        "team": {
+          "id": "e337709c-9fb6-4275-ad89-d9c100e71a1d",
+          "name": "Team Penske",
+          "owner": {
+            "id": "57198af5-d912-4efc-9135-95fc6c0a3fc5",
+            "name": "Roger Penske"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Ryan",
+        "last_name": "Blaney",
+        "full_name": "Ryan Blaney",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "67948099-4196-4e1b-ae9e-b437aa99000a"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -10,
+          "in_time": 1808.013,
+          "out_time": 1852.912
+        },
+        {
+          "sequence": 4,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -8,
+          "in_time": 3525.24,
+          "out_time": 3569.414
+        },
+        {
+          "sequence": 5,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -2,
+          "in_time": 5156.892,
+          "out_time": 5201.007
+        },
+        {
+          "sequence": 6,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": -2,
+          "in_time": 7610.812,
+          "out_time": 7654.87
+        },
+        {
+          "sequence": 7,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": 4,
+          "in_time": 11153.815,
+          "out_time": 11171.898
+        }
+      ]
+    },
+    {
+      "start_position": 15,
+      "position": 12,
+      "status": "running",
+      "driver_rating": 83.9,
+      "best_lap": 3,
+      "best_lap_speed": 92.218,
+      "best_lap_time": 20.534,
+      "elapsed_time": 11122.864,
+      "fastest_laps": 1,
+      "avg_position": 13.953,
+      "avg_speed": 68.098,
+      "last_lap_speed": 87.206,
+      "last_lap_time": 21.714,
+      "avg_restart_speed": 90.086,
+      "points": 25,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 8,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 400,
+      "car": {
+        "number": "71",
+        "sponsors": "Workforce/Go Bowling/Group 1001",
+        "crew_chief": "Travis Peterson",
+        "id": "595e9d2a-c678-472d-9209-afb0c7a18f0a",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "e611fa59-af3f-40b8-bd07-935eb5b26b01",
+          "name": "Jeff Dickerson"
+        },
+        "team": {
+          "id": "9f742920-6e44-4581-8a61-e8c38cf21da4",
+          "name": "Spire Motorsports"
+        }
+      },
+      "driver": {
+        "first_name": "Michael",
+        "last_name": "McDowell",
+        "full_name": "Michael McDowell",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "96fdd8d7-3776-42b8-baf2-6b4e2cf2d83d"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -8,
+          "in_time": 717.67,
+          "out_time": 762.069
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -5,
+          "in_time": 1811.097,
+          "out_time": 1855.306
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -8,
+          "in_time": 3524.876,
+          "out_time": 3568.908
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": 2,
+          "in_time": 5162.026,
+          "out_time": 5205.597
+        },
+        {
+          "sequence": 7,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": 3,
+          "in_time": 7614.394,
+          "out_time": 7657.562
+        },
+        {
+          "sequence": 8,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": 4,
+          "in_time": 11155.601,
+          "out_time": 11175.522
+        }
+      ]
+    },
+    {
+      "start_position": 13,
+      "position": 13,
+      "status": "running",
+      "driver_rating": 95.1,
+      "best_lap": 134,
+      "best_lap_speed": 92.928,
+      "best_lap_time": 20.377,
+      "elapsed_time": 11123.369,
+      "fastest_laps": 7,
+      "avg_position": 10.45,
+      "avg_speed": 68.094,
+      "last_lap_speed": 87.488,
+      "last_lap_time": 21.644,
+      "avg_restart_speed": 90.255,
+      "points": 31,
+      "bonus_points": 7,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 8,
+      "stage_1_points": 0,
+      "stage_2_points": 7,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 400,
+      "car": {
+        "number": "54",
+        "sponsors": "Monster Energy/SAIA/Interstate Batteries/SiriusXM/SAIA LTL Freight",
+        "crew_chief": "Tyler Allen",
+        "id": "e6f81236-d2ca-485b-9ef3-aa1ce48209f4",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "e7846c1b-f64e-4312-8ee3-13c8a0001a8b",
+          "name": "Joe Gibbs"
+        },
+        "team": {
+          "id": "b30dee06-c437-4e76-8b9c-8b850d52ce21",
+          "name": "Joe Gibbs Racing"
+        }
+      },
+      "driver": {
+        "first_name": "Ty",
+        "last_name": "Gibbs",
+        "full_name": "Ty Gibbs",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "53a361e5-644d-461e-8777-9b22b3528114"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -4,
+          "in_time": 716.477,
+          "out_time": 759.841
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -7,
+          "in_time": 1808.682,
+          "out_time": 1852.745
+        },
+        {
+          "sequence": 5,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -8,
+          "in_time": 5156.22,
+          "out_time": 5203.07
+        },
+        {
+          "sequence": 6,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": 0,
+          "in_time": 7612.636,
+          "out_time": 7656.752
+        },
+        {
+          "sequence": 7,
+          "lap": 300,
+          "leader_lap": 301,
+          "positions_gained": 0,
+          "in_time": 8423.381,
+          "out_time": 8465.715
+        },
+        {
+          "sequence": 8,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": 4,
+          "in_time": 11157.207,
+          "out_time": 11179.048
+        }
+      ]
+    },
+    {
+      "start_position": 9,
+      "position": 14,
+      "status": "running",
+      "driver_rating": 86.9,
+      "best_lap": 10,
+      "best_lap_speed": 92.213,
+      "best_lap_time": 20.535,
+      "elapsed_time": 11123.982,
+      "fastest_laps": 13,
+      "avg_position": 12.388,
+      "avg_speed": 68.091,
+      "last_lap_speed": 87.303,
+      "last_lap_time": 21.69,
+      "avg_restart_speed": 89.925,
+      "points": 24,
+      "bonus_points": 1,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 8,
+      "stage_1_points": 0,
+      "stage_2_points": 1,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 400,
+      "car": {
+        "number": "45",
+        "sponsors": "Monster Energy/McDonald's/MoneyLion/Jordan Brand/Nasty Beast/Xfinity Mobile",
+        "crew_chief": "Billy Scott",
+        "id": "16baac28-bb05-4731-9bed-f9d4c3f61319",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "b54bbedd-be48-4434-9690-936f6e0e3bb1",
+          "name": "Michael Jordan"
+        },
+        "team": {
+          "id": "6de1961e-bb84-40d5-855e-4c8f032e3c4a",
+          "name": "23XI Racing",
+          "owner": {
+            "id": "87d0f23e-e7fb-455e-a063-72f38ac948be",
+            "name": "Michael Jordan"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Tyler",
+        "last_name": "Reddick",
+        "full_name": "Tyler Reddick",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "b030a8df-e7de-44a4-9f59-34bb9fd227d0"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -7,
+          "in_time": 716.168,
+          "out_time": 760.44
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -9,
+          "in_time": 1806.678,
+          "out_time": 1850.298
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -8,
+          "in_time": 3524.001,
+          "out_time": 3567.703
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -8,
+          "in_time": 5158.362,
+          "out_time": 5206.223
+        },
+        {
+          "sequence": 7,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": 0,
+          "in_time": 7613.435,
+          "out_time": 7657.797
+        },
+        {
+          "sequence": 8,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": 4,
+          "in_time": 11158.835,
+          "out_time": 11181.867
+        }
+      ]
+    },
+    {
+      "start_position": 28,
+      "position": 15,
+      "status": "running",
+      "driver_rating": 69.4,
+      "best_lap": 289,
+      "best_lap_speed": 91.896,
+      "best_lap_time": 20.606,
+      "elapsed_time": 11124.728,
+      "fastest_laps": 1,
+      "avg_position": 18.625,
+      "avg_speed": 68.086,
+      "last_lap_speed": 86.807,
+      "last_lap_time": 21.814,
+      "avg_restart_speed": 89.819,
+      "points": 22,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 9,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 400,
+      "car": {
+        "number": "10",
+        "sponsors": "LeafFilter Gutter Protection/Sea Best",
+        "crew_chief": "Andrew Dickeson",
+        "id": "2e3b8a4c-5c1c-401d-98b2-7c92bcab23e5",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "935f3f46-6819-46f2-a21c-fb08c2c297c3",
+          "name": "Matt Kaulig"
+        },
+        "team": {
+          "id": "58ca0768-82c7-49ca-a358-773b245db83b",
+          "name": "Kaulig Racing",
+          "owner": {
+            "id": "d7d36ea8-f61a-4ee4-aa38-07635c4f14a3",
+            "name": "Matt Kaulig"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Ty",
+        "last_name": "Dillon",
+        "full_name": "Ty Dillon",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "bfcb8d32-fab0-4bfa-be14-cf9466e1d886"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -3,
+          "in_time": 722.936,
+          "out_time": 768.053
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -4,
+          "in_time": 1813.695,
+          "out_time": 1859.163
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -4,
+          "in_time": 3527.777,
+          "out_time": 3571.677
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -3,
+          "in_time": 5161.17,
+          "out_time": 5206.732
+        },
+        {
+          "sequence": 7,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": -1,
+          "in_time": 7615.296,
+          "out_time": 7660.3
+        },
+        {
+          "sequence": 8,
+          "lap": 300,
+          "leader_lap": 300,
+          "positions_gained": -13,
+          "in_time": 8410.617,
+          "out_time": 8457.003
+        },
+        {
+          "sequence": 9,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": 10,
+          "in_time": 11159.955,
+          "out_time": 11191.791
+        }
+      ]
+    },
+    {
+      "start_position": 19,
+      "position": 16,
+      "status": "running",
+      "driver_rating": 70.1,
+      "best_lap": 198,
+      "best_lap_speed": 91.726,
+      "best_lap_time": 20.644,
+      "elapsed_time": 11126.067,
+      "fastest_laps": 1,
+      "avg_position": 17.978,
+      "avg_speed": 68.078,
+      "last_lap_speed": 86.691,
+      "last_lap_time": 21.843,
+      "avg_restart_speed": 89.827,
+      "points": 21,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 9,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 400,
+      "car": {
+        "number": "38",
+        "sponsors": "Speedy Cash/City of Refuge",
+        "crew_chief": "Ryan Bergenty",
+        "id": "122dc137-45ec-41a0-9cf4-c447c34330b4",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "c81a723c-a430-4be5-969f-5fbf21c1d519",
+          "name": "Bob Jenkins"
+        },
+        "team": {
+          "id": "bd38dfec-bb97-4f29-b032-cc6f0c77dfe6",
+          "name": "Front Row Motorsports"
+        }
+      },
+      "driver": {
+        "first_name": "Zane",
+        "last_name": "Smith",
+        "full_name": "Zane Smith",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "3ec1dd6a-c9b8-4d82-821f-23d0bdd4b310"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": 4,
+          "in_time": 720.114,
+          "out_time": 759.448
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -3,
+          "in_time": 1814.631,
+          "out_time": 1862.235
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -4,
+          "in_time": 3530.014,
+          "out_time": 3576.993
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": 0,
+          "in_time": 5160.282,
+          "out_time": 5204.543
+        },
+        {
+          "sequence": 7,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": -2,
+          "in_time": 7613.959,
+          "out_time": 7659.375
+        },
+        {
+          "sequence": 8,
+          "lap": 300,
+          "leader_lap": 301,
+          "positions_gained": -3,
+          "in_time": 8421.075,
+          "out_time": 8481.62
+        },
+        {
+          "sequence": 9,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": 4,
+          "in_time": 11161.101,
+          "out_time": 11188.71
+        }
+      ]
+    },
+    {
+      "start_position": 12,
+      "position": 17,
+      "status": "running",
+      "driver_rating": 63.8,
+      "best_lap": 289,
+      "best_lap_speed": 92.213,
+      "best_lap_time": 20.535,
+      "elapsed_time": 11127.481,
+      "fastest_laps": 0,
+      "avg_position": 20.103,
+      "avg_speed": 68.069,
+      "last_lap_speed": 87.267,
+      "last_lap_time": 21.699,
+      "avg_restart_speed": 89.639,
+      "points": 20,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 9,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 400,
+      "car": {
+        "number": "8",
+        "sponsors": "Cheddars/Lucas Oil/Morgan & Morgan/BetMGM/3CHI/Lenovo/Rebel Bourbon/Zone Premium/Bank OZK",
+        "crew_chief": "Randall Burdett",
+        "id": "eabaf6dd-b975-4844-b4b4-653f83c57fbb",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "b28b1f53-bdee-4c44-97fb-bb1fd0ea4a8b",
+          "name": "Richard Childress"
+        },
+        "team": {
+          "id": "ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a",
+          "name": "Richard Childress Racing",
+          "owner": {
+            "id": "84e3b257-75b1-40ef-8774-cfb53fab90e9",
+            "name": "Richard Childress"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Kyle",
+        "last_name": "Busch",
+        "full_name": "Kyle Busch",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "85c06960-3610-4eff-9ef2-18641b84c952"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -6,
+          "in_time": 718.063,
+          "out_time": 761.748
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -19,
+          "in_time": 1809.08,
+          "out_time": 1862.837
+        },
+        {
+          "sequence": 5,
+          "lap": 74,
+          "leader_lap": 75,
+          "positions_gained": -16,
+          "in_time": 1928.149,
+          "out_time": 1976.314
+        },
+        {
+          "sequence": 6,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": 0,
+          "in_time": 3530.487,
+          "out_time": 3573.396
+        },
+        {
+          "sequence": 7,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": 1,
+          "in_time": 5166.136,
+          "out_time": 5211.026
+        },
+        {
+          "sequence": 8,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": 1,
+          "in_time": 7616.831,
+          "out_time": 7660.537
+        },
+        {
+          "sequence": 9,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": 4,
+          "in_time": 11162.942,
+          "out_time": 11173.692
+        }
+      ]
+    },
+    {
+      "start_position": 18,
+      "position": 18,
+      "status": "running",
+      "driver_rating": 68.9,
+      "best_lap": 5,
+      "best_lap_speed": 92.308,
+      "best_lap_time": 20.514,
+      "elapsed_time": 11128.359,
+      "fastest_laps": 1,
+      "avg_position": 17.555,
+      "avg_speed": 68.064,
+      "last_lap_speed": 87.537,
+      "last_lap_time": 21.632,
+      "avg_restart_speed": 89.815,
+      "points": 19,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 8,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 400,
+      "car": {
+        "number": "3",
+        "sponsors": "Bass Pro Shops/BetMGM/Dow/Morgan & Morgan/BREZTRI/Bioethanol/SENIX Tools/Winchester",
+        "crew_chief": "Richard Boswell",
+        "id": "fbee74ad-5e2d-4f54-bdf5-52b6193b04d6",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "b28b1f53-bdee-4c44-97fb-bb1fd0ea4a8b",
+          "name": "Richard Childress"
+        },
+        "team": {
+          "id": "ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a",
+          "name": "Richard Childress Racing",
+          "owner": {
+            "id": "84e3b257-75b1-40ef-8774-cfb53fab90e9",
+            "name": "Richard Childress"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Austin",
+        "last_name": "Dillon",
+        "full_name": "Austin Dillon",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "8853e676-384e-4d08-8808-970fd111f36a"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -6,
+          "in_time": 718.943,
+          "out_time": 763.321
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -22,
+          "in_time": 1807.072,
+          "out_time": 1861.688
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -8,
+          "in_time": 3528.224,
+          "out_time": 3576.208
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": 0,
+          "in_time": 5160.619,
+          "out_time": 5205.245
+        },
+        {
+          "sequence": 7,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": 1,
+          "in_time": 7614.734,
+          "out_time": 7659.057
+        },
+        {
+          "sequence": 8,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": 4,
+          "in_time": 11164.081,
+          "out_time": 11175.719
+        }
+      ]
+    },
+    {
+      "start_position": 29,
+      "position": 19,
+      "status": "running",
+      "driver_rating": 58.4,
+      "best_lap": 195,
+      "best_lap_speed": 91.9,
+      "best_lap_time": 20.605,
+      "elapsed_time": 11129.235,
+      "fastest_laps": 2,
+      "avg_position": 21.735,
+      "avg_speed": 68.059,
+      "last_lap_speed": 86.525,
+      "last_lap_time": 21.885,
+      "avg_restart_speed": 89.703,
+      "points": 18,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 9,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 400,
+      "car": {
+        "number": "77",
+        "sponsors": "Zeigler Auto Group/Delaware Life/Gainbridge/Premier Security/Miner Docks, Doors, and More",
+        "crew_chief": "Luke Lambert",
+        "id": "5d9986fb-1155-4456-a38c-d56b4a618c34",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "e611fa59-af3f-40b8-bd07-935eb5b26b01",
+          "name": "Jeff Dickerson"
+        },
+        "team": {
+          "id": "9f742920-6e44-4581-8a61-e8c38cf21da4",
+          "name": "Spire Motorsports"
+        }
+      },
+      "driver": {
+        "first_name": "Carson",
+        "last_name": "Hocevar",
+        "full_name": "Carson Hocevar",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "e4522ae3-a66d-42e6-992d-f4ea7dd3284c"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 4,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -3,
+          "in_time": 723.98,
+          "out_time": 769.534
+        },
+        {
+          "sequence": 5,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -13,
+          "in_time": 1812.906,
+          "out_time": 1868.656
+        },
+        {
+          "sequence": 6,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -2,
+          "in_time": 3529.05,
+          "out_time": 3572.898
+        },
+        {
+          "sequence": 7,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -8,
+          "in_time": 5162.926,
+          "out_time": 5212.469
+        },
+        {
+          "sequence": 8,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": -1,
+          "in_time": 7616.44,
+          "out_time": 7662.177
+        },
+        {
+          "sequence": 9,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": 3,
+          "in_time": 11165.028,
+          "out_time": 11177.736
+        }
+      ]
+    },
+    {
+      "start_position": 34,
+      "position": 20,
+      "status": "running",
+      "driver_rating": 41.8,
+      "best_lap": 96,
+      "best_lap_speed": 91.052,
+      "best_lap_time": 20.797,
+      "elapsed_time": 11129.512,
+      "fastest_laps": 1,
+      "avg_position": 29.123,
+      "avg_speed": 68.057,
+      "last_lap_speed": 86.743,
+      "last_lap_time": 21.83,
+      "avg_restart_speed": 88.949,
+      "points": 17,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 11,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 400,
+      "car": {
+        "number": "47",
+        "sponsors": "NOS Energy Drink/SunnyD/Martin's Potato Rolls/Real American Bear/betr",
+        "crew_chief": "Mike Kelley",
+        "id": "efd240d0-8844-4fcb-a15f-062846ae6e4c",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "db238547-f8d4-4999-9614-0e808d83d766",
+          "name": "Tad Geschickter"
+        },
+        "team": {
+          "id": "fb3e4d03-9408-43c6-b65f-61a2399a146d",
+          "name": "Hyak Motorsports",
+          "owner": {
+            "id": "336e693e-f8f5-4d74-a5d2-23adb8a719aa",
+            "name": "Gordon Smith"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Ricky",
+        "last_name": "Stenhouse",
+        "full_name": "Ricky Stenhouse Jr",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "0cdae85e-0b1d-44d7-9614-a49aff66aeb5"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -1,
+          "in_time": 728.19,
+          "out_time": 777.348
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -3,
+          "in_time": 1817.989,
+          "out_time": 1867.535
+        },
+        {
+          "sequence": 5,
+          "lap": 74,
+          "leader_lap": 75,
+          "positions_gained": -12,
+          "in_time": 1930.384,
+          "out_time": 1975.689
+        },
+        {
+          "sequence": 6,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -1,
+          "in_time": 3531.962,
+          "out_time": 3577.751
+        },
+        {
+          "sequence": 7,
+          "lap": 128,
+          "leader_lap": 129,
+          "positions_gained": -18,
+          "in_time": 3695.626,
+          "out_time": 3759.729
+        },
+        {
+          "sequence": 8,
+          "lap": 187,
+          "leader_lap": 187,
+          "positions_gained": -14,
+          "in_time": 5209.386,
+          "out_time": 5261.475
+        },
+        {
+          "sequence": 9,
+          "lap": 278,
+          "leader_lap": 279,
+          "positions_gained": -1,
+          "in_time": 7664.755,
+          "out_time": 7709.249
+        },
+        {
+          "sequence": 10,
+          "lap": 312,
+          "leader_lap": 313,
+          "positions_gained": -1,
+          "in_time": 8968.807,
+          "out_time": 9014.666
+        },
+        {
+          "sequence": 11,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": 2,
+          "in_time": 11166.043,
+          "out_time": 11181.293
+        }
+      ]
+    },
+    {
+      "start_position": 26,
+      "position": 21,
+      "status": "running",
+      "driver_rating": 71.5,
+      "best_lap": 134,
+      "best_lap_speed": 92.249,
+      "best_lap_time": 20.527,
+      "elapsed_time": 11129.749,
+      "fastest_laps": 6,
+      "avg_position": 16.898,
+      "avg_speed": 68.055,
+      "last_lap_speed": 86.676,
+      "last_lap_time": 21.847,
+      "avg_restart_speed": 89.853,
+      "points": 16,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 8,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 400,
+      "car": {
+        "number": "99",
+        "sponsors": "Freeway Insurance/Worldwide Express/Quaker State/Jockey/Kubota/Tootsie's Orchid Lounge/Choice Privileges",
+        "crew_chief": "Matt Swiderski",
+        "id": "dee4bd39-19ec-4224-844f-5fda77711e27",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "32feeff3-f6ba-484c-b7ba-c46ee41a0bcf",
+          "name": "Justin Marks"
+        },
+        "team": {
+          "id": "26c50f58-f4e7-44db-bb61-cfc9a767e212",
+          "name": "Trackhouse Racing",
+          "owner": {
+            "id": "8f824787-7369-48e9-a83e-4a7e160b5d1d",
+            "name": "Justin Marks"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Daniel",
+        "last_name": "Suárez",
+        "full_name": "Daniel Suárez",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "ebd0a08d-5308-442e-a2ae-2e40aafb3100"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -1,
+          "in_time": 722.397,
+          "out_time": 766.213
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -6,
+          "in_time": 1810.118,
+          "out_time": 1854.326
+        },
+        {
+          "sequence": 5,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -2,
+          "in_time": 5158.754,
+          "out_time": 5203.275
+        },
+        {
+          "sequence": 6,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": -5,
+          "in_time": 7613.061,
+          "out_time": 7659.467
+        },
+        {
+          "sequence": 7,
+          "lap": 300,
+          "leader_lap": 300,
+          "positions_gained": -12,
+          "in_time": 8413.71,
+          "out_time": 8461.261
+        },
+        {
+          "sequence": 8,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": 1,
+          "in_time": 11169.438,
+          "out_time": 11174.45
+        }
+      ]
+    },
+    {
+      "start_position": 10,
+      "position": 22,
+      "status": "running",
+      "driver_rating": 71.6,
+      "best_lap": 271,
+      "best_lap_speed": 92.66,
+      "best_lap_time": 20.436,
+      "elapsed_time": 11132.194,
+      "fastest_laps": 5,
+      "avg_position": 18.1,
+      "avg_speed": 68.04,
+      "last_lap_speed": 85.878,
+      "last_lap_time": 22.05,
+      "avg_restart_speed": 89.803,
+      "points": 15,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 9,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 400,
+      "car": {
+        "number": "24",
+        "sponsors": "Axalta/Liberty/HP/Valvoline/Raptor",
+        "crew_chief": "Rudy Fugle",
+        "id": "7cef9b08-2b70-402f-b5b5-c33c623d3126",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "57fb4b0f-140e-47c6-8710-9e24614b4ff4",
+          "name": "Rick Hendrick"
+        },
+        "team": {
+          "id": "8427da4c-9c88-4849-9242-0c184d5ed67c",
+          "name": "Hendrick Motorsports",
+          "owner": {
+            "id": "df3acab4-1712-44bb-b913-897b4e20fd50",
+            "name": "Rick Hendrick"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "William",
+        "last_name": "Byron",
+        "full_name": "William Byron",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "c9bf58a8-66b6-4d75-a441-c13130ded990"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -24,
+          "in_time": 715.751,
+          "out_time": 772.28
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -1,
+          "in_time": 1814.021,
+          "out_time": 1857.803
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": 5,
+          "in_time": 3528.536,
+          "out_time": 3568.186
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -1,
+          "in_time": 5159.439,
+          "out_time": 5203.518
+        },
+        {
+          "sequence": 7,
+          "lap": 265,
+          "leader_lap": 266,
+          "positions_gained": -21,
+          "in_time": 7223.356,
+          "out_time": 7266.95
+        },
+        {
+          "sequence": 8,
+          "lap": 300,
+          "leader_lap": 300,
+          "positions_gained": -6,
+          "in_time": 8418.084,
+          "out_time": 8462.445
+        },
+        {
+          "sequence": 9,
+          "lap": 400,
+          "leader_lap": 400,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        }
+      ]
+    },
+    {
+      "start_position": 23,
+      "position": 23,
+      "status": "running",
+      "driver_rating": 50.2,
+      "best_lap": 289,
+      "best_lap_speed": 91.891,
+      "best_lap_time": 20.607,
+      "elapsed_time": 11113.282,
+      "fastest_laps": 0,
+      "avg_position": 22.328,
+      "avg_speed": 67.986,
+      "last_lap_speed": 86.12,
+      "last_lap_time": 21.988,
+      "avg_restart_speed": 89.8,
+      "points": 22,
+      "bonus_points": 8,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 9,
+      "stage_1_points": 8,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 399,
+      "car": {
+        "number": "16",
+        "sponsors": "CELSIUS/LeafFilter/Campers Inn RV/Action Industries",
+        "crew_chief": "Trent Owens",
+        "id": "03be2c5e-e34e-4eb0-afa5-038d48090d78",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "935f3f46-6819-46f2-a21c-fb08c2c297c3",
+          "name": "Matt Kaulig"
+        },
+        "team": {
+          "id": "58ca0768-82c7-49ca-a358-773b245db83b",
+          "name": "Kaulig Racing",
+          "owner": {
+            "id": "d7d36ea8-f61a-4ee4-aa38-07635c4f14a3",
+            "name": "Matt Kaulig"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "AJ",
+        "last_name": "Allmendinger",
+        "full_name": "AJ Allmendinger",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "fc04af5e-bd27-4e87-850c-a72e22dcb4a6"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -4,
+          "in_time": 721.725,
+          "out_time": 767.398
+        },
+        {
+          "sequence": 4,
+          "lap": 85,
+          "leader_lap": 85,
+          "positions_gained": -10,
+          "in_time": 2389.506,
+          "out_time": 2433.344
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -4,
+          "in_time": 3531.353,
+          "out_time": 3577.958
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -11,
+          "in_time": 5162.447,
+          "out_time": 5214.456
+        },
+        {
+          "sequence": 7,
+          "lap": 202,
+          "leader_lap": 203,
+          "positions_gained": -15,
+          "in_time": 5765.569,
+          "out_time": 5812.187
+        },
+        {
+          "sequence": 8,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": -3,
+          "in_time": 7617.461,
+          "out_time": 7676.497
+        },
+        {
+          "sequence": 9,
+          "lap": 399,
+          "leader_lap": 400,
+          "positions_gained": 0,
+          "in_time": 11131.419,
+          "out_time": 11149.395
+        }
+      ]
+    },
+    {
+      "start_position": 6,
+      "position": 24,
+      "status": "running",
+      "driver_rating": 44.9,
+      "best_lap": 6,
+      "best_lap_speed": 92.578,
+      "best_lap_time": 20.454,
+      "elapsed_time": 11118.408,
+      "fastest_laps": 1,
+      "avg_position": 26.703,
+      "avg_speed": 67.955,
+      "last_lap_speed": 85.983,
+      "last_lap_time": 22.023,
+      "avg_restart_speed": 89.545,
+      "points": 13,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 13,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 399,
+      "car": {
+        "number": "17",
+        "sponsors": "Fastenal/Fifth Third Bank/Castrol Edge/BuildSubmarines.com/ESPERION/Travel Centers of America/Kroger/Tree Top/Farm Rich",
+        "crew_chief": "Scott Graves",
+        "id": "a7fc0b6d-da2f-4cb6-9f7d-154e5351d788",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "4788307e-e269-4409-8fae-bbda98214196",
+          "name": "Jack Roush"
+        },
+        "team": {
+          "id": "69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee",
+          "name": "Roush Fenway Keselowski Racing"
+        }
+      },
+      "driver": {
+        "first_name": "Chris",
+        "last_name": "Buescher",
+        "full_name": "Chris Buescher",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "25cfebb6-24e5-429c-a9db-c276bab0e228"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -13,
+          "in_time": 714.739,
+          "out_time": 761.33
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 73,
+          "positions_gained": 0,
+          "in_time": 1855.31,
+          "out_time": 1911.852
+        },
+        {
+          "sequence": 5,
+          "lap": 86,
+          "leader_lap": 87,
+          "positions_gained": -15,
+          "in_time": 2465.558,
+          "out_time": 2514.888
+        },
+        {
+          "sequence": 6,
+          "lap": 87,
+          "leader_lap": 88,
+          "positions_gained": -5,
+          "in_time": 2523.438,
+          "out_time": 2568.82
+        },
+        {
+          "sequence": 7,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": 0,
+          "in_time": 3536.307,
+          "out_time": 3582.105
+        },
+        {
+          "sequence": 8,
+          "lap": 187,
+          "leader_lap": 187,
+          "positions_gained": -33,
+          "in_time": 5208.957,
+          "out_time": 5274.979
+        },
+        {
+          "sequence": 9,
+          "lap": 188,
+          "leader_lap": 189,
+          "positions_gained": -1,
+          "in_time": 5291.927,
+          "out_time": 5336.571
+        },
+        {
+          "sequence": 10,
+          "lap": 278,
+          "leader_lap": 279,
+          "positions_gained": -3,
+          "in_time": 7664.003,
+          "out_time": 7711.374
+        },
+        {
+          "sequence": 11,
+          "lap": 302,
+          "leader_lap": 303,
+          "positions_gained": -1,
+          "in_time": 8535.794,
+          "out_time": 8581.391
+        },
+        {
+          "sequence": 12,
+          "lap": 308,
+          "leader_lap": 309,
+          "positions_gained": 0,
+          "in_time": 8754.796,
+          "out_time": 8804.264
+        },
+        {
+          "sequence": 13,
+          "lap": 399,
+          "leader_lap": 400,
+          "positions_gained": 1,
+          "in_time": 11141.573,
+          "out_time": 11162.877
+        }
+      ]
+    },
+    {
+      "start_position": 16,
+      "position": 25,
+      "status": "running",
+      "driver_rating": 39.8,
+      "best_lap": 96,
+      "best_lap_speed": 91.94,
+      "best_lap_time": 20.596,
+      "elapsed_time": 11120.135,
+      "fastest_laps": 1,
+      "avg_position": 26.645,
+      "avg_speed": 67.944,
+      "last_lap_speed": 87.259,
+      "last_lap_time": 21.701,
+      "avg_restart_speed": 89.608,
+      "points": 18,
+      "bonus_points": 6,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 9,
+      "stage_1_points": 6,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 399,
+      "car": {
+        "number": "42",
+        "sponsors": "Dollar Tree/Mobil 1/Albertson's/Safeway/Acme/ROMCO Equipment Co./Advent Health/DriveValue.com/Backstreet Boys",
+        "crew_chief": "Travis Mack",
+        "id": "1dbd3173-2412-48e7-bf44-cca9a72fc127",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "00ce3576-b3b6-47f5-af84-d3bbcca0435d",
+          "name": "Mike Beam"
+        },
+        "team": {
+          "id": "ee6a924b-58f4-40ea-8514-610936e32e78",
+          "name": "LEGACY Motor Club",
+          "owner": {
+            "id": "23972c17-6476-4824-aeb2-43896e2082d9",
+            "name": "Richard Petty"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "John H.",
+        "last_name": "Nemechek",
+        "full_name": "John H. Nemechek",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "6334f9f0-8b97-4020-8204-2ba30e7dd4ba"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -19,
+          "in_time": 719.512,
+          "out_time": 778.814
+        },
+        {
+          "sequence": 4,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -2,
+          "in_time": 3532.452,
+          "out_time": 3578.862
+        },
+        {
+          "sequence": 5,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -1,
+          "in_time": 5169.259,
+          "out_time": 5216.807
+        },
+        {
+          "sequence": 6,
+          "lap": 202,
+          "leader_lap": 203,
+          "positions_gained": -10,
+          "in_time": 5766.431,
+          "out_time": 5810.022
+        },
+        {
+          "sequence": 7,
+          "lap": 278,
+          "leader_lap": 279,
+          "positions_gained": 1,
+          "in_time": 7665.309,
+          "out_time": 7708.239
+        },
+        {
+          "sequence": 8,
+          "lap": 321,
+          "leader_lap": 322,
+          "positions_gained": -2,
+          "in_time": 9372.49,
+          "out_time": 9416.937
+        },
+        {
+          "sequence": 9,
+          "lap": 399,
+          "leader_lap": 400,
+          "positions_gained": 1,
+          "in_time": 11149.211,
+          "out_time": 11175.875
+        }
+      ]
+    },
+    {
+      "start_position": 27,
+      "position": 26,
+      "status": "running",
+      "driver_rating": 49.1,
+      "best_lap": 195,
+      "best_lap_speed": 91.629,
+      "best_lap_time": 20.666,
+      "elapsed_time": 11130.221,
+      "fastest_laps": 2,
+      "avg_position": 23.653,
+      "avg_speed": 67.882,
+      "last_lap_speed": 87.319,
+      "last_lap_time": 21.686,
+      "avg_restart_speed": 89.728,
+      "points": 18,
+      "bonus_points": 7,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 8,
+      "stage_1_points": 7,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 399,
+      "car": {
+        "number": "6",
+        "sponsors": "Castrol Edge/BuildSubmarines.com/Fastenal/Solomon Plumbing/Kroger/Esperion/Consumer Cellular",
+        "crew_chief": "Jeremy Bullins",
+        "id": "698eee4f-6812-47b1-9940-62e2afc50143",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "b8e569e0-a3cf-48ee-bd7b-52a2ba1ff1d9",
+          "name": "John Henry"
+        },
+        "team": {
+          "id": "69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee",
+          "name": "Roush Fenway Keselowski Racing"
+        }
+      },
+      "driver": {
+        "first_name": "Brad",
+        "last_name": "Keselowski",
+        "full_name": "Brad Keselowski",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "0ce4113d-34c8-4272-b658-3b929238dbd3"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 85,
+          "leader_lap": 85,
+          "positions_gained": -10,
+          "in_time": 2390.094,
+          "out_time": 2433.911
+        },
+        {
+          "sequence": 4,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": 3,
+          "in_time": 3533.361,
+          "out_time": 3577.65
+        },
+        {
+          "sequence": 5,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -1,
+          "in_time": 5164.187,
+          "out_time": 5209.693
+        },
+        {
+          "sequence": 6,
+          "lap": 269,
+          "leader_lap": 270,
+          "positions_gained": -15,
+          "in_time": 7312.366,
+          "out_time": 7355.787
+        },
+        {
+          "sequence": 7,
+          "lap": 300,
+          "leader_lap": 301,
+          "positions_gained": -1,
+          "in_time": 8469.718,
+          "out_time": 8508.929
+        },
+        {
+          "sequence": 8,
+          "lap": 399,
+          "leader_lap": 400,
+          "positions_gained": 0,
+          "in_time": 11172.89,
+          "out_time": 11179.53
+        }
+      ]
+    },
+    {
+      "start_position": 3,
+      "position": 27,
+      "status": "running",
+      "driver_rating": 67.1,
+      "best_lap": 3,
+      "best_lap_speed": 92.828,
+      "best_lap_time": 20.399,
+      "elapsed_time": 11131.48,
+      "fastest_laps": 8,
+      "avg_position": 20.848,
+      "avg_speed": 67.875,
+      "last_lap_speed": 85.163,
+      "last_lap_time": 22.235,
+      "avg_restart_speed": 90.316,
+      "points": 19,
+      "bonus_points": 9,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 9,
+      "stage_1_points": 9,
+      "stage_2_points": 0,
+      "laps_led": 6,
+      "times_led": 1,
+      "laps_completed": 399,
+      "car": {
+        "number": "48",
+        "sponsors": "Ally Financial",
+        "crew_chief": "Blake Harris",
+        "id": "733d54fb-e4f5-4829-bc2a-94af6c9c6504",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "492ef62b-a861-4672-9940-0ec3133e04f1",
+          "name": "Jeff Gordon"
+        },
+        "team": {
+          "id": "8427da4c-9c88-4849-9242-0c184d5ed67c",
+          "name": "Hendrick Motorsports",
+          "owner": {
+            "id": "df3acab4-1712-44bb-b913-897b4e20fd50",
+            "name": "Rick Hendrick"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Alex",
+        "last_name": "Bowman",
+        "full_name": "Alex Bowman",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "3ebef96f-43b4-422a-9d0c-db0127b25384"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -7,
+          "in_time": 713.509,
+          "out_time": 755.955
+        },
+        {
+          "sequence": 4,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -9,
+          "in_time": 3522.908,
+          "out_time": 3567.026
+        },
+        {
+          "sequence": 5,
+          "lap": 128,
+          "leader_lap": 128,
+          "positions_gained": -16,
+          "in_time": 3686.471,
+          "out_time": 3731.161
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": 3,
+          "in_time": 5166.556,
+          "out_time": 5210.738
+        },
+        {
+          "sequence": 7,
+          "lap": 265,
+          "leader_lap": 266,
+          "positions_gained": -4,
+          "in_time": 7237.736,
+          "out_time": 7281.089
+        },
+        {
+          "sequence": 8,
+          "lap": 300,
+          "leader_lap": 302,
+          "positions_gained": -2,
+          "in_time": 8472.163,
+          "out_time": 8516.254
+        },
+        {
+          "sequence": 9,
+          "lap": 399,
+          "leader_lap": 400,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        }
+      ],
+      "leads": [
+        {
+          "sequence": 1,
+          "start_lap": 87,
+          "end_lap": 92
+        }
+      ]
+    },
+    {
+      "start_position": 30,
+      "position": 28,
+      "status": "running",
+      "driver_rating": 48.4,
+      "best_lap": 271,
+      "best_lap_speed": 92.606,
+      "best_lap_time": 20.448,
+      "elapsed_time": 11118.798,
+      "fastest_laps": 2,
+      "avg_position": 24.63,
+      "avg_speed": 67.782,
+      "last_lap_speed": 86.632,
+      "last_lap_time": 21.858,
+      "avg_restart_speed": 89.544,
+      "points": 9,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 9,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 398,
+      "car": {
+        "number": "7",
+        "sponsors": "CELSIUS/Gainbridge/The Fraternal Order of Eagles",
+        "crew_chief": "Rodney Childers",
+        "id": "f027a5b4-c260-496a-9470-ede66d9f6144",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "e611fa59-af3f-40b8-bd07-935eb5b26b01",
+          "name": "Jeff Dickerson"
+        },
+        "team": {
+          "id": "9f742920-6e44-4581-8a61-e8c38cf21da4",
+          "name": "Spire Motorsports"
+        }
+      },
+      "driver": {
+        "first_name": "Justin",
+        "last_name": "Haley",
+        "full_name": "Justin Haley",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "6e3ed92a-ee25-4dea-b116-d493ebccba07"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": 0,
+          "in_time": 724.898,
+          "out_time": 768.923
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -6,
+          "in_time": 1812.468,
+          "out_time": 1856.832
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -3,
+          "in_time": 3527.263,
+          "out_time": 3569.564
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": 3,
+          "in_time": 5163.356,
+          "out_time": 5206.337
+        },
+        {
+          "sequence": 7,
+          "lap": 266,
+          "leader_lap": 267,
+          "positions_gained": -11,
+          "in_time": 7254.206,
+          "out_time": 7297.361
+        },
+        {
+          "sequence": 8,
+          "lap": 300,
+          "leader_lap": 302,
+          "positions_gained": -2,
+          "in_time": 8472.775,
+          "out_time": 8517.174
+        },
+        {
+          "sequence": 9,
+          "lap": 398,
+          "leader_lap": 400,
+          "positions_gained": 0,
+          "in_time": 11144.645,
+          "out_time": 11162.149
+        }
+      ]
+    },
+    {
+      "start_position": 24,
+      "position": 29,
+      "status": "running",
+      "driver_rating": 48.3,
+      "best_lap": 290,
+      "best_lap_speed": 91.469,
+      "best_lap_time": 20.702,
+      "elapsed_time": 11113.755,
+      "fastest_laps": 0,
+      "avg_position": 24.54,
+      "avg_speed": 67.642,
+      "last_lap_speed": 86.978,
+      "last_lap_time": 21.771,
+      "avg_restart_speed": 89.761,
+      "points": 8,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 10,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 397,
+      "car": {
+        "number": "4",
+        "sponsors": "TrueTimber/MillerTech/Zep/Beef A Roo",
+        "crew_chief": "Drew Blickenderfer",
+        "id": "6713b606-f0b9-4b23-bcf3-9f2e4e9a91a7",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "c81a723c-a430-4be5-969f-5fbf21c1d519",
+          "name": "Bob Jenkins"
+        },
+        "team": {
+          "id": "bd38dfec-bb97-4f29-b032-cc6f0c77dfe6",
+          "name": "Front Row Motorsports"
+        }
+      },
+      "driver": {
+        "first_name": "Noah",
+        "last_name": "Gragson",
+        "full_name": "Noah Gragson",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "abab879c-93b3-4476-95a0-47f60df1a0e4"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -5,
+          "in_time": 723.528,
+          "out_time": 770.009
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -2,
+          "in_time": 1813.277,
+          "out_time": 1856.596
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -8,
+          "in_time": 3525.98,
+          "out_time": 3570.091
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -8,
+          "in_time": 5159.832,
+          "out_time": 5207.856
+        },
+        {
+          "sequence": 7,
+          "lap": 270,
+          "leader_lap": 271,
+          "positions_gained": -7,
+          "in_time": 7342.227,
+          "out_time": 7386.534
+        },
+        {
+          "sequence": 8,
+          "lap": 300,
+          "leader_lap": 301,
+          "positions_gained": -2,
+          "in_time": 8471.022,
+          "out_time": 8514.937
+        },
+        {
+          "sequence": 9,
+          "lap": 307,
+          "leader_lap": 309,
+          "positions_gained": -2,
+          "in_time": 8755.86,
+          "out_time": 8825.993
+        },
+        {
+          "sequence": 10,
+          "lap": 397,
+          "leader_lap": 400,
+          "positions_gained": 0,
+          "in_time": 11132.625,
+          "out_time": 11152.325
+        }
+      ]
+    },
+    {
+      "start_position": 36,
+      "position": 30,
+      "status": "running",
+      "driver_rating": 30.7,
+      "best_lap": 306,
+      "best_lap_speed": 92.065,
+      "best_lap_time": 20.568,
+      "elapsed_time": 11110.928,
+      "fastest_laps": 3,
+      "avg_position": 32.535,
+      "avg_speed": 67.489,
+      "last_lap_speed": 85.194,
+      "last_lap_time": 22.227,
+      "avg_restart_speed": 88.279,
+      "points": 7,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 14,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 396,
+      "car": {
+        "number": "51",
+        "sponsors": "Arby's/Jacob Companies/Might Fire Breaker/Red Cross/Parts Plus/Evel Knievel",
+        "crew_chief": "Chris Lawson",
+        "id": "1e6c455d-a659-4523-8263-66e6544263f9",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "41c22ea5-0caf-459c-9e97-0a13d3e6c086",
+          "name": "Rick Ware"
+        },
+        "team": {
+          "id": "115610f5-11b9-43ff-a1b4-ef5cdab18119",
+          "name": "Rick Ware Racing"
+        }
+      },
+      "driver": {
+        "first_name": "Cody",
+        "last_name": "Ware",
+        "full_name": "Cody Ware",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "fa1dba10-512b-4cfd-bcb7-c8e4963a209d"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 33,
+          "positions_gained": -6,
+          "in_time": 729.606,
+          "out_time": 793.496
+        },
+        {
+          "sequence": 4,
+          "lap": 73,
+          "leader_lap": 73,
+          "positions_gained": -21,
+          "in_time": 1859.784,
+          "out_time": 1910.226
+        },
+        {
+          "sequence": 5,
+          "lap": 85,
+          "leader_lap": 86,
+          "positions_gained": -6,
+          "in_time": 2415.288,
+          "out_time": 2462.518
+        },
+        {
+          "sequence": 6,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": 0,
+          "in_time": 3535.772,
+          "out_time": 3581.547
+        },
+        {
+          "sequence": 7,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -1,
+          "in_time": 5169.974,
+          "out_time": 5222.164
+        },
+        {
+          "sequence": 8,
+          "lap": 267,
+          "leader_lap": 268,
+          "positions_gained": -7,
+          "in_time": 7282.671,
+          "out_time": 7331.423
+        },
+        {
+          "sequence": 9,
+          "lap": 297,
+          "leader_lap": 299,
+          "positions_gained": -5,
+          "in_time": 8326.505,
+          "out_time": 8382.931
+        },
+        {
+          "sequence": 10,
+          "lap": 299,
+          "leader_lap": 301,
+          "positions_gained": -2,
+          "in_time": 8425.656,
+          "out_time": 8476.859
+        },
+        {
+          "sequence": 11,
+          "lap": 302,
+          "leader_lap": 304,
+          "positions_gained": -4,
+          "in_time": 8582.423,
+          "out_time": 8642.029
+        },
+        {
+          "sequence": 12,
+          "lap": 311,
+          "leader_lap": 313,
+          "positions_gained": -5,
+          "in_time": 8963.95,
+          "out_time": 9017.007
+        },
+        {
+          "sequence": 13,
+          "lap": 329,
+          "leader_lap": 331,
+          "positions_gained": 0,
+          "in_time": 9652.71,
+          "out_time": 9684.136
+        },
+        {
+          "sequence": 14,
+          "lap": 396,
+          "leader_lap": 400,
+          "positions_gained": 0,
+          "in_time": 11130.674,
+          "out_time": 11147.277
+        }
+      ]
+    },
+    {
+      "start_position": 35,
+      "position": 31,
+      "status": "running",
+      "driver_rating": 34.3,
+      "best_lap": 304,
+      "best_lap_speed": 91.718,
+      "best_lap_time": 20.646,
+      "elapsed_time": 11118.571,
+      "fastest_laps": 0,
+      "avg_position": 30.538,
+      "avg_speed": 67.443,
+      "last_lap_speed": 86.831,
+      "last_lap_time": 21.808,
+      "avg_restart_speed": 89.333,
+      "points": 6,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 12,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 396,
+      "car": {
+        "number": "35",
+        "sponsors": "Monster Energy/Chumba Casino",
+        "crew_chief": "Davin Restivo",
+        "id": "27c7e77d-5ab7-44e6-a0ea-8cfcfcd8b4c9",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "b54bbedd-be48-4434-9690-936f6e0e3bb1",
+          "name": "Michael Jordan"
+        },
+        "team": {
+          "id": "6de1961e-bb84-40d5-855e-4c8f032e3c4a",
+          "name": "23XI Racing",
+          "owner": {
+            "id": "87d0f23e-e7fb-455e-a063-72f38ac948be",
+            "name": "Michael Jordan"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Riley",
+        "last_name": "Herbst",
+        "full_name": "Riley Herbst",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "2987a290-93b9-4f4e-9b12-c68b4ed126a4"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": 0,
+          "in_time": 1818.736,
+          "out_time": 1863.921
+        },
+        {
+          "sequence": 4,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": 0,
+          "in_time": 3529.443,
+          "out_time": 3572.737
+        },
+        {
+          "sequence": 5,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -3,
+          "in_time": 5165.702,
+          "out_time": 5212.782
+        },
+        {
+          "sequence": 6,
+          "lap": 201,
+          "leader_lap": 202,
+          "positions_gained": -3,
+          "in_time": 5728.142,
+          "out_time": 5777.862
+        },
+        {
+          "sequence": 7,
+          "lap": 203,
+          "leader_lap": 204,
+          "positions_gained": -10,
+          "in_time": 5821.846,
+          "out_time": 5914.24
+        },
+        {
+          "sequence": 8,
+          "lap": 274,
+          "leader_lap": 276,
+          "positions_gained": -3,
+          "in_time": 7519.081,
+          "out_time": 7575.525
+        },
+        {
+          "sequence": 9,
+          "lap": 277,
+          "leader_lap": 279,
+          "positions_gained": -3,
+          "in_time": 7670.69,
+          "out_time": 7760.277
+        },
+        {
+          "sequence": 10,
+          "lap": 298,
+          "leader_lap": 302,
+          "positions_gained": 0,
+          "in_time": 8473.895,
+          "out_time": 8534.689
+        },
+        {
+          "sequence": 11,
+          "lap": 300,
+          "leader_lap": 304,
+          "positions_gained": 0,
+          "in_time": 8588.211,
+          "out_time": 8641.357
+        },
+        {
+          "sequence": 12,
+          "lap": 396,
+          "leader_lap": 400,
+          "positions_gained": 0,
+          "in_time": 11142.996,
+          "out_time": 11170.136
+        }
+      ]
+    },
+    {
+      "start_position": 14,
+      "position": 32,
+      "status": "running",
+      "driver_rating": 72.1,
+      "best_lap": 42,
+      "best_lap_speed": 92.407,
+      "best_lap_time": 20.492,
+      "elapsed_time": 11130.046,
+      "fastest_laps": 19,
+      "avg_position": 29.988,
+      "avg_speed": 67.373,
+      "last_lap_speed": 86.779,
+      "last_lap_time": 21.821,
+      "avg_restart_speed": 89.553,
+      "points": 5,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 12,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 40,
+      "times_led": 1,
+      "laps_completed": 396,
+      "car": {
+        "number": "21",
+        "sponsors": "Motorcraft/Quick Lane/DEX Imaging",
+        "crew_chief": "Mike Stanley",
+        "id": "df4ce303-5e1b-4f90-bdd0-1e768780109c",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "90731d44-8da2-45bd-a8a7-41107fc46e03",
+          "name": "Glen Wood"
+        },
+        "team": {
+          "id": "0dd8fd36-8bb1-4930-bfdc-d0c6be3b1a13",
+          "name": "Wood Brothers",
+          "owner": {
+            "id": "9fe6c239-ccda-43d0-9bb3-7c72606bf210",
+            "name": "Wood Brothers"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Josh",
+        "last_name": "Berry",
+        "full_name": "Josh Berry",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "048726db-d4ca-49f7-8e28-e8993958236f"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -12,
+          "in_time": 1803.531,
+          "out_time": 1848.773
+        },
+        {
+          "sequence": 4,
+          "lap": 74,
+          "leader_lap": 75,
+          "positions_gained": -1,
+          "in_time": 1967.681,
+          "out_time": 2042.944
+        },
+        {
+          "sequence": 5,
+          "lap": 83,
+          "leader_lap": 85,
+          "positions_gained": -1,
+          "in_time": 2368.349,
+          "out_time": 2430.913
+        },
+        {
+          "sequence": 6,
+          "lap": 124,
+          "leader_lap": 126,
+          "positions_gained": 0,
+          "in_time": 3576.01,
+          "out_time": 3653.558
+        },
+        {
+          "sequence": 7,
+          "lap": 202,
+          "leader_lap": 204,
+          "positions_gained": 0,
+          "in_time": 5820.55,
+          "out_time": 5864.665
+        },
+        {
+          "sequence": 8,
+          "lap": 203,
+          "leader_lap": 205,
+          "positions_gained": -1,
+          "in_time": 5875.241,
+          "out_time": 5928.688
+        },
+        {
+          "sequence": 9,
+          "lap": 270,
+          "leader_lap": 272,
+          "positions_gained": -7,
+          "in_time": 7357.794,
+          "out_time": 7445.938
+        },
+        {
+          "sequence": 10,
+          "lap": 275,
+          "leader_lap": 279,
+          "positions_gained": 0,
+          "in_time": 7670.224,
+          "out_time": 7728.489
+        },
+        {
+          "sequence": 11,
+          "lap": 316,
+          "leader_lap": 320,
+          "positions_gained": 0,
+          "in_time": 9308.021,
+          "out_time": 9351.105
+        },
+        {
+          "sequence": 12,
+          "lap": 396,
+          "leader_lap": 400,
+          "positions_gained": 0,
+          "in_time": 11170.327,
+          "out_time": 11175.939
+        }
+      ],
+      "leads": [
+        {
+          "sequence": 1,
+          "start_lap": 34,
+          "end_lap": 73
+        }
+      ]
+    },
+    {
+      "start_position": 22,
+      "position": 33,
+      "status": "running",
+      "driver_rating": 48.2,
+      "best_lap": 43,
+      "best_lap_speed": 92.007,
+      "best_lap_time": 20.581,
+      "elapsed_time": 11120.154,
+      "fastest_laps": 2,
+      "avg_position": 24.485,
+      "avg_speed": 67.092,
+      "last_lap_speed": 87.178,
+      "last_lap_time": 21.721,
+      "avg_restart_speed": 89.644,
+      "points": 6,
+      "bonus_points": 2,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 9,
+      "stage_1_points": 2,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 394,
+      "car": {
+        "number": "41",
+        "sponsors": "Haas Automation/3D Systems/Autodesk",
+        "crew_chief": "Aaron Kramer",
+        "id": "ebb590f6-49ac-4bcd-a06c-9b8f7e38b5a8",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "1c6be062-998b-4846-87d0-11eebfe766d8",
+          "name": "Gene Haas"
+        },
+        "team": {
+          "id": "0eb623d5-a294-4469-9baa-188d383777f8",
+          "name": "Haas Factory Team"
+        }
+      },
+      "driver": {
+        "first_name": "Cole",
+        "last_name": "Custer",
+        "full_name": "Cole Custer",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "3ee8cca6-048e-4e36-9216-ed27d294611b"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -10,
+          "in_time": 1804.353,
+          "out_time": 1848.556
+        },
+        {
+          "sequence": 4,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -4,
+          "in_time": 5168.395,
+          "out_time": 5235.832
+        },
+        {
+          "sequence": 5,
+          "lap": 202,
+          "leader_lap": 203,
+          "positions_gained": -12,
+          "in_time": 5766.966,
+          "out_time": 5827.061
+        },
+        {
+          "sequence": 6,
+          "lap": 262,
+          "leader_lap": 263,
+          "positions_gained": -14,
+          "in_time": 7166.673,
+          "out_time": 7233.415
+        },
+        {
+          "sequence": 7,
+          "lap": 274,
+          "leader_lap": 278,
+          "positions_gained": -2,
+          "in_time": 7580.455,
+          "out_time": 7710.429
+        },
+        {
+          "sequence": 8,
+          "lap": 275,
+          "leader_lap": 280,
+          "positions_gained": 0,
+          "in_time": 7739.253,
+          "out_time": 7785.254
+        },
+        {
+          "sequence": 9,
+          "lap": 394,
+          "leader_lap": 400,
+          "positions_gained": 0,
+          "in_time": 11148.232,
+          "out_time": 11172.72
+        }
+      ]
+    },
+    {
+      "start_position": 33,
+      "position": 34,
+      "status": "running",
+      "driver_rating": 60,
+      "best_lap": 2,
+      "best_lap_speed": 91.227,
+      "best_lap_time": 20.757,
+      "elapsed_time": 11131.123,
+      "fastest_laps": 0,
+      "avg_position": 33.135,
+      "avg_speed": 67.026,
+      "last_lap_speed": 85.536,
+      "last_lap_time": 22.138,
+      "avg_restart_speed": 88.953,
+      "points": 3,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 12,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 394,
+      "car": {
+        "number": "88",
+        "sponsors": "WeatherTech/Red Bull/Jockey",
+        "crew_chief": "Stephen Doran",
+        "id": "04b9f3bc-b614-4102-9ce9-db9fad10020d",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "32feeff3-f6ba-484c-b7ba-c46ee41a0bcf",
+          "name": "Justin Marks"
+        },
+        "team": {
+          "id": "26c50f58-f4e7-44db-bb61-cfc9a767e212",
+          "name": "Trackhouse Racing",
+          "owner": {
+            "id": "8f824787-7369-48e9-a83e-4a7e160b5d1d",
+            "name": "Justin Marks"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Shane",
+        "last_name": "Van Gisbergen",
+        "full_name": "Shane Van Gisbergen",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "13a58b0b-011e-4a0a-8942-6364004cfea7"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": 0,
+          "in_time": 726.228,
+          "out_time": 771.436
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -8,
+          "in_time": 1815.964,
+          "out_time": 1881.171
+        },
+        {
+          "sequence": 5,
+          "lap": 75,
+          "leader_lap": 76,
+          "positions_gained": -12,
+          "in_time": 1984.052,
+          "out_time": 2033.269
+        },
+        {
+          "sequence": 6,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -3,
+          "in_time": 3534.641,
+          "out_time": 3596.326
+        },
+        {
+          "sequence": 7,
+          "lap": 126,
+          "leader_lap": 127,
+          "positions_gained": -2,
+          "in_time": 3605.789,
+          "out_time": 3673.737
+        },
+        {
+          "sequence": 8,
+          "lap": 186,
+          "leader_lap": 187,
+          "positions_gained": 1,
+          "in_time": 5207.569,
+          "out_time": 5252.294
+        },
+        {
+          "sequence": 9,
+          "lap": 203,
+          "leader_lap": 204,
+          "positions_gained": -6,
+          "in_time": 5822.51,
+          "out_time": 5867.98
+        },
+        {
+          "sequence": 10,
+          "lap": 270,
+          "leader_lap": 271,
+          "positions_gained": -7,
+          "in_time": 7343.411,
+          "out_time": 7387.687
+        },
+        {
+          "sequence": 11,
+          "lap": 272,
+          "leader_lap": 275,
+          "positions_gained": -2,
+          "in_time": 7453.132,
+          "out_time": 7611.513
+        },
+        {
+          "sequence": 12,
+          "lap": 394,
+          "leader_lap": 400,
+          "positions_gained": 0,
+          "in_time": 11171.67,
+          "out_time": 11177.487
+        }
+      ]
+    },
+    {
+      "start_position": 37,
+      "position": 35,
+      "status": "running",
+      "driver_rating": 24.7,
+      "best_lap": 4,
+      "best_lap_speed": 90.92,
+      "best_lap_time": 20.827,
+      "elapsed_time": 11129.145,
+      "fastest_laps": 0,
+      "avg_position": 36.398,
+      "avg_speed": 66.188,
+      "last_lap_speed": 82.882,
+      "last_lap_time": 22.847,
+      "avg_restart_speed": 87.791,
+      "points": 0,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 15,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 389,
+      "car": {
+        "number": "66",
+        "sponsors": "QuickTie/Veterans Ranch",
+        "crew_chief": "Carl Long",
+        "id": "42fcad56-ce5c-4ebc-9f80-3daf07096bf7",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "0b74529e-8d5d-4501-84e7-4a4189ced26b",
+          "name": "Danielle Long"
+        },
+        "team": {
+          "id": "cb3d176f-ce0e-44d1-9bde-1100ad539be5",
+          "name": "Garage 66"
+        }
+      },
+      "driver": {
+        "first_name": "Casey",
+        "last_name": "Mears",
+        "full_name": "Casey Mears",
+        "points_eligible": false,
+        "in_chase": false,
+        "id": "0b2a3633-d6cc-4217-bbd6-44f6ec160ed9"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 33,
+          "leader_lap": 33,
+          "positions_gained": -27,
+          "in_time": 770.478,
+          "out_time": 827.602
+        },
+        {
+          "sequence": 4,
+          "lap": 85,
+          "leader_lap": 86,
+          "positions_gained": -8,
+          "in_time": 2414.588,
+          "out_time": 2469.43
+        },
+        {
+          "sequence": 5,
+          "lap": 126,
+          "leader_lap": 126,
+          "positions_gained": -33,
+          "in_time": 3576.491,
+          "out_time": 3655.65
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 187,
+          "positions_gained": -1,
+          "in_time": 5206.495,
+          "out_time": 5270.298
+        },
+        {
+          "sequence": 7,
+          "lap": 187,
+          "leader_lap": 189,
+          "positions_gained": -1,
+          "in_time": 5290.956,
+          "out_time": 5327.243
+        },
+        {
+          "sequence": 8,
+          "lap": 202,
+          "leader_lap": 204,
+          "positions_gained": 0,
+          "in_time": 5821.184,
+          "out_time": 5876.77
+        },
+        {
+          "sequence": 9,
+          "lap": 255,
+          "leader_lap": 258,
+          "positions_gained": 0,
+          "in_time": 7067.657,
+          "out_time": 7118.646
+        },
+        {
+          "sequence": 10,
+          "lap": 258,
+          "leader_lap": 263,
+          "positions_gained": 0,
+          "in_time": 7171.073,
+          "out_time": 7204.503
+        },
+        {
+          "sequence": 11,
+          "lap": 273,
+          "leader_lap": 279,
+          "positions_gained": 0,
+          "in_time": 7663.309,
+          "out_time": 7708.91
+        },
+        {
+          "sequence": 12,
+          "lap": 295,
+          "leader_lap": 302,
+          "positions_gained": 0,
+          "in_time": 8480.078,
+          "out_time": 8536.161
+        },
+        {
+          "sequence": 13,
+          "lap": 306,
+          "leader_lap": 313,
+          "positions_gained": 0,
+          "in_time": 8967.049,
+          "out_time": 9043.948
+        },
+        {
+          "sequence": 14,
+          "lap": 334,
+          "leader_lap": 342,
+          "positions_gained": 0,
+          "in_time": 9892.563,
+          "out_time": 9936.267
+        },
+        {
+          "sequence": 15,
+          "lap": 389,
+          "leader_lap": 400,
+          "positions_gained": 0,
+          "in_time": 11167.498,
+          "out_time": 11172.593
+        }
+      ]
+    },
+    {
+      "start_position": 38,
+      "position": 36,
+      "status": "running",
+      "driver_rating": 24.8,
+      "best_lap": 5,
+      "best_lap_speed": 90.811,
+      "best_lap_time": 20.852,
+      "elapsed_time": 11131.918,
+      "fastest_laps": 1,
+      "avg_position": 37.193,
+      "avg_speed": 66.001,
+      "last_lap_speed": 81.963,
+      "last_lap_time": 23.103,
+      "avg_restart_speed": 88.012,
+      "points": 1,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 10,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 388,
+      "car": {
+        "number": "50",
+        "sponsors": "Citrusafe Cleaners",
+        "crew_chief": "Tony Eury",
+        "id": "85059221-2125-4f44-a921-d005aa84fe1d",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "00aac447-2d5a-4ea8-a532-04f68c789b5a",
+          "name": "William Auchmoody"
+        },
+        "team": {
+          "id": "c5c00a0b-ac74-43fb-8931-dff9a44371ae",
+          "name": "Amerivet Racing"
+        }
+      },
+      "driver": {
+        "first_name": "Burt",
+        "last_name": "Myers",
+        "full_name": "Burt Myers",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "8ecaf559-d7b1-47f9-a821-635c9f8416d9"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 33,
+          "positions_gained": 0,
+          "in_time": 729.955,
+          "out_time": 782.14
+        },
+        {
+          "sequence": 4,
+          "lap": 72,
+          "leader_lap": 73,
+          "positions_gained": 0,
+          "in_time": 1820.274,
+          "out_time": 1873.594
+        },
+        {
+          "sequence": 5,
+          "lap": 120,
+          "leader_lap": 124,
+          "positions_gained": 0,
+          "in_time": 3452.746,
+          "out_time": 3548.096
+        },
+        {
+          "sequence": 6,
+          "lap": 122,
+          "leader_lap": 127,
+          "positions_gained": 0,
+          "in_time": 3603.062,
+          "out_time": 3668.814
+        },
+        {
+          "sequence": 7,
+          "lap": 181,
+          "leader_lap": 187,
+          "positions_gained": 0,
+          "in_time": 5208.311,
+          "out_time": 5258.95
+        },
+        {
+          "sequence": 8,
+          "lap": 182,
+          "leader_lap": 189,
+          "positions_gained": 0,
+          "in_time": 5289.482,
+          "out_time": 5335.688
+        },
+        {
+          "sequence": 9,
+          "lap": 257,
+          "leader_lap": 266,
+          "positions_gained": 0,
+          "in_time": 7229.307,
+          "out_time": 7285.398
+        },
+        {
+          "sequence": 10,
+          "lap": 388,
+          "leader_lap": 400,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        }
+      ]
+    },
+    {
+      "start_position": 20,
+      "position": 37,
+      "status": "electrical",
+      "driver_rating": 42.8,
+      "best_lap": 290,
+      "best_lap_speed": 91.39,
+      "best_lap_time": 20.72,
+      "elapsed_time": 10553.493,
+      "fastest_laps": 0,
+      "avg_position": 25.725,
+      "avg_speed": 65.133,
+      "last_lap_speed": 11.42,
+      "last_lap_time": 165.811,
+      "avg_restart_speed": 89.46,
+      "points": 1,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 12,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 363,
+      "car": {
+        "number": "2",
+        "sponsors": "Menards/Discount Tire/Keystone Light/Freightliner",
+        "crew_chief": "Brian Wilson",
+        "id": "3d0cf0c8-f933-48ac-a935-71f1d18d4bd5",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "3a02ed9a-855e-446a-b71b-876861b84f60",
+          "name": "Roger Penske"
+        },
+        "team": {
+          "id": "e337709c-9fb6-4275-ad89-d9c100e71a1d",
+          "name": "Team Penske",
+          "owner": {
+            "id": "57198af5-d912-4efc-9135-95fc6c0a3fc5",
+            "name": "Roger Penske"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Austin",
+        "last_name": "Cindric",
+        "full_name": "Austin Cindric",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "26f629b5-8682-4db6-a91f-bf0f732f505a"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 72,
+          "leader_lap": 72,
+          "positions_gained": -9,
+          "in_time": 1807.525,
+          "out_time": 1852.37
+        },
+        {
+          "sequence": 4,
+          "lap": 87,
+          "leader_lap": 87,
+          "positions_gained": -33,
+          "in_time": 2500.116,
+          "out_time": 2573.67
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": -1,
+          "in_time": 3534.006,
+          "out_time": 3581.218
+        },
+        {
+          "sequence": 6,
+          "lap": 126,
+          "leader_lap": 127,
+          "positions_gained": -9,
+          "in_time": 3600.886,
+          "out_time": 3656.341
+        },
+        {
+          "sequence": 7,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": -3,
+          "in_time": 5164.631,
+          "out_time": 5211.514
+        },
+        {
+          "sequence": 8,
+          "lap": 278,
+          "leader_lap": 278,
+          "positions_gained": 0,
+          "in_time": 7618.7,
+          "out_time": 7664.159
+        },
+        {
+          "sequence": 9,
+          "lap": 301,
+          "leader_lap": 301,
+          "positions_gained": -14,
+          "in_time": 8468.116,
+          "out_time": 8531.634
+        },
+        {
+          "sequence": 10,
+          "lap": 302,
+          "leader_lap": 303,
+          "positions_gained": 0,
+          "in_time": 8540.81,
+          "out_time": 8599.224
+        },
+        {
+          "sequence": 11,
+          "lap": 346,
+          "leader_lap": 348,
+          "positions_gained": -4,
+          "in_time": 10009.133,
+          "out_time": 10072.876
+        },
+        {
+          "sequence": 12,
+          "lap": 362,
+          "leader_lap": 366,
+          "positions_gained": -5,
+          "in_time": 10402.955,
+          "out_time": 10573.742
+        }
+      ]
+    },
+    {
+      "start_position": 31,
+      "position": 38,
+      "status": "disqualified",
+      "driver_rating": 43.8,
+      "best_lap": 195,
+      "best_lap_speed": 91.439,
+      "best_lap_time": 20.709,
+      "elapsed_time": 11114.166,
+      "fastest_laps": 0,
+      "avg_position": 24.27,
+      "avg_speed": 67.98,
+      "last_lap_speed": 86.399,
+      "last_lap_time": 21.917,
+      "avg_restart_speed": 89.548,
+      "points": 1,
+      "bonus_points": 0,
+      "penalty_points": 0,
+      "money": 0,
+      "fastest_lap_points": 0,
+      "pit_stop_count": 9,
+      "stage_1_points": 0,
+      "stage_2_points": 0,
+      "laps_led": 0,
+      "times_led": 0,
+      "laps_completed": 399,
+      "car": {
+        "number": "43",
+        "sponsors": "Advent Health/Dollar Tree/Allegiant",
+        "crew_chief": "Ben Beshore",
+        "id": "e6fd7d08-83bc-4f2a-8c0b-e5c3cac57ab7",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "1d488f0e-334f-464e-a3db-ae3c8bc028e9",
+          "name": "Richard Petty"
+        },
+        "team": {
+          "id": "ee6a924b-58f4-40ea-8514-610936e32e78",
+          "name": "LEGACY Motor Club",
+          "owner": {
+            "id": "23972c17-6476-4824-aeb2-43896e2082d9",
+            "name": "Richard Petty"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Erik",
+        "last_name": "Jones",
+        "full_name": "Erik Jones",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "e595780e-baa7-4988-9a19-311fef7414d5"
+      },
+      "pit_stops": [
+        {
+          "sequence": 1,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 2,
+          "lap": 0,
+          "leader_lap": 0,
+          "positions_gained": 0,
+          "in_time": 0,
+          "out_time": 0
+        },
+        {
+          "sequence": 3,
+          "lap": 32,
+          "leader_lap": 32,
+          "positions_gained": -4,
+          "in_time": 725.597,
+          "out_time": 773.611
+        },
+        {
+          "sequence": 4,
+          "lap": 85,
+          "leader_lap": 85,
+          "positions_gained": -11,
+          "in_time": 2390.548,
+          "out_time": 2434.448
+        },
+        {
+          "sequence": 5,
+          "lap": 125,
+          "leader_lap": 125,
+          "positions_gained": 0,
+          "in_time": 3530.888,
+          "out_time": 3574.592
+        },
+        {
+          "sequence": 6,
+          "lap": 186,
+          "leader_lap": 186,
+          "positions_gained": 3,
+          "in_time": 5165.218,
+          "out_time": 5208.641
+        },
+        {
+          "sequence": 7,
+          "lap": 279,
+          "leader_lap": 279,
+          "positions_gained": -8,
+          "in_time": 7671.572,
+          "out_time": 7718.256
+        },
+        {
+          "sequence": 8,
+          "lap": 300,
+          "leader_lap": 300,
+          "positions_gained": -7,
+          "in_time": 8415.992,
+          "out_time": 8460.065
+        },
+        {
+          "sequence": 9,
+          "lap": 399,
+          "leader_lap": 400,
+          "positions_gained": -4,
+          "in_time": 11134.344,
+          "out_time": 11171.929
+        }
+      ]
+    }
+  ]
+}
