@@ -1,0 +1,1726 @@
+{
+  "id": "e3180cb4-6557-438e-8a8f-18a09aa8a353",
+  "name": "AdventHealth 400",
+  "status": "prerace",
+  "condition": "normal",
+  "number": 9,
+  "distance": 400,
+  "laps": 267,
+  "chase_race": false,
+  "heat_race": false,
+  "award_pole": true,
+  "purse": 0,
+  "restrictor_plate": false,
+  "scheduled": "2026-04-19T18:00:00+00:00",
+  "parent_id": "bad01c01-be9e-4ebe-adcd-f96ff38389a0",
+  "track": {
+    "name": "Kansas Speedway",
+    "distance": 1.5,
+    "shape": "D-Shaped Oval",
+    "banking": "Turns:15;Backstretch:5:Frontstretch:10.4",
+    "frontstretch": 2685,
+    "backstretch": 2207,
+    "id": "42d3569d-cc77-4072-88d5-f63046eddf39",
+    "lat": "39.109509",
+    "lng": "-94.822326"
+  },
+  "qualifying_start_time": "2026-04-18T21:10:00+00:00",
+  "qualifying_end_time": "2026-04-18T22:00:00+00:00",
+  "qualifying_status": "complete",
+  "qualifying_broadcast": {
+    "network": "PRIME VIDEO"
+  },
+  "qualifying": [
+    {
+      "position": 1,
+      "speed": 185.3,
+      "lap_time": 29.142,
+      "status": "ontrack",
+      "car": {
+        "number": "45",
+        "sponsors": "Monster Energy/McDonald's/Jordan Brand/Xfinity/SiriusXM/Comparion Insurance/Chumba Casino/SupplyHouse",
+        "crew_chief": "Billy Scott",
+        "id": "16baac28-bb05-4731-9bed-f9d4c3f61319",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "b54bbedd-be48-4434-9690-936f6e0e3bb1",
+          "name": "Michael Jordan"
+        },
+        "team": {
+          "id": "6de1961e-bb84-40d5-855e-4c8f032e3c4a",
+          "name": "23XI Racing",
+          "owner": {
+            "id": "87d0f23e-e7fb-455e-a063-72f38ac948be",
+            "name": "Michael Jordan"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Tyler",
+        "last_name": "Reddick",
+        "full_name": "Tyler Reddick",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "b030a8df-e7de-44a4-9f59-34bb9fd227d0"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 1,
+          "speed": 185.3,
+          "lap_time": 29.142,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.142
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "speed": 185.179,
+      "lap_time": 29.161,
+      "status": "ontrack",
+      "car": {
+        "number": "11",
+        "sponsors": "National Debt ReliefProgressive/Sport Clips/King's Hawaiian/Yahoo!/Bob's Discount Furniture",
+        "crew_chief": "Chris Gayle",
+        "id": "a4fca4d9-9ffa-4b72-8673-f851f6fd9677",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "e7846c1b-f64e-4312-8ee3-13c8a0001a8b",
+          "name": "Joe Gibbs"
+        },
+        "team": {
+          "id": "b30dee06-c437-4e76-8b9c-8b850d52ce21",
+          "name": "Joe Gibbs Racing"
+        }
+      },
+      "driver": {
+        "first_name": "Denny",
+        "last_name": "Hamlin",
+        "full_name": "Denny Hamlin",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "cb9d6f49-0044-4305-be9a-22d428e52c95"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 2,
+          "speed": 185.179,
+          "lap_time": 29.161,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.161
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "speed": 184.982,
+      "lap_time": 29.192,
+      "status": "ontrack",
+      "car": {
+        "number": "54",
+        "sponsors": "Monster Energy/SAIA/Interstate Batteries/SiriusXM",
+        "crew_chief": "Tyler Allen",
+        "id": "e6f81236-d2ca-485b-9ef3-aa1ce48209f4",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "e7846c1b-f64e-4312-8ee3-13c8a0001a8b",
+          "name": "Joe Gibbs"
+        },
+        "team": {
+          "id": "b30dee06-c437-4e76-8b9c-8b850d52ce21",
+          "name": "Joe Gibbs Racing"
+        }
+      },
+      "driver": {
+        "first_name": "Ty",
+        "last_name": "Gibbs",
+        "full_name": "Ty Gibbs",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "53a361e5-644d-461e-8777-9b22b3528114"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 3,
+          "speed": 184.982,
+          "lap_time": 29.192,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.192
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "speed": 184.982,
+      "lap_time": 29.192,
+      "status": "ontrack",
+      "car": {
+        "number": "5",
+        "sponsors": "HendrickCars.com/Valvoline",
+        "crew_chief": "Cliff Daniels",
+        "id": "3c900bcd-335e-40b5-a8c6-6a774f7b0347",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "cda14f61-7d18-4863-a413-da170827ff2b",
+          "name": "Linda Hendrick"
+        },
+        "team": {
+          "id": "8427da4c-9c88-4849-9242-0c184d5ed67c",
+          "name": "Hendrick Motorsports",
+          "owner": {
+            "id": "df3acab4-1712-44bb-b913-897b4e20fd50",
+            "name": "Rick Hendrick"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Kyle",
+        "last_name": "Larson",
+        "full_name": "Kyle Larson",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "a756eefd-801d-4214-ab1b-0b595c21c37d"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 4,
+          "speed": 184.982,
+          "lap_time": 29.192,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.192
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "speed": 184.938,
+      "lap_time": 29.199,
+      "status": "ontrack",
+      "car": {
+        "number": "19",
+        "sponsors": "Bass Pro Shops/Columbia Bank/Free Bird Southern Spring Water/Zep",
+        "crew_chief": "James Small",
+        "id": "1e8fcd69-e12e-4fb4-8dff-8b7ec56f3e3f",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "e7846c1b-f64e-4312-8ee3-13c8a0001a8b",
+          "name": "Joe Gibbs"
+        },
+        "team": {
+          "id": "b30dee06-c437-4e76-8b9c-8b850d52ce21",
+          "name": "Joe Gibbs Racing"
+        }
+      },
+      "driver": {
+        "first_name": "Chase",
+        "last_name": "Briscoe",
+        "full_name": "Chase Briscoe",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "25ca1ab3-b013-48cb-b4a4-c10fb45ba397"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 5,
+          "speed": 184.938,
+          "lap_time": 29.199,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.199
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "speed": 184.856,
+      "lap_time": 29.212,
+      "status": "ontrack",
+      "car": {
+        "number": "77",
+        "sponsors": "Zeigler Auto Group/Delaware Life/Gainbridge/Premier Security/Miner Docks, Doors, and More/Chili's/Spectrum",
+        "crew_chief": "Luke Lambert",
+        "id": "5d9986fb-1155-4456-a38c-d56b4a618c34",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "e611fa59-af3f-40b8-bd07-935eb5b26b01",
+          "name": "Jeff Dickerson"
+        },
+        "team": {
+          "id": "9f742920-6e44-4581-8a61-e8c38cf21da4",
+          "name": "Spire Motorsports"
+        }
+      },
+      "driver": {
+        "first_name": "Carson",
+        "last_name": "Hocevar",
+        "full_name": "Carson Hocevar",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "e4522ae3-a66d-42e6-992d-f4ea7dd3284c"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 6,
+          "speed": 184.856,
+          "lap_time": 29.212,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.212
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "speed": 184.761,
+      "lap_time": 29.227,
+      "status": "ontrack",
+      "car": {
+        "number": "17",
+        "sponsors": "Fastenal/Fifth Third Bank/Castrol Edge/BuildSubmarines.com/ESPERION/Travel Centers of America/Kroger",
+        "crew_chief": "Scott Graves",
+        "id": "a7fc0b6d-da2f-4cb6-9f7d-154e5351d788",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "4788307e-e269-4409-8fae-bbda98214196",
+          "name": "Jack Roush"
+        },
+        "team": {
+          "id": "69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee",
+          "name": "RFK Racing",
+          "owner": {
+            "id": "dc50d5ab-b4d2-41ad-bd4c-f92f67107210",
+            "name": "Brad Keselowki"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Chris",
+        "last_name": "Buescher",
+        "full_name": "Chris Buescher",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "25cfebb6-24e5-429c-a9db-c276bab0e228"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 7,
+          "speed": 184.761,
+          "lap_time": 29.227,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.227
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "speed": 184.742,
+      "lap_time": 29.23,
+      "status": "ontrack",
+      "car": {
+        "number": "7",
+        "sponsors": "Freeway Insurance/Cal Ripken Sr. Foundation/Modo Casino/Group 1001",
+        "crew_chief": "Ryan Sparks",
+        "id": "f027a5b4-c260-496a-9470-ede66d9f6144",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "e611fa59-af3f-40b8-bd07-935eb5b26b01",
+          "name": "Jeff Dickerson"
+        },
+        "team": {
+          "id": "9f742920-6e44-4581-8a61-e8c38cf21da4",
+          "name": "Spire Motorsports"
+        }
+      },
+      "driver": {
+        "first_name": "Daniel",
+        "last_name": "Suárez",
+        "full_name": "Daniel Suárez",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "ebd0a08d-5308-442e-a2ae-2e40aafb3100"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 8,
+          "speed": 184.742,
+          "lap_time": 29.23,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.23
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "speed": 184.735,
+      "lap_time": 29.231,
+      "status": "ontrack",
+      "car": {
+        "number": "12",
+        "sponsors": "Menards/Advance Auto Parts/BodyArmor/Wurth/Discount Tire/Dent Wizard/Wabash/Dutch Boy",
+        "crew_chief": "Jonathan Hassler",
+        "id": "874ceeea-76f2-4db9-b647-b10be1082ee4",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "3a02ed9a-855e-446a-b71b-876861b84f60",
+          "name": "Roger Penske"
+        },
+        "team": {
+          "id": "e337709c-9fb6-4275-ad89-d9c100e71a1d",
+          "name": "Team Penske",
+          "owner": {
+            "id": "57198af5-d912-4efc-9135-95fc6c0a3fc5",
+            "name": "Roger Penske"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Ryan",
+        "last_name": "Blaney",
+        "full_name": "Ryan Blaney",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "67948099-4196-4e1b-ae9e-b437aa99000a"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 9,
+          "speed": 184.735,
+          "lap_time": 29.231,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.231
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "speed": 184.426,
+      "lap_time": 29.28,
+      "status": "ontrack",
+      "car": {
+        "number": "23",
+        "sponsors": "McDonald's/Columbia Sportswear/U.S. Air Force/Leidos/Mobil 1/Hardee's/Xfinity/Robinhood",
+        "crew_chief": "Charles Denike",
+        "id": "4a56a3be-1d91-434e-a403-24b3206573b7",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "b54bbedd-be48-4434-9690-936f6e0e3bb1",
+          "name": "Michael Jordan"
+        },
+        "team": {
+          "id": "6de1961e-bb84-40d5-855e-4c8f032e3c4a",
+          "name": "23XI Racing",
+          "owner": {
+            "id": "87d0f23e-e7fb-455e-a063-72f38ac948be",
+            "name": "Michael Jordan"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Bubba",
+        "last_name": "Wallace",
+        "full_name": "Bubba Wallace",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "939e647d-756f-41d7-ad65-609344f64bd5"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 10,
+          "speed": 184.426,
+          "lap_time": 29.28,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.28
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "speed": 184.143,
+      "lap_time": 29.325,
+      "status": "ontrack",
+      "car": {
+        "number": "20",
+        "sponsors": "DeWalt/Rheem/Interstate Batteries/Yahoo!/Sport Clips Haircuts/Reser's Fine Foods/Rheem",
+        "crew_chief": "Adam Stevens",
+        "id": "278372b1-c038-4238-8a42-f53604ab6b02",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "e7846c1b-f64e-4312-8ee3-13c8a0001a8b",
+          "name": "Joe Gibbs"
+        },
+        "team": {
+          "id": "b30dee06-c437-4e76-8b9c-8b850d52ce21",
+          "name": "Joe Gibbs Racing"
+        }
+      },
+      "driver": {
+        "first_name": "Christopher",
+        "last_name": "Bell",
+        "full_name": "Christopher Bell",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "16497cd0-5add-407a-b9a8-eec7d62e413b"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 11,
+          "speed": 184.143,
+          "lap_time": 29.325,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.325
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "speed": 183.88,
+      "lap_time": 29.367,
+      "status": "ontrack",
+      "car": {
+        "number": "60",
+        "sponsors": "Kroger/BuildSubmarines.com/Castrol/Mohawk Northeast/Fastenal/ESPERION/Solomon Plumbing/Consumer Cellular/Body Guard/Trimble/Red Baron/Kickstand Cocktails",
+        "crew_chief": "Derrick Finley",
+        "id": "b97fbf26-8def-4030-8061-0b2678ac5132",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "4788307e-e269-4409-8fae-bbda98214196",
+          "name": "Jack Roush"
+        },
+        "team": {
+          "id": "69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee",
+          "name": "RFK Racing",
+          "owner": {
+            "id": "dc50d5ab-b4d2-41ad-bd4c-f92f67107210",
+            "name": "Brad Keselowki"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Ryan",
+        "last_name": "Preece",
+        "full_name": "Ryan Preece",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "e28a64ca-c622-4b28-b0d9-28bc9390f9e4"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 12,
+          "speed": 183.88,
+          "lap_time": 29.367,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.367
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "speed": 183.661,
+      "lap_time": 29.402,
+      "status": "ontrack",
+      "car": {
+        "number": "9",
+        "sponsors": "NAPA Auto Parts/UniFirst/Llumar/Amazon Prime Video/Kelley Blue Book",
+        "crew_chief": "Alan Gustafson",
+        "id": "959829b1-7117-423a-8f7b-eaec8eb3358f",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "cda14f61-7d18-4863-a413-da170827ff2b",
+          "name": "Linda Hendrick"
+        },
+        "team": {
+          "id": "8427da4c-9c88-4849-9242-0c184d5ed67c",
+          "name": "Hendrick Motorsports",
+          "owner": {
+            "id": "df3acab4-1712-44bb-b913-897b4e20fd50",
+            "name": "Rick Hendrick"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Chase",
+        "last_name": "Elliott",
+        "full_name": "Chase Elliott",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "5fd3e3fb-322f-4157-ae41-9317fba1997d"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 13,
+          "speed": 183.661,
+          "lap_time": 29.402,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.402
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "speed": 183.026,
+      "lap_time": 29.504,
+      "status": "ontrack",
+      "car": {
+        "number": "24",
+        "sponsors": "Axalta/Liberty/Z HP/Valvoline/Raptor/Liberty University/All-Pro Auto Reconditioning/Cincinnati/Anduril/Phorm Energy",
+        "crew_chief": "Ryan Fugle",
+        "id": "7cef9b08-2b70-402f-b5b5-c33c623d3126",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "57fb4b0f-140e-47c6-8710-9e24614b4ff4",
+          "name": "Rick Hendrick"
+        },
+        "team": {
+          "id": "8427da4c-9c88-4849-9242-0c184d5ed67c",
+          "name": "Hendrick Motorsports",
+          "owner": {
+            "id": "df3acab4-1712-44bb-b913-897b4e20fd50",
+            "name": "Rick Hendrick"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "William",
+        "last_name": "Byron",
+        "full_name": "William Byron",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "c9bf58a8-66b6-4d75-a441-c13130ded990"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 14,
+          "speed": 183.026,
+          "lap_time": 29.504,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.504
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "speed": 183.007,
+      "lap_time": 29.507,
+      "status": "ontrack",
+      "car": {
+        "number": "22",
+        "sponsors": "Shell Pennzoil/Hunt Brothers Pizza/AAA Insurance",
+        "crew_chief": "Paul Wolfe",
+        "id": "23a4be38-3039-4757-94f5-b4e478e4d7f8",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "03246399-5e63-4c21-9c5f-24074e3bf515",
+          "name": "Walter Czarnecki"
+        },
+        "team": {
+          "id": "e337709c-9fb6-4275-ad89-d9c100e71a1d",
+          "name": "Team Penske",
+          "owner": {
+            "id": "57198af5-d912-4efc-9135-95fc6c0a3fc5",
+            "name": "Roger Penske"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Joey",
+        "last_name": "Logano",
+        "full_name": "Joey Logano",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "894b273e-ce7d-446c-9ab0-d9a474ce9d7f"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 15,
+          "speed": 183.007,
+          "lap_time": 29.507,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.507
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "speed": 182.852,
+      "lap_time": 29.532,
+      "status": "ontrack",
+      "car": {
+        "number": "47",
+        "sponsors": "NOS Energy Drink/SunnyD/Real American Beer/Chef Boyardee/Jack Links/Pylon Aviation",
+        "crew_chief": "Mike Kelley",
+        "id": "efd240d0-8844-4fcb-a15f-062846ae6e4c",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "db238547-f8d4-4999-9614-0e808d83d766",
+          "name": "Tad Geschickter"
+        },
+        "team": {
+          "id": "fb3e4d03-9408-43c6-b65f-61a2399a146d",
+          "name": "Hyak Motorsports",
+          "owner": {
+            "id": "336e693e-f8f5-4d74-a5d2-23adb8a719aa",
+            "name": "Gordon Smith"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Ricky",
+        "last_name": "Stenhouse",
+        "full_name": "Ricky Stenhouse Jr",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "0cdae85e-0b1d-44d7-9614-a49aff66aeb5"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 16,
+          "speed": 182.852,
+          "lap_time": 29.532,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.532
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "speed": 182.822,
+      "lap_time": 29.537,
+      "status": "ontrack",
+      "car": {
+        "number": "97",
+        "sponsors": "Jockey/Red Bull/Safety Culture/Trackhouse/SuperFile/WeatherTech",
+        "crew_chief": "Stephen Doran",
+        "id": "28690246-cf3a-4f2f-85ba-0fc2cd6b9527",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "32feeff3-f6ba-484c-b7ba-c46ee41a0bcf",
+          "name": "Justin Marks"
+        },
+        "team": {
+          "id": "26c50f58-f4e7-44db-bb61-cfc9a767e212",
+          "name": "Trackhouse Racing",
+          "owner": {
+            "id": "8f824787-7369-48e9-a83e-4a7e160b5d1d",
+            "name": "Justin Marks"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Shane",
+        "last_name": "Van Gisbergen",
+        "full_name": "Shane Van Gisbergen",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "13a58b0b-011e-4a0a-8942-6364004cfea7"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 17,
+          "speed": 182.822,
+          "lap_time": 29.537,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.537
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "speed": 182.797,
+      "lap_time": 29.541,
+      "status": "ontrack",
+      "car": {
+        "number": "71",
+        "sponsors": "Workforce/Go Bowling/Group 1001/GUNK/Delaware Life/B'laster/Katz Coffee/Triad Partners",
+        "crew_chief": "Travis Peterson",
+        "id": "595e9d2a-c678-472d-9209-afb0c7a18f0a",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "e611fa59-af3f-40b8-bd07-935eb5b26b01",
+          "name": "Jeff Dickerson"
+        },
+        "team": {
+          "id": "9f742920-6e44-4581-8a61-e8c38cf21da4",
+          "name": "Spire Motorsports"
+        }
+      },
+      "driver": {
+        "first_name": "Michael",
+        "last_name": "McDowell",
+        "full_name": "Michael McDowell",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "96fdd8d7-3776-42b8-baf2-6b4e2cf2d83d"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 18,
+          "speed": 182.797,
+          "lap_time": 29.541,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.541
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "speed": 182.673,
+      "lap_time": 29.561,
+      "status": "ontrack",
+      "car": {
+        "number": "43",
+        "sponsors": "Advent Health/Dollar Tree/Family Dollar",
+        "crew_chief": "Justin Alexander",
+        "id": "e6fd7d08-83bc-4f2a-8c0b-e5c3cac57ab7",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "1d488f0e-334f-464e-a3db-ae3c8bc028e9",
+          "name": "Richard Petty"
+        },
+        "team": {
+          "id": "ee6a924b-58f4-40ea-8514-610936e32e78",
+          "name": "LEGACY Motor Club",
+          "owner": {
+            "id": "23972c17-6476-4824-aeb2-43896e2082d9",
+            "name": "Richard Petty"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Erik",
+        "last_name": "Jones",
+        "full_name": "Erik Jones",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "e595780e-baa7-4988-9a19-311fef7414d5"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 19,
+          "speed": 182.673,
+          "lap_time": 29.561,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.561
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "speed": 182.624,
+      "lap_time": 29.569,
+      "status": "ontrack",
+      "car": {
+        "number": "3",
+        "sponsors": "Bass Pro Shops/BetMGM/Dow/Breztri/Bioethanol/Titan Risk Solutions/Boot Barn/Morgan and Morgan/Winchester",
+        "crew_chief": "Richard Boswell",
+        "id": "fbee74ad-5e2d-4f54-bdf5-52b6193b04d6",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "b28b1f53-bdee-4c44-97fb-bb1fd0ea4a8b",
+          "name": "Richard Childress"
+        },
+        "team": {
+          "id": "ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a",
+          "name": "Richard Childress Racing",
+          "owner": {
+            "id": "84e3b257-75b1-40ef-8774-cfb53fab90e9",
+            "name": "Richard Childress"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Austin",
+        "last_name": "Dillon",
+        "full_name": "Austin Dillon",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "8853e676-384e-4d08-8808-970fd111f36a"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 20,
+          "speed": 182.624,
+          "lap_time": 29.569,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.569
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "speed": 182.574,
+      "lap_time": 29.577,
+      "status": "ontrack",
+      "car": {
+        "number": "6",
+        "sponsors": "Castrol Edge/BuildSubmarines.com/Fastenal/Solomon Plumbing/Kroger/Esperion/Consumer Cellular",
+        "crew_chief": "Jeremy Bullins",
+        "id": "698eee4f-6812-47b1-9940-62e2afc50143",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "b8e569e0-a3cf-48ee-bd7b-52a2ba1ff1d9",
+          "name": "John Henry"
+        },
+        "team": {
+          "id": "69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee",
+          "name": "RFK Racing",
+          "owner": {
+            "id": "dc50d5ab-b4d2-41ad-bd4c-f92f67107210",
+            "name": "Brad Keselowki"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Brad",
+        "last_name": "Keselowski",
+        "full_name": "Brad Keselowski",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "0ce4113d-34c8-4272-b658-3b929238dbd3"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 21,
+          "speed": 182.574,
+          "lap_time": 29.577,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.577
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "speed": 182.537,
+      "lap_time": 29.583,
+      "status": "ontrack",
+      "car": {
+        "number": "35",
+        "sponsors": "Monster Energy/TreeTop",
+        "crew_chief": "Davin Restivo",
+        "id": "27c7e77d-5ab7-44e6-a0ea-8cfcfcd8b4c9",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "b54bbedd-be48-4434-9690-936f6e0e3bb1",
+          "name": "Michael Jordan"
+        },
+        "team": {
+          "id": "6de1961e-bb84-40d5-855e-4c8f032e3c4a",
+          "name": "23XI Racing",
+          "owner": {
+            "id": "87d0f23e-e7fb-455e-a063-72f38ac948be",
+            "name": "Michael Jordan"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Riley",
+        "last_name": "Herbst",
+        "full_name": "Riley Herbst",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "2987a290-93b9-4f4e-9b12-c68b4ed126a4"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 22,
+          "speed": 182.537,
+          "lap_time": 29.583,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.583
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "speed": 182.106,
+      "lap_time": 29.653,
+      "status": "ontrack",
+      "car": {
+        "number": "8",
+        "sponsors": "Cheddars/Lucas Oil/Morgan & Morgan/BetMGM/Rebel Bourbon/Zone Premium",
+        "crew_chief": "Jim Pohlman",
+        "id": "eabaf6dd-b975-4844-b4b4-653f83c57fbb",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "b28b1f53-bdee-4c44-97fb-bb1fd0ea4a8b",
+          "name": "Richard Childress"
+        },
+        "team": {
+          "id": "ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a",
+          "name": "Richard Childress Racing",
+          "owner": {
+            "id": "84e3b257-75b1-40ef-8774-cfb53fab90e9",
+            "name": "Richard Childress"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Kyle",
+        "last_name": "Busch",
+        "full_name": "Kyle Busch",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "85c06960-3610-4eff-9ef2-18641b84c952"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 23,
+          "speed": 182.106,
+          "lap_time": 29.653,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.653
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "speed": 182.039,
+      "lap_time": 29.664,
+      "status": "ontrack",
+      "car": {
+        "number": "67",
+        "sponsors": "Robinhood",
+        "crew_chief": "Bootie Barker",
+        "id": "48075039-4a28-49ff-8af8-ad38d995ad47",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "b54bbedd-be48-4434-9690-936f6e0e3bb1",
+          "name": "Michael Jordan"
+        },
+        "team": {
+          "id": "6de1961e-bb84-40d5-855e-4c8f032e3c4a",
+          "name": "23XI Racing",
+          "owner": {
+            "id": "87d0f23e-e7fb-455e-a063-72f38ac948be",
+            "name": "Michael Jordan"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Corey",
+        "last_name": "Heim",
+        "full_name": "Corey Heim",
+        "points_eligible": false,
+        "in_chase": false,
+        "id": "65633f63-647c-47d1-94c6-cdef425cda1e"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 24,
+          "speed": 182.039,
+          "lap_time": 29.664,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.664
+        }
+      ]
+    },
+    {
+      "position": 25,
+      "speed": 182.002,
+      "lap_time": 29.67,
+      "status": "ontrack",
+      "car": {
+        "number": "38",
+        "sponsors": "Speedy Cash/TitleMax/Benebone/Horizon/Aaron's/Long John Silver's/Mystik Lubricants",
+        "crew_chief": "Ryan Bergenty",
+        "id": "122dc137-45ec-41a0-9cf4-c447c34330b4",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "c81a723c-a430-4be5-969f-5fbf21c1d519",
+          "name": "Bob Jenkins"
+        },
+        "team": {
+          "id": "bd38dfec-bb97-4f29-b032-cc6f0c77dfe6",
+          "name": "Front Row Motorsports"
+        }
+      },
+      "driver": {
+        "first_name": "Zane",
+        "last_name": "Smith",
+        "full_name": "Zane Smith",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "3ec1dd6a-c9b8-4d82-821f-23d0bdd4b310"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 25,
+          "speed": 182.002,
+          "lap_time": 29.67,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.67
+        }
+      ]
+    },
+    {
+      "position": 26,
+      "speed": 181.677,
+      "lap_time": 29.723,
+      "status": "ontrack",
+      "car": {
+        "number": "34",
+        "sponsors": "Love's Travel Stops/A&W Restaurants/Grillo's Pickles/Aaron's/Frontline Enterprises/Ruedebusch/Dairi-O/Chaney Bros Inc.",
+        "crew_chief": "Chris Lawson",
+        "id": "89e035f0-87f6-4835-ac58-8b7da32de4a4",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "c81a723c-a430-4be5-969f-5fbf21c1d519",
+          "name": "Bob Jenkins"
+        },
+        "team": {
+          "id": "bd38dfec-bb97-4f29-b032-cc6f0c77dfe6",
+          "name": "Front Row Motorsports"
+        }
+      },
+      "driver": {
+        "first_name": "Todd",
+        "last_name": "Gilliland",
+        "full_name": "Todd Gilliland",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "a27abfd8-d687-4d6c-832d-10fae051ccb5"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 26,
+          "speed": 181.677,
+          "lap_time": 29.723,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.723
+        }
+      ]
+    },
+    {
+      "position": 27,
+      "speed": 181.659,
+      "lap_time": 29.726,
+      "status": "ontrack",
+      "car": {
+        "number": "16",
+        "sponsors": "CELSIUS/LeafFilter/Campers Inn RV/Action Industries/Grizzly",
+        "crew_chief": "Trent Owens",
+        "id": "03be2c5e-e34e-4eb0-afa5-038d48090d78",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "935f3f46-6819-46f2-a21c-fb08c2c297c3",
+          "name": "Matt Kaulig"
+        },
+        "team": {
+          "id": "58ca0768-82c7-49ca-a358-773b245db83b",
+          "name": "Kaulig Racing",
+          "owner": {
+            "id": "d7d36ea8-f61a-4ee4-aa38-07635c4f14a3",
+            "name": "Matt Kaulig"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "AJ",
+        "last_name": "Allmendinger",
+        "full_name": "AJ Allmendinger",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "fc04af5e-bd27-4e87-850c-a72e22dcb4a6"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 27,
+          "speed": 181.659,
+          "lap_time": 29.726,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.726
+        }
+      ]
+    },
+    {
+      "position": 28,
+      "speed": 181.58,
+      "lap_time": 29.739,
+      "status": "ontrack",
+      "car": {
+        "number": "4",
+        "sponsors": "Rush Truck Centers/A&W Root Beer/Miller Tech/TitleMax/Long John's Silver's/Rural King/Grillo's Pickles",
+        "crew_chief": "Grant Hutchens",
+        "id": "6713b606-f0b9-4b23-bcf3-9f2e4e9a91a7",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "c81a723c-a430-4be5-969f-5fbf21c1d519",
+          "name": "Bob Jenkins"
+        },
+        "team": {
+          "id": "bd38dfec-bb97-4f29-b032-cc6f0c77dfe6",
+          "name": "Front Row Motorsports"
+        }
+      },
+      "driver": {
+        "first_name": "Noah",
+        "last_name": "Gragson",
+        "full_name": "Noah Gragson",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "abab879c-93b3-4476-95a0-47f60df1a0e4"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 28,
+          "speed": 181.58,
+          "lap_time": 29.739,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.739
+        }
+      ]
+    },
+    {
+      "position": 29,
+      "speed": 181.58,
+      "lap_time": 29.739,
+      "status": "ontrack",
+      "car": {
+        "number": "41",
+        "sponsors": "Haas Automation/Autodesk/Andy's Frozen Custard/Bonanza",
+        "crew_chief": "Aaron Kramer",
+        "id": "ebb590f6-49ac-4bcd-a06c-9b8f7e38b5a8",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "1c6be062-998b-4846-87d0-11eebfe766d8",
+          "name": "Gene Haas"
+        },
+        "team": {
+          "id": "0eb623d5-a294-4469-9baa-188d383777f8",
+          "name": "Haas Factory Team"
+        }
+      },
+      "driver": {
+        "first_name": "Cole",
+        "last_name": "Custer",
+        "full_name": "Cole Custer",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "3ee8cca6-048e-4e36-9216-ed27d294611b"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 29,
+          "speed": 181.58,
+          "lap_time": 29.739,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.739
+        }
+      ]
+    },
+    {
+      "position": 30,
+      "speed": 181.403,
+      "lap_time": 29.768,
+      "status": "ontrack",
+      "car": {
+        "number": "21",
+        "sponsors": "Motorcraft/Quick Lane/DEX Imaging/Wurth/Freightliner/Eero/PPG",
+        "crew_chief": "Miles Stanley",
+        "id": "df4ce303-5e1b-4f90-bdd0-1e768780109c",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "90731d44-8da2-45bd-a8a7-41107fc46e03",
+          "name": "Glen Wood"
+        },
+        "team": {
+          "id": "0dd8fd36-8bb1-4930-bfdc-d0c6be3b1a13",
+          "name": "Wood Brothers",
+          "owner": {
+            "id": "9fe6c239-ccda-43d0-9bb3-7c72606bf210",
+            "name": "Wood Brothers"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Josh",
+        "last_name": "Berry",
+        "full_name": "Josh Berry",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "048726db-d4ca-49f7-8e28-e8993958236f"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 30,
+          "speed": 181.403,
+          "lap_time": 29.768,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.768
+        }
+      ]
+    },
+    {
+      "position": 31,
+      "speed": 181.324,
+      "lap_time": 29.781,
+      "status": "ontrack",
+      "car": {
+        "number": "1",
+        "sponsors": "Busch Beer/Moose Fraternity/Choice Privileges/Wendy's/Kubota",
+        "crew_chief": "Brandon McSwain",
+        "id": "3cc7ae07-4ec7-4d14-8cdf-59557055db30",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "32feeff3-f6ba-484c-b7ba-c46ee41a0bcf",
+          "name": "Justin Marks"
+        },
+        "team": {
+          "id": "26c50f58-f4e7-44db-bb61-cfc9a767e212",
+          "name": "Trackhouse Racing",
+          "owner": {
+            "id": "8f824787-7369-48e9-a83e-4a7e160b5d1d",
+            "name": "Justin Marks"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Ross",
+        "last_name": "Chastain",
+        "full_name": "Ross Chastain",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "fb6c45e9-990e-46e3-88df-174449c13334"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 31,
+          "speed": 181.324,
+          "lap_time": 29.781,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.781
+        }
+      ]
+    },
+    {
+      "position": 32,
+      "speed": 181.02,
+      "lap_time": 29.831,
+      "status": "ontrack",
+      "car": {
+        "number": "42",
+        "sponsors": "Dollar Tree/Pye-Barker Fire & Safety/DriveValue.com/Rexel",
+        "crew_chief": "Travis Mack",
+        "id": "1dbd3173-2412-48e7-bf44-cca9a72fc127",
+        "manufacturer": {
+          "id": "73364deb-a012-4625-b759-db6a236797e3",
+          "name": "Toyota"
+        },
+        "owner": {
+          "id": "00ce3576-b3b6-47f5-af84-d3bbcca0435d",
+          "name": "Mike Beam"
+        },
+        "team": {
+          "id": "ee6a924b-58f4-40ea-8514-610936e32e78",
+          "name": "LEGACY Motor Club",
+          "owner": {
+            "id": "23972c17-6476-4824-aeb2-43896e2082d9",
+            "name": "Richard Petty"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "John H.",
+        "last_name": "Nemechek",
+        "full_name": "John H. Nemechek",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "6334f9f0-8b97-4020-8204-2ba30e7dd4ba"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 32,
+          "speed": 181.02,
+          "lap_time": 29.831,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.831
+        }
+      ]
+    },
+    {
+      "position": 33,
+      "speed": 180.911,
+      "lap_time": 29.849,
+      "status": "ontrack",
+      "car": {
+        "number": "48",
+        "sponsors": "Ally Financial",
+        "crew_chief": "Blake Harris",
+        "id": "733d54fb-e4f5-4829-bc2a-94af6c9c6504",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "492ef62b-a861-4672-9940-0ec3133e04f1",
+          "name": "Jeff Gordon"
+        },
+        "team": {
+          "id": "8427da4c-9c88-4849-9242-0c184d5ed67c",
+          "name": "Hendrick Motorsports",
+          "owner": {
+            "id": "df3acab4-1712-44bb-b913-897b4e20fd50",
+            "name": "Rick Hendrick"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Alex",
+        "last_name": "Bowman",
+        "full_name": "Alex Bowman",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "3ebef96f-43b4-422a-9d0c-db0127b25384"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 33,
+          "speed": 180.911,
+          "lap_time": 29.849,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 29.849
+        }
+      ]
+    },
+    {
+      "position": 34,
+      "speed": 179.916,
+      "lap_time": 30.014,
+      "status": "ontrack",
+      "car": {
+        "number": "2",
+        "sponsors": "Menards/Discount Tire/Keystone Light/Freightliner/Snap On/Quaker State/Tarkett",
+        "crew_chief": "Brian Wilson",
+        "id": "3d0cf0c8-f933-48ac-a935-71f1d18d4bd5",
+        "manufacturer": {
+          "id": "12844047-ab59-43ca-ab6c-c10d54931715",
+          "name": "Ford"
+        },
+        "owner": {
+          "id": "3a02ed9a-855e-446a-b71b-876861b84f60",
+          "name": "Roger Penske"
+        },
+        "team": {
+          "id": "e337709c-9fb6-4275-ad89-d9c100e71a1d",
+          "name": "Team Penske",
+          "owner": {
+            "id": "57198af5-d912-4efc-9135-95fc6c0a3fc5",
+            "name": "Roger Penske"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Austin",
+        "last_name": "Cindric",
+        "full_name": "Austin Cindric",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "26f629b5-8682-4db6-a91f-bf0f732f505a"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 34,
+          "speed": 179.916,
+          "lap_time": 30.014,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 30.014
+        }
+      ]
+    },
+    {
+      "position": 35,
+      "speed": 178.814,
+      "lap_time": 30.199,
+      "status": "ontrack",
+      "car": {
+        "number": "51",
+        "sponsors": "Jacob Companies/Parts Plus/Arby's/Evel Knievel Museum/Costa Oil/Yeego/Super.com",
+        "crew_chief": "Billy Plourde",
+        "id": "1e6c455d-a659-4523-8263-66e6544263f9",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "41c22ea5-0caf-459c-9e97-0a13d3e6c086",
+          "name": "Rick Ware"
+        },
+        "team": {
+          "id": "115610f5-11b9-43ff-a1b4-ef5cdab18119",
+          "name": "Rick Ware Racing"
+        }
+      },
+      "driver": {
+        "first_name": "Cody",
+        "last_name": "Ware",
+        "full_name": "Cody Ware",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "fa1dba10-512b-4cfd-bcb7-c8e4963a209d"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 35,
+          "speed": 178.814,
+          "lap_time": 30.199,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 30.199
+        }
+      ]
+    },
+    {
+      "position": 36,
+      "speed": 178.536,
+      "lap_time": 30.246,
+      "status": "ontrack",
+      "car": {
+        "number": "88",
+        "sponsors": "Red Bull/Trackhouse/Tootsies/Jockey/Choice Privileges/Roto-Rooter",
+        "crew_chief": "Randall Burnett",
+        "id": "04b9f3bc-b614-4102-9ce9-db9fad10020d",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "32feeff3-f6ba-484c-b7ba-c46ee41a0bcf",
+          "name": "Justin Marks"
+        },
+        "team": {
+          "id": "26c50f58-f4e7-44db-bb61-cfc9a767e212",
+          "name": "Trackhouse Racing",
+          "owner": {
+            "id": "8f824787-7369-48e9-a83e-4a7e160b5d1d",
+            "name": "Justin Marks"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Connor",
+        "last_name": "Zilisch",
+        "full_name": "Connor Zilisch",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "7c3fdb99-ba7c-4933-b942-11d789408b70"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 36,
+          "speed": 178.536,
+          "lap_time": 30.246,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 30.246
+        }
+      ]
+    },
+    {
+      "position": 37,
+      "speed": 172.172,
+      "lap_time": 31.364,
+      "status": "ontrack",
+      "car": {
+        "number": "10",
+        "sponsors": "Grizzly/Sea Best",
+        "crew_chief": "Andrew Dickeson",
+        "id": "2e3b8a4c-5c1c-401d-98b2-7c92bcab23e5",
+        "manufacturer": {
+          "id": "dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e",
+          "name": "Chevrolet"
+        },
+        "owner": {
+          "id": "935f3f46-6819-46f2-a21c-fb08c2c297c3",
+          "name": "Matt Kaulig"
+        },
+        "team": {
+          "id": "58ca0768-82c7-49ca-a358-773b245db83b",
+          "name": "Kaulig Racing",
+          "owner": {
+            "id": "d7d36ea8-f61a-4ee4-aa38-07635c4f14a3",
+            "name": "Matt Kaulig"
+          }
+        }
+      },
+      "driver": {
+        "first_name": "Ty",
+        "last_name": "Dillon",
+        "full_name": "Ty Dillon",
+        "points_eligible": true,
+        "in_chase": false,
+        "id": "bfcb8d32-fab0-4bfa-be14-cf9466e1d886"
+      },
+      "rounds": [
+        {
+          "sequence": 1,
+          "position": 37,
+          "speed": 172.172,
+          "lap_time": 31.364,
+          "laps_completed": 1,
+          "best_lap": 1,
+          "last_lap_time": 31.364
+        }
+      ]
+    }
+  ]
+}
